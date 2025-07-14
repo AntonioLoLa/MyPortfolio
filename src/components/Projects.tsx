@@ -3,6 +3,13 @@ import ProjectCard from "./ProjectCard";
 export default function Projects() {
   const proyectos = [
     {
+      title: "Planificador de inventario",
+      description:
+        "Automatiza el flujo de campañas de planificació de soportes DOOH.",
+      tech: ["Vue", "Symfony", "Maria DB", "Ouath2", "Open Street Map", "Overpass Turbo"],
+      codeLink: "#",
+    },
+    {
       title: "Juego Pokémon",
       description:
         "Simulación del juego Pokémon con sus funcionalidades principales.",
@@ -12,7 +19,7 @@ export default function Projects() {
     {
       title: "Proyecto Flutter",
       description:
-        "App de control de acceso a un edificio usando Flutter y Java.",
+        "App de control de acceso a un edificio.",
       tech: ["Flutter", "Java", "Dart"],
       codeLink: "#",
     },
@@ -26,7 +33,7 @@ export default function Projects() {
     {
       title: "Web de comercio",
       description:
-        "Sitio web para operaciones de compra, con HTML, JS y PHP.",
+        "Sitio web de sneakers para operaciones de compra.",
       tech: ["HTML", "CSS", "JS", "PHP"],
       codeLink: "#",
     },

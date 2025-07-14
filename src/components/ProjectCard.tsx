@@ -16,7 +16,7 @@ export default function ProjectCard({
   demoLink,
 }: ProjectCardProps) {
   return (
-    <div className="border rounded-xl p-6 bg-white dark:bg-[#1b1b1b] shadow-md flex flex-col gap-4">
+    <div className="rounded-xl border border-gray-200 dark:border-gray-700 p-4 bg-white dark:bg-zinc-900 hover:shadow-xl hover:scale-[1.02] transition-all duration-300  flex flex-col gap-4">
       <h3 className="text-xl font-semibold">{title}</h3>
       <p className="text-sm text-gray-600 dark:text-gray-300">{description}</p>
       <div className="flex flex-wrap gap-2 text-xs">
@@ -29,26 +29,7 @@ export default function ProjectCard({
           </span>
         ))}
       </div>
-      <div className="flex gap-4 mt-2">
-        {codeLink && (
-          <Link
-            href={codeLink}
-            target="_blank"
-            className="text-sm font-medium text-blue-600 dark:text-blue-400 hover:underline"
-          >
-            Código
-          </Link>
-        )}
-        {demoLink && (
-          <Link
-            href={demoLink}
-            target="_blank"
-            className="text-sm font-medium text-green-600 dark:text-green-400 hover:underline"
-          >
-            Demo
-          </Link>
-        )}
-      </div>
+      
     </div>
   );
 }

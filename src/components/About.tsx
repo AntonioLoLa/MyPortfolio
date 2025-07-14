@@ -1,15 +1,16 @@
 export default function About() {
 
     return (
-      <section className="w-full max-w-4xl mx-auto px-4 sm:px-0">
+      <section className="w-full max-w-4xl mx-auto px-4">
         <h2 className="text-3xl font-bold mb-6">👨‍💻 Sobre mí</h2>
   
         <p className="text-gray-700 dark:text-gray-300 mb-4">
-            Soy Antonio Lozano Larrubia, ingeniero informático graduado por la UAB con especialización en Tecnologías de la Información. 
-            Me apasiona el desarrollo web full stack y disfruto creando soluciones funcionales, escalables y centradas en el usuario. 
-            También tengo un creciente interés por el área de la ciberseguridad.
-            Mi objetivo es seguir creciendo profesionalmente y contribuir a proyectos tecnológicos que marquen la diferencia.
+          Soy Antonio Lozano Larrubia, ingeniero informático graduado en la Universidad Autónoma de Barcelona con especialización en Tecnologías de la Información.  
+          Me apasiona el desarrollo web full stack y disfruto creando soluciones funcionales, escalables y centradas en el usuario.  
+          También tengo un creciente interés por la ciberseguridad y la inteligencia artificial, áreas en las que me sigo formando de forma autodidacta.  
+          Mi objetivo es seguir creciendo profesionalmente y contribuir a proyectos tecnológicos que marquen la diferencia.
         </p>
+
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 text-sm text-gray-600 dark:text-gray-300">
           <div>

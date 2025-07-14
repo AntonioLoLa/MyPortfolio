@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 const navItems = [
   { label: "Inicio", href: "#hero" },
@@ -19,7 +20,7 @@ export default function Navbar() {
   useEffect(() => setMounted(true), []);
 
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 backdrop-blur bg-white/70 dark:bg-black/70 border-b border-gray-200 dark:border-gray-800">
+    <nav className="fixed top-0 left-0 w-full z-50 backdrop-blur-lg bg-white/80 dark:bg-black/60 shadow-sm border-b border-gray-200 dark:border-gray-800 transition-all">
       <div className="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
         <h1 className="font-bold text-lg">Antonio Lozano</h1>
 
@@ -33,12 +34,13 @@ export default function Navbar() {
           {mounted && (
             <button
               onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-              className="text-sm hover:underline ml-4"
+              className="text-sm bg-transparent border-none text-inherit hover:underline cursor-pointer ml-4"
             >
               {theme === "dark" ? "☀️ Claro" : "🌙 Oscuro"}
             </button>
           )}
         </div>
+        
       </div>
     </nav>
   );

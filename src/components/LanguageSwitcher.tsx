@@ -1,12 +1,11 @@
 'use client';
 
-import { usePathname, useRouter } from 'next/navigation';
+import { usePathname } from 'next/navigation';
 import { useLocale } from 'next-intl';
 import Link from 'next/link';
 
 export default function LanguageSwitcher() {
   const pathname = usePathname();
-  const router = useRouter();
   const currentLocale = useLocale();
 
   const languages = [

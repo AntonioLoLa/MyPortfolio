@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 interface ProjectCardProps {
   title: string;
   description: string;
@@ -12,8 +10,6 @@ export default function ProjectCard({
   title,
   description,
   tech,
-  codeLink,
-  demoLink,
 }: ProjectCardProps) {
   return (
     <div className="rounded-xl border border-gray-200 dark:border-gray-700 p-4 bg-white dark:bg-zinc-900 hover:shadow-xl hover:scale-[1.02] transition-all duration-300  flex flex-col gap-4">

@@ -76,6 +76,16 @@
           "tech": ["Flutter", "Java", "Dart"]
         },
         {
+            "title": "Portfolio personnel",
+            "description": "Site web créé de zéro pour présenter mes projets, mon expérience et mes compétences. Développé avec des technologies modernes et multilingues.",
+            "tech": ["Next.js", "TypeScript", "Tailwind CSS", "next-intl", "Vercel"]
+        },
+        {
+            "title": "Échecs",
+            "description": "Application qui simule une partie complète d’échecs, incluant la logique des mouvements valides et l’alternance des tours.",
+            "tech": ["C++"]
+        },
+        {
           "title": "Carte des emplacements",
           "description": "Simule des emplacements et des itinéraires avec recherche du chemin le plus court.",
           "tech": ["C++"]

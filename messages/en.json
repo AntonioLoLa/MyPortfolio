@@ -76,6 +76,16 @@
         "tech": ["Flutter", "Java", "Dart"]
       },
       {
+        "title": "Personal Portfolio",
+        "description": "Website built from scratch to showcase my projects, experience and skills. Developed with modern and multilingual technologies.",
+        "tech": ["Next.js", "TypeScript", "Tailwind CSS", "next-intl", "Vercel"]
+      },
+      {
+        "title": "Chess",
+        "description": "Application that simulates a full chess game, including valid move logic and alternating turns.",
+        "tech": ["C++"]
+      },
+      {
         "title": "Location Map",
         "description": "Simulates locations and routes with shortest path search.",
         "tech": ["C++"]

@@ -76,6 +76,16 @@
         "tech": ["Flutter", "Java", "Dart"]
       },
       {
+        "title": "Portfolio personal",
+        "description": "Lloc web creat des de zero per mostrar els meus projectes, experiència i habilitats. Desenvolupat amb tecnologies modernes i multilingües.",
+        "tech": ["Next.js", "TypeScript", "Tailwind CSS", "next-intl", "Vercel"]
+      },
+      {
+        "title": "Escacs",
+        "description": "Aplicació que simula una partida completa d’escacs, incloent-hi la lògica de moviments vàlids i torns alterns.",
+        "tech": ["C++"]
+      },
+      {
         "title": "Mapa de localitzacions",
         "description": "Simula localitzacions i rutes amb cerca del camí més curt.",
         "tech": ["C++"]

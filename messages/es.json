@@ -76,10 +76,15 @@
         "tech": ["Flutter", "Java", "Dart"]
       },
       {
-        "title": "Mapa de ubicaciones",
-        "description": "Simula ubicaciones y rutas con búsqueda del camino más corto.",
-        "tech": ["C++"]
+        "title": "Portfolio personal",
+        "description": "Sitio web creado desde cero para mostrar mis proyectos, experiencia y habilidades. Desarrollado con tecnologías modernas y multilingüe.",
+        "tech": ["Next.js", "TypeScript", "Tailwind CSS", "next-intl", "Vercel"]
       },
+      {
+        "title": "Ajedrez",
+        "description": "Aplicación que simula un juego completo de ajedrez, incluyendo lógica de movimientos válidos, turnos alternos.",
+        "tech": ["C++"]
+      },      
       {
         "title": "Web de comercio",
         "description": "Sitio web de sneakers para operaciones de compra.",

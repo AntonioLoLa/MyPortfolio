@@ -1,7 +1,7 @@
 {
-  "Home": {
-    "title": "Benvingut al meu portfoli",
-    "about": "Sobre mi",
-    "projects": "Projectes"
+  "hero": {
+    "greeting": "Hola! Soc <name>Antonio</name>",
+    "description": "Desenvolupador Full Stack enfocat en crear experiències web modernes, funcionals i centrades en l'usuari.",
+    "contact": "🚀 Contacta amb mi"
   }
 }

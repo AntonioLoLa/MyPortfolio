@@ -1,7 +1,7 @@
 {
-  "Home": {
-    "title": "Welcome to my portfolio",
-    "about": "About me",
-    "projects": "Projects"
+  "hero": {
+    "greeting": "Hi! I'm <name>Antonio</name>",
+    "description": "Full Stack Developer focused on building modern, functional, and user-centered web experiences.",
+    "contact": "🚀 Contact me"
   }
 }

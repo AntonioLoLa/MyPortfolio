@@ -1,7 +1,7 @@
 {
-  "Home": {
-    "title": "Bienvenido a mi portfolio",
-    "about": "Sobre mí",
-    "projects": "Proyectos"
+  "hero": {
+    "greeting": "¡Hola! Soy <name>Antonio</name>",
+    "description": "Desarrollador Full Stack con foco en crear experiencias web modernas, funcionales y centradas en el usuario.",
+    "contact": "🚀 Contacta conmigo"
   }
 }

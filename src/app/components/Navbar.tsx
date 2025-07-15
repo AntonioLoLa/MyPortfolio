@@ -1,16 +1,12 @@
 "use client";
 
 import Link from "next/link";
-import { useTheme } from "next-themes";
-import { useEffect, useState } from "react";
+
 import { useTranslations } from "next-intl";
 import LanguageSwitcher from "./LanguageSwitcher";
 
 export default function Navbar() {
   const t = useTranslations("navbar");
-  const { theme, setTheme } = useTheme();
-  const [mounted, setMounted] = useState(false);
-  useEffect(() => setMounted(true), []);
 
   const navItems: { label: string; href: string }[] = t.raw("items");
 
@@ -26,15 +22,6 @@ export default function Navbar() {
               {item.label}
             </Link>
           ))}
-
-          {mounted && (
-            <button
-              onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-              className="text-sm bg-transparent border-none text-inherit hover:underline cursor-pointer ml-4"
-            >
-              {theme === "dark" ? t("theme.light") : t("theme.dark")}
-            </button>
-          )}
         </div>
       </div>
     </nav>

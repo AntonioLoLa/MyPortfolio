@@ -2,7 +2,7 @@ import '../globals.css';
 import {NextIntlClientProvider, hasLocale} from 'next-intl';
 import {notFound} from 'next/navigation';
 import {routing} from '@/i18n/routing';
-import {ThemeWrapper} from '@/app/components/ThemeWrapper';
+
 
 export default async function LocaleLayout({
   children,
@@ -18,10 +18,10 @@ export default async function LocaleLayout({
   }
 
   return (
-    <ThemeWrapper locale={locale}>
-      <NextIntlClientProvider>
-        {children}
-      </NextIntlClientProvider>
-    </ThemeWrapper>
+    <html lang={locale}>
+    <body>
+      <NextIntlClientProvider>{children}</NextIntlClientProvider>
+    </body>
+  </html>
   );
 }

@@ -27,7 +27,7 @@ export default function Languages() {
               <span>{idioma.name}</span>
               <span>{idioma.level}</span>
             </div>
-            <div className="w-full h-2 bg-gray-200 dark:bg-gray-700 rounded">
+            <div className="w-full h-2 bg-gray-200 rounded">
               <div
                 className="h-full bg-blue-500 rounded transition-all duration-300"
                 style={{

@@ -1,19 +1,9 @@
 /* globals.css */
 @import "tailwindcss";
 
-:root {
-  --background: #171717;
-  --foreground: #ffffff;
-}
-
-.dark {
-  --background: #ededed;
-  --foreground: #0a0a0a;
-}
-
 body {
-  background: var(--background);
-  color: var(--foreground);
+  background-color: #171717;  
+  color: #ededed;             
   font-family: var(--font-geist-sans), sans-serif;
 }
 

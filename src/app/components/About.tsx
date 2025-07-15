@@ -9,11 +9,11 @@ export default function About() {
     <section className="w-full max-w-4xl mx-auto px-4">
       <h2 className="text-3xl font-bold mb-6">{t('title')}</h2>
 
-      <p className="text-gray-700 dark:text-gray-300 mb-4">
+      <p className="text-gray-200 mb-4">
         {t('description')}
       </p>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 text-sm text-gray-600 dark:text-gray-300">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 text-sm text-gray-300">
         <div>
           <h3 className="font-semibold mb-1">{t('birthdate')}</h3>
           <p>29/08/2003</p>
@@ -36,7 +36,7 @@ export default function About() {
 
       <div className="mt-8">
         <h3 className="text-xl font-semibold mb-2">{t('skills_title')}</h3>
-        <ul className="list-disc list-inside text-gray-700 dark:text-gray-300">
+        <ul className="list-disc list-inside text-gray-300">
           {t.raw('skills').map((item: string, i: number) => (
             <li key={i}>{item}</li>
           ))}
@@ -45,7 +45,7 @@ export default function About() {
 
       <div className="mt-6">
         <h3 className="text-xl font-semibold mb-2">{t('additional_title')}</h3>
-        <ul className="list-disc list-inside text-gray-700 dark:text-gray-300">
+        <ul className="list-disc list-inside text-gray-300">
           {t.raw('additional').map((item: string, i: number) => (
             <li key={i}>{item}</li>
           ))}

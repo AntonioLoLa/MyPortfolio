@@ -12,20 +12,20 @@ export default function ProjectCard({
   tech,
 }: ProjectCardProps) {
   return (
-    <div className="rounded-xl border border-gray-200 dark:border-gray-700 p-4 bg-white dark:bg-zinc-900 hover:shadow-xl hover:scale-[1.02] transition-all duration-300  flex flex-col gap-4">
-      <h3 className="text-xl font-semibold">{title}</h3>
-      <p className="text-sm text-gray-600 dark:text-gray-300">{description}</p>
+    <div className="rounded-xl border border-gray-700 p-4 bg-gray-800 hover:shadow-lg hover:scale-[1.05] transition-all duration-300 flex flex-col gap-4">
+      <h3 className="text-xl font-semibold text-white">{title}</h3>
+      <p className="text-sm text-gray-300">{description}</p>
       <div className="flex flex-wrap gap-2 text-xs">
         {tech.map((t, i) => (
           <span
             key={i}
-            className="bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 px-2 py-0.5 rounded"
+            className="bg-blue-700 text-white px-3 py-1 rounded-full"
           >
             #{t}
           </span>
         ))}
       </div>
-      
     </div>
   );
 }
+

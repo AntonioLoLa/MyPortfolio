@@ -20,7 +20,7 @@ export default function Skills() {
           {lenguajes.map((lang, i) => (
             <span
               key={i}
-              className="bg-gray-200 dark:bg-gray-700 text-sm px-3 py-1 rounded-full"
+              className="bg-slate-700 text-white text-sm px-3 py-1 rounded-full"
             >
               {lang}
             </span>
@@ -34,7 +34,7 @@ export default function Skills() {
           {frameworks.map((fw, i) => (
             <span
               key={i}
-              className="bg-blue-100 dark:bg-blue-800 text-blue-900 dark:text-blue-200 text-sm px-3 py-1 rounded-full"
+              className="bg-blue-100 text-blue-900 text-sm px-3 py-1 rounded-full"
             >
               {fw}
             </span>
@@ -48,7 +48,7 @@ export default function Skills() {
           {herramientas.map((tool, i) => (
             <span
               key={i}
-              className="bg-green-100 dark:bg-green-800 text-green-900 dark:text-green-200 text-sm px-3 py-1 rounded-full"
+              className="bg-green-100 text-green-900 text-sm px-3 py-1 rounded-full"
             >
               {tool}
             </span>
@@ -63,7 +63,7 @@ export default function Skills() {
           {basesDatos.map((db, i) => (
             <span
               key={i}
-              className="bg-purple-100 dark:bg-purple-800 text-purple-900 dark:text-purple-200 text-sm px-3 py-1 rounded-full"
+              className="bg-purple-100 text-purple-900 text-sm px-3 py-1 rounded-full"
             >
               {db}
             </span>

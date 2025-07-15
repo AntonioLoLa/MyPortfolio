@@ -6,7 +6,7 @@ export default function Hero() {
     <section className="flex flex-col items-center gap-4 text-center pt-[100px] pb-[50px]">
       <div className="w-[120px] h-[120px] relative rounded-full overflow-hidden">
         <Image
-          src="/Foto_personal.JPG"
+          src="/personal_photo.jpg"
           alt="Foto de Antonio Lozano"
           fill
           sizes="120px"

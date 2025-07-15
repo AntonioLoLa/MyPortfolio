@@ -1,32 +1,21 @@
 'use client';
 
-import { usePathname } from 'next/navigation';
-import { useLocale } from 'next-intl';
-import Link from 'next/link';
+import { usePathname, useRouter } from 'next/navigation';
 
 export default function LanguageSwitcher() {
   const pathname = usePathname();
-  const currentLocale = useLocale();
+  const router = useRouter();
 
-  const languages = [
-    { code: 'es', label: 'ES' },
-    { code: 'en', label: 'EN' },
-    { code: 'ca', label: 'CA' },
-  ];
+  const changeLanguage = (lang: string) => {
+    const newPath = pathname.replace(/^\/(en|es|ca)/, `/${lang}`);
+    router.push(newPath);
+  };
 
   return (
-    <div className="flex gap-2 ml-4">
-      {languages.map(({ code, label }) => (
-        <Link
-          key={code}
-          href={`/${code}${pathname.replace(/^\/[a-z]{2}/, '')}`}
-          className={`text-sm hover:underline ${
-            code === currentLocale ? 'font-bold' : 'text-gray-500'
-          }`}
-        >
-          {label}
-        </Link>
-      ))}
+    <div>
+      <button onClick={() => changeLanguage('es')}>ES</button>
+      <button onClick={() => changeLanguage('en')}>EN</button>
+      <button onClick={() => changeLanguage('ca')}>CA</button>
     </div>
   );
 }

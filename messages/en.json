@@ -3,5 +3,121 @@
     "greeting": "Hi! I'm <name>Antonio</name>",
     "description": "Full Stack Developer focused on building modern, functional, and user-centered web experiences.",
     "contact": "🚀 Contact me"
+  },
+  "about": {
+    "title": "👨‍💻 About Me",
+    "description": "I'm Antonio Lozano Larrubia, a computer engineer graduated from the Autonomous University of Barcelona with a specialization in Information Technologies. I'm passionate about full stack web development and enjoy creating functional, scalable, and user-centered solutions. I also have a growing interest in cybersecurity and artificial intelligence, areas in which I continue to self-learn. My goal is to keep growing professionally and contribute to meaningful tech projects.",
+    "birthdate": "📅 Birth Date",
+    "nationality": "🌍 Nationality",
+    "studies": "🎓 Education",
+    "contact": "📨 Contact",
+    "nationality_value": "Spanish 🇪🇸",
+    "studies_value_1": "Bachelor's in Computer Engineering – UAB",
+    "studies_value_2": "Technological Baccalaureate – Institut Joan Oliver",
+    "skills_title": "🧠 Personal Competencies",
+    "skills": [
+      "Responsible and committed",
+      "Quick learner and adaptable",
+      "Teamwork and interdisciplinary collaboration",
+      "Goal-oriented and effective problem solving",
+      "Clear and effective communication",
+      "Analytical thinking and problem-solving"
+    ],
+    "additional_title": "📌 Additional Information",
+    "additional": [
+      "Driver’s license and own vehicle",
+      "Full availability"
+    ]
+  },
+  "contact": {
+    "title": "📬 Want to get in touch?",
+    "description": "Write to me at"
+  },
+  "languages": {
+    "title": "🌍 Languages",
+    "items": [
+      { "name": "Spanish", "level": "C2" },
+      { "name": "Catalan", "level": "C2" },
+      { "name": "English", "level": "B2" },
+      { "name": "French", "level": "A2" }
+    ]
+  },
+  "navbar": {
+    "items": [
+      { "label": "Home", "href": "#hero" },
+      { "label": "About", "href": "#about" },
+      { "label": "Skills", "href": "#skills" },
+      { "label": "Projects", "href": "#projects" },
+      { "label": "Experience", "href": "#experience" },
+      { "label": "Languages", "href": "#languages" },
+      { "label": "Contact", "href": "#contact" }
+    ],
+    "theme": {
+      "light": "☀️ Light",
+      "dark": "🌙 Dark"
+    }
+  },
+  "projects": {
+    "title": "🛠️ Projects",
+    "items": [
+      {
+        "title": "Inventory Planner",
+        "description": "Automates campaign flow for DOOH support planning.",
+        "tech": ["Vue", "Symfony", "Maria DB", "OAuth2", "Open Street Map", "Overpass Turbo"]
+      },
+      {
+        "title": "Pokémon Game",
+        "description": "Simulates the Pokémon game with core features.",
+        "tech": ["JavaScript", "Vue", "NodeJS"]
+      },
+      {
+        "title": "Flutter Project",
+        "description": "Access control app for a building.",
+        "tech": ["Flutter", "Java", "Dart"]
+      },
+      {
+        "title": "Location Map",
+        "description": "Simulates locations and routes with shortest path search.",
+        "tech": ["C++"]
+      },
+      {
+        "title": "Commerce Website",
+        "description": "Sneaker store website for purchases.",
+        "tech": ["HTML", "CSS", "JS", "PHP"]
+      },
+      {
+        "title": "Cutting Program",
+        "description": "Construction calculator to determine number of bars to cut.",
+        "tech": ["HTML", "CSS", "JavaScript"]
+      }
+    ]
+  },
+  "skills": {
+    "title": "🧠 Technical Skills",
+    "languages_title": "💻 Programming Languages",
+    "frameworks_title": "⚙️ Frameworks and Libraries",
+    "tools_title": "🔧 Tools and Utilities",
+    "databases_title": "🗄️ Databases",
+    "languages": ["HTML", "CSS", "JavaScript", "TypeScript", "PHP", "Python", "Java", "C++", "Dart", "SQL", "Bash", "R"],
+    "frameworks": ["Vue", "Symfony", "Yii2", "Node.js", "Next.js", "Flutter"],
+    "tools": ["Git", "GitHub", "GitLab", "Docker", "Figma", "Tailwind CSS", "Prettier", "ESLint", "Mapbox"],
+    "databases": ["MySQL", "PostgreSQL", "MariaDB"]
+  },
+  "experience": {
+    "title": "💼 Professional Experience",
+    "items": [
+      {
+        "puesto": "Full Stack Developer",
+        "empresa": "EXTE",
+        "fecha": "September 2024 - Present",
+        "descripcion": "Responsible for full-stack web app development: modern UI with React and Next.js, building REST APIs with Node.js, and managing MongoDB. Actively involved in technical decisions and continuous product improvement."
+      },
+      {
+        "puesto": "Aluminum Carpenter",
+        "empresa": "MAFAC",
+        "fecha": "June 2019 - August 2023",
+        "descripcion": "Manual work in manufacturing and assembling aluminum structures. Learned discipline, teamwork, precision, and responsibility in real-world environments."
+      }
+    ]
   }
 }

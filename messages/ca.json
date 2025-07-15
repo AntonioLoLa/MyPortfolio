@@ -3,5 +3,121 @@
     "greeting": "Hola! Soc <name>Antonio</name>",
     "description": "Desenvolupador Full Stack enfocat en crear experiències web modernes, funcionals i centrades en l'usuari.",
     "contact": "🚀 Contacta amb mi"
+  },
+  "about": {
+    "title": "👨‍💻 Sobre mi",
+    "description": "Soc Antonio Lozano Larrubia, enginyer informàtic graduat per la Universitat Autònoma de Barcelona amb especialització en Tecnologies de la Informació. M'apassiona el desenvolupament web full stack i gaudeixo creant solucions funcionals, escalables i centrades en l'usuari. També tinc un interès creixent en ciberseguretat i intel·ligència artificial, àrees en què continuo formant-me de manera autodidacta. El meu objectiu és continuar creixent professionalment i contribuir a projectes tecnològics amb impacte.",
+    "birthdate": "📅 Data de naixement",
+    "nationality": "🌍 Nacionalitat",
+    "studies": "🎓 Estudis",
+    "contact": "📨 Contacte",
+    "nationality_value": "Espanyola 🇪🇸",
+    "studies_value_1": "Grau en Enginyeria Informàtica – UAB",
+    "studies_value_2": "Batxillerat Tecnològic – Institut Joan Oliver",
+    "skills_title": "🧠 Competències personals",
+    "skills": [
+      "Responsable i compromès",
+      "Capacitat d'aprendre ràpid i adaptar-se",
+      "Treball en equip i col·laboració interdisciplinària",
+      "Compromís per assolir objectius i oferir solucions efectives",
+      "Comunicació clara i eficaç",
+      "Pensament analític i resolució de problemes"
+    ],
+    "additional_title": "📌 Informació addicional",
+    "additional": [
+      "Carnet de conduir i vehicle propi",
+      "Disponibilitat completa"
+    ]
+  },
+  "contact": {
+    "title": "📬 Vols contactar amb mi?",
+    "description": "Escriu-me a"
+  },
+  "languages": {
+    "title": "🌍 Idiomes",
+    "items": [
+      { "name": "Castellà", "level": "C2" },
+      { "name": "Català", "level": "C2" },
+      { "name": "Anglès", "level": "B2" },
+      { "name": "Francès", "level": "A2" }
+    ]
+  },
+  "navbar": {
+    "items": [
+      { "label": "Inici", "href": "#hero" },
+      { "label": "Sobre mi", "href": "#about" },
+      { "label": "Habilitats", "href": "#skills" },
+      { "label": "Projectes", "href": "#projects" },
+      { "label": "Experiència", "href": "#experience" },
+      { "label": "Idiomes", "href": "#languages" },
+      { "label": "Contacte", "href": "#contact" }
+    ],
+    "theme": {
+      "light": "☀️ Clar",
+      "dark": "🌙 Fosc"
+    }
+  },
+  "projects": {
+    "title": "🛠️ Projectes",
+    "items": [
+      {
+        "title": "Planificador d'inventari",
+        "description": "Automatitza el flux de campanyes de planificació de suports DOOH.",
+        "tech": ["Vue", "Symfony", "Maria DB", "OAuth2", "Open Street Map", "Overpass Turbo"]
+      },
+      {
+        "title": "Joc Pokémon",
+        "description": "Simulació del joc Pokémon amb les funcionalitats principals.",
+        "tech": ["JavaScript", "Vue", "NodeJS"]
+      },
+      {
+        "title": "Projecte Flutter",
+        "description": "App de control d'accés a un edifici.",
+        "tech": ["Flutter", "Java", "Dart"]
+      },
+      {
+        "title": "Mapa de localitzacions",
+        "description": "Simula localitzacions i rutes amb cerca del camí més curt.",
+        "tech": ["C++"]
+      },
+      {
+        "title": "Web de comerç",
+        "description": "Web de sabatilles per a compres.",
+        "tech": ["HTML", "CSS", "JS", "PHP"]
+      },
+      {
+        "title": "Programa de talls",
+        "description": "Calculadora per a obres que determina el nombre de barres a tallar.",
+        "tech": ["HTML", "CSS", "JavaScript"]
+      }
+    ]
+  },
+  "skills": {
+    "title": "🧠 Habilitats Tècniques",
+    "languages_title": "💻 Llenguatges de Programació",
+    "frameworks_title": "⚙️ Frameworks i Llibreries",
+    "tools_title": "🔧 Eines i Utilitats",
+    "databases_title": "🗄️ Bases de Dades",
+    "languages": ["HTML", "CSS", "JavaScript", "TypeScript", "PHP", "Python", "Java", "C++", "Dart", "SQL", "Bash", "R"],
+    "frameworks": ["Vue", "Symfony", "Yii2", "Node.js", "Next.js", "Flutter"],
+    "tools": ["Git", "GitHub", "GitLab", "Docker", "Figma", "Tailwind CSS", "Prettier", "ESLint", "Mapbox"],
+    "databases": ["MySQL", "PostgreSQL", "MariaDB"]
+  },
+  "experience": {
+    "title": "💼 Experiència Professional",
+    "items": [
+      {
+        "puesto": "Desenvolupador Full Stack",
+        "empresa": "EXTE",
+        "fecha": "Setembre 2024 - Actualitat",
+        "descripcion": "Responsable del desenvolupament complet d'aplicacions web: implementació d'interfícies modernes amb React i Next.js, creació d'APIs REST amb Node.js i gestió de bases de dades a MongoDB. Participació activa en decisions tècniques i millora contínua del producte."
+      },
+      {
+        "puesto": "Fuster d'alumini",
+        "empresa": "MAFAC",
+        "fecha": "Juny 2019 - Agost 2023",
+        "descripcion": "Treball manual en fabricació i muntatge d'estructures d'alumini. Vaig aprendre disciplina, treball en equip, precisió i responsabilitat en entorns reals."
+      }
+    ]
   }
 }

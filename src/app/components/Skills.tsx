@@ -1,27 +1,21 @@
+'use client';
+
+import { useTranslations } from 'next-intl';
+
 export default function Skills() {
-  const lenguajes = [
-    "HTML", "CSS", "JavaScript", "TypeScript", "PHP", "Python", "Java", "C++", "Dart", "SQL", "Bash", "R"
-  ];
+  const t = useTranslations('skills');
 
-  const frameworks = [
-    "Vue", "Symfony", "Yii2", "Node.js", "Next.js", "Flutter"
-  ];
-
-  const herramientas = [
-    "Git", "GitHub", "GitLab", "Docker", "Figma", "Tailwind CSS", "Prettier", "ESLint", "Mapbox"
-  ];
-
-  const basesDatos = [
-    "MySQL", "PostgreSQL", "MariaDB"
-  ];
+  const lenguajes: string[] = t.raw('languages');
+  const frameworks: string[] = t.raw('frameworks');
+  const herramientas: string[] = t.raw('tools');
+  const basesDatos: string[] = t.raw('databases');
 
   return (
     <section className="w-full max-w-4xl mx-auto px-4 sm:px-0 mt-12">
-      <h2 className="text-3xl font-bold mb-6">🧠 Habilidades Técnicas</h2>
+      <h2 className="text-3xl font-bold mb-6">{t('title')}</h2>
 
-      {/* Lenguajes */}
       <div className="mb-8">
-        <h3 className="text-xl font-semibold mb-2">💻 Lenguajes de Programación</h3>
+        <h3 className="text-xl font-semibold mb-2">{t('languages_title')}</h3>
         <div className="flex flex-wrap gap-2">
           {lenguajes.map((lang, i) => (
             <span
@@ -34,9 +28,8 @@ export default function Skills() {
         </div>
       </div>
 
-      {/* Frameworks */}
       <div className="mb-8">
-        <h3 className="text-xl font-semibold mb-2">⚙️ Frameworks y Librerías</h3>
+        <h3 className="text-xl font-semibold mb-2">{t('frameworks_title')}</h3>
         <div className="flex flex-wrap gap-2">
           {frameworks.map((fw, i) => (
             <span
@@ -49,9 +42,8 @@ export default function Skills() {
         </div>
       </div>
 
-      {/* Herramientas */}
       <div className="mb-8">
-        <h3 className="text-xl font-semibold mb-2">🔧 Herramientas y Utilidades</h3>
+        <h3 className="text-xl font-semibold mb-2">{t('tools_title')}</h3>
         <div className="flex flex-wrap gap-2">
           {herramientas.map((tool, i) => (
             <span
@@ -66,7 +58,7 @@ export default function Skills() {
 
       {/* Bases de Datos */}
       <div>
-        <h3 className="text-xl font-semibold mb-2">🗄️ Bases de Datos</h3>
+        <h3 className="text-xl font-semibold mb-2">{t('databases_title')}</h3>
         <div className="flex flex-wrap gap-2">
           {basesDatos.map((db, i) => (
             <span

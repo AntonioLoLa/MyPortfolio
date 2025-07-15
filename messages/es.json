@@ -3,5 +3,121 @@
     "greeting": "¡Hola! Soy <name>Antonio</name>",
     "description": "Desarrollador Full Stack con foco en crear experiencias web modernas, funcionales y centradas en el usuario.",
     "contact": "🚀 Contacta conmigo"
+  },
+  "about": {
+    "title": "👨‍💻 Sobre mí",
+    "description": "Soy Antonio Lozano Larrubia, ingeniero informático graduado en la Universidad Autónoma de Barcelona con especialización en Tecnologías de la Información. Me apasiona el desarrollo web full stack y disfruto creando soluciones funcionales, escalables y centradas en el usuario. También tengo un creciente interés por la ciberseguridad y la inteligencia artificial, áreas en las que me sigo formando de forma autodidacta. Mi objetivo es seguir creciendo profesionalmente y contribuir a proyectos tecnológicos que marquen la diferencia.",
+    "birthdate": "📅 Fecha de nacimiento",
+    "nationality": "🌍 Nacionalidad",
+    "studies": "🎓 Estudios",
+    "contact": "📨 Contacto",
+    "nationality_value": "Española 🇪🇸",
+    "studies_value_1": "Grado en Ingeniería Informática – UAB",
+    "studies_value_2": "Bachillerato Tecnológico – Institut Joan Oliver",
+    "skills_title": "🧠 Competencias personales",
+    "skills": [
+      "Responsable y comprometido",
+      "Capacidad para aprender rápido y adaptarse",
+      "Trabajo en equipo y colaboración interdisciplinar",
+      "Comprometido con cumplir metas y entregar soluciones efectivas",
+      "Comunicación clara y eficaz",
+      "Pensamiento analítico y resolución de problemas"
+    ],
+    "additional_title": "📌 Información adicional",
+    "additional": [
+      "Carnet de conducir y vehículo propio",
+      "Disponibilidad completa"
+    ]
+  },
+  "contact": {
+    "title": "📬 ¿Quieres contactar conmigo?",
+    "description": "Escríbeme a"
+  },
+  "languages": {
+    "title": "🌍 Idiomas",
+    "items": [
+      { "name": "Castellano", "level": "C2" },
+      { "name": "Catalán", "level": "C2" },
+      { "name": "Inglés", "level": "B2" },
+      { "name": "Francés", "level": "A2" }
+    ]
+  },
+  "navbar": {
+    "items": [
+      { "label": "Inicio", "href": "#hero" },
+      { "label": "Sobre mí", "href": "#about" },
+      { "label": "Skills", "href": "#skills" },
+      { "label": "Proyectos", "href": "#projects" },
+      { "label": "Experiencia", "href": "#experience" },
+      { "label": "Idiomas", "href": "#languages" },
+      { "label": "Contacto", "href": "#contact" }
+    ],
+    "theme": {
+      "light": "☀️ Claro",
+      "dark": "🌙 Oscuro"
+    }
+  },
+  "projects": {
+    "title": "🛠️ Proyectos",
+    "items": [
+      {
+        "title": "Planificador de inventario",
+        "description": "Automatiza el flujo de campañas de planificación de soportes DOOH.",
+        "tech": ["Vue", "Symfony", "Maria DB", "OAuth2", "Open Street Map", "Overpass Turbo"]
+      },
+      {
+        "title": "Juego Pokémon",
+        "description": "Simulación del juego Pokémon con sus funcionalidades principales.",
+        "tech": ["JavaScript", "Vue", "NodeJS"]
+      },
+      {
+        "title": "Proyecto Flutter",
+        "description": "App de control de acceso a un edificio.",
+        "tech": ["Flutter", "Java", "Dart"]
+      },
+      {
+        "title": "Mapa de ubicaciones",
+        "description": "Simula ubicaciones y rutas con búsqueda del camino más corto.",
+        "tech": ["C++"]
+      },
+      {
+        "title": "Web de comercio",
+        "description": "Sitio web de sneakers para operaciones de compra.",
+        "tech": ["HTML", "CSS", "JS", "PHP"]
+      },
+      {
+        "title": "Programa de cortes",
+        "description": "Calculadora para obras que determina el número de barras a cortar.",
+        "tech": ["HTML", "CSS", "JavaScript"]
+      }
+    ]
+  },
+  "skills": {
+    "title": "🧠 Habilidades Técnicas",
+    "languages_title": "💻 Lenguajes de Programación",
+    "frameworks_title": "⚙️ Frameworks y Librerías",
+    "tools_title": "🔧 Herramientas y Utilidades",
+    "databases_title": "🗄️ Bases de Datos",
+    "languages": ["HTML", "CSS", "JavaScript", "TypeScript", "PHP", "Python", "Java", "C++", "Dart", "SQL", "Bash", "R"],
+    "frameworks": ["Vue", "Symfony", "Yii2", "Node.js", "Next.js", "Flutter"],
+    "tools": ["Git", "GitHub", "GitLab", "Docker", "Figma", "Tailwind CSS", "Prettier", "ESLint", "Mapbox"],
+    "databases": ["MySQL", "PostgreSQL", "MariaDB"]
+  },
+  "experience": {
+    "title": "💼 Experiencia Profesional",
+    "items": [
+      {
+        "puesto": "Full Stack Developer",
+        "empresa": "EXTE",
+        "fecha": "Septiembre 2024 - Actualidad",
+        "descripcion": "Responsable del desarrollo completo de aplicaciones web: implementación de interfaces modernas con React y Next.js, así como construcción de APIs REST con Node.js y gestión de bases de datos en MongoDB. Participación activa en decisiones técnicas y mejora continua del producto."
+      },
+      {
+        "puesto": "Carpintero de aluminio",
+        "empresa": "MAFAC",
+        "fecha": "Junio 2019 - Agosto 2023",
+        "descripcion": "Trabajo manual en fabricación y montaje de estructuras de aluminio. Aprendí disciplina, trabajo en equipo, precisión y responsabilidad en entornos reales."
+      }
+    ]
   }
 }

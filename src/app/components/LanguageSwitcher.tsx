@@ -6,7 +6,8 @@ import Image from 'next/image';
 const locales = [
   { code: 'es', flag: '/flags/es.png', alt: 'Español' },
   { code: 'en', flag: '/flags/en.png', alt: 'English' },
-  { code: 'ca', flag: '/flags/ca.png', alt: 'Català' }
+  { code: 'ca', flag: '/flags/ca.png', alt: 'Català' },
+  { code: 'fr', flag: '/flags/fr.png', alt: 'Français' }
 ];
 
 export default function LanguageSwitcher() {
@@ -14,7 +15,7 @@ export default function LanguageSwitcher() {
   const router = useRouter();
 
   const changeLanguage = (lang: string) => {
-    const newPath = pathname.replace(/^\/(en|es|ca)/, `/${lang}`);
+    const newPath = pathname.replace(/^\/(en|es|ca|fr)/, `/${lang}`);
     router.push(newPath);
   };
 

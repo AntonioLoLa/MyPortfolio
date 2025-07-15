@@ -1,0 +1,124 @@
+{
+    "hero": {
+      "greeting": "Bonjour ! Je suis <name>Antonio</name>",
+      "description": "Développeur Full Stack spécialisé dans la création d’expériences web modernes, fonctionnelles et centrées sur l’utilisateur.",
+      "contact": "🚀 Contactez-moi"
+    },
+    "about": {
+      "title": "👨‍💻 À propos de moi",
+      "description": "Je suis Antonio Lozano Larrubia, ingénieur en informatique diplômé de l’Université Autonome de Barcelone, spécialisé en technologies de l'information. Je suis passionné par le développement web full stack et j’aime créer des solutions fonctionnelles, évolutives et centrées sur l’utilisateur. Je m’intéresse également de plus en plus à la cybersécurité et à l’intelligence artificielle, domaines dans lesquels je continue à me former de manière autodidacte. Mon objectif est de continuer à évoluer professionnellement et à contribuer à des projets technologiques qui font la différence.",
+      "birthdate": "📅 Date de naissance",
+      "nationality": "🌍 Nationalité",
+      "studies": "🎓 Études",
+      "contact": "📨 Contact",
+      "nationality_value": "Espagnole 🇪🇸",
+      "studies_value_1": "Licence en ingénierie informatique – UAB",
+      "studies_value_2": "Baccalauréat technologique – Institut Joan Oliver",
+      "skills_title": "🧠 Compétences personnelles",
+      "skills": [
+        "Responsable et engagé",
+        "Capacité à apprendre rapidement et à s’adapter",
+        "Travail en équipe et collaboration interdisciplinaire",
+        "Engagé à atteindre des objectifs et livrer des solutions efficaces",
+        "Communication claire et efficace",
+        "Pensée analytique et résolution de problèmes"
+      ],
+      "additional_title": "📌 Informations supplémentaires",
+      "additional": [
+        "Permis de conduire et véhicule personnel",
+        "Disponibilité totale"
+      ]
+    },
+    "contact": {
+      "title": "📬 Vous souhaitez me contacter ?",
+      "description": "Écrivez-moi à"
+    },
+    "languages": {
+      "title": "🌍 Langues",
+      "items": [
+        { "name": "Espagnol", "level": "C2" },
+        { "name": "Catalan", "level": "C2" },
+        { "name": "Anglais", "level": "B2" },
+        { "name": "Français", "level": "A2" }
+      ]
+    },
+    "navbar": {
+      "items": [
+        { "label": "Accueil", "href": "#hero" },
+        { "label": "À propos", "href": "#about" },
+        { "label": "Compétences", "href": "#skills" },
+        { "label": "Projets", "href": "#projects" },
+        { "label": "Expérience", "href": "#experience" },
+        { "label": "Langues", "href": "#languages" },
+        { "label": "Contact", "href": "#contact" }
+      ],
+      "theme": {
+        "light": "☀️ Clair",
+        "dark": "🌙 Sombre"
+      }
+    },
+    "projects": {
+      "title": "🛠️ Projets",
+      "items": [
+        {
+          "title": "Planificateur d’inventaire",
+          "description": "Automatise le flux de campagnes de planification de supports DOOH.",
+          "tech": ["Vue", "Symfony", "Maria DB", "OAuth2", "Open Street Map", "Overpass Turbo"]
+        },
+        {
+          "title": "Jeu Pokémon",
+          "description": "Simulation du jeu Pokémon avec ses principales fonctionnalités.",
+          "tech": ["JavaScript", "Vue", "NodeJS"]
+        },
+        {
+          "title": "Projet Flutter",
+          "description": "Application de contrôle d’accès à un bâtiment.",
+          "tech": ["Flutter", "Java", "Dart"]
+        },
+        {
+          "title": "Carte des emplacements",
+          "description": "Simule des emplacements et des itinéraires avec recherche du chemin le plus court.",
+          "tech": ["C++"]
+        },
+        {
+          "title": "Site e-commerce",
+          "description": "Site de vente de baskets avec gestion des achats.",
+          "tech": ["HTML", "CSS", "JS", "PHP"]
+        },
+        {
+          "title": "Programme de découpe",
+          "description": "Calculateur de chantier qui détermine le nombre de barres à découper.",
+          "tech": ["HTML", "CSS", "JavaScript"]
+        }
+      ]
+    },
+    "skills": {
+      "title": "🧠 Compétences Techniques",
+      "languages_title": "💻 Langages de Programmation",
+      "frameworks_title": "⚙️ Frameworks et Bibliothèques",
+      "tools_title": "🔧 Outils et Utilitaires",
+      "databases_title": "🗄️ Bases de Données",
+      "languages": ["HTML", "CSS", "JavaScript", "TypeScript", "PHP", "Python", "Java", "C++", "Dart", "SQL", "Bash", "R"],
+      "frameworks": ["Vue", "Symfony", "Yii2", "Node.js", "Next.js", "Flutter"],
+      "tools": ["Git", "GitHub", "GitLab", "Docker", "Figma", "Tailwind CSS", "Prettier", "ESLint", "Mapbox"],
+      "databases": ["MySQL", "PostgreSQL", "MariaDB"]
+    },
+    "experience": {
+      "title": "💼 Expérience Professionnelle",
+      "items": [
+        {
+          "puesto": "Développeur Full Stack",
+          "empresa": "EXTE",
+          "fecha": "Septembre 2024 - Aujourd’hui",
+          "descripcion": "Responsable du développement complet d’applications web : interfaces modernes avec React et Next.js, création d’APIs REST avec Node.js et gestion de bases de données avec MongoDB. Participation active aux décisions techniques et amélioration continue du produit."
+        },
+        {
+          "puesto": "Menuisier en aluminium",
+          "empresa": "MAFAC",
+          "fecha": "Juin 2019 - Août 2023",
+          "descripcion": "Travail manuel dans la fabrication et l’assemblage de structures en aluminium. J’ai appris la discipline, le travail d’équipe, la précision et la responsabilité en milieu réel."
+        }
+      ]
+    }
+  }
+  

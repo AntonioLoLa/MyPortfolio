@@ -5,14 +5,12 @@ import ProjectCard from './ProjectCard';
 
 export default function Projects() {
   const t = useTranslations('projects');
-  const proyectos: {
+  const proyectos = t.raw('items') as {
     title: string;
     description: string;
     tech: string[];
     codeLink: string;
-  }[] = t.raw('items').map((proj: any) => ({
-    ...proj,
-  }));
+  }[];  
 
   return (
     <section className="w-full max-w-5xl mx-auto px-4 sm:px-0">

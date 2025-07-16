@@ -12,18 +12,16 @@ import Navbar from '@/app/components/Navbar';
 export default function HomePage() {
   return (
     <main className="min-h-screen">
-      {/* Navbar en móvil */}
+      {/* Navbar on mobile */}
       <div className="lg:hidden px-6 py-4 border-b border-gray-700 bg-neutral-950 text-white flex justify-between items-center">
         <h1 className="text-lg font-bold">Antonio Lozano</h1>
         <Navbar mobile />
       </div>
 
-      {/* Grid layout en desktop */}
+      {/* Grid layout on desktop */}
       <div className="grid grid-cols-1 ">
-        {/* Sidebar en escritorio */}
+        {/* Sidebar on desktop */}
         <aside className="hidden lg:flex lg:flex-col lg:fixed lg:top-0 lg:left-0 lg:h-screen lg:w-[260px] p-6 border-r border-gray-800 bg-neutral-950">
-
-
           <Navbar />
         </aside>
 

@@ -112,11 +112,11 @@
     "title": "💼 Experiencia Profesional",
     "items": [
       {
-        "puesto": "Full Stack Developer",
+        "puesto": "Desarrollador Full Stack",
         "empresa": "EXTE",
         "fecha": "Septiembre 2024 - Actualidad",
-        "descripcion": "Responsable del desarrollo completo de aplicaciones web: implementación de interfaces modernas con React y Next.js, así como construcción de APIs REST con Node.js y gestión de bases de datos en MongoDB. Participación activa en decisiones técnicas y mejora continua del producto."
-      },
+        "descripcion": "Desarrollo completo de aplicaciones web: implementación de interfaces de usuario (frontend), diseño y construcción de APIs REST, y gestión de bases de datos. Colaboración activa en decisiones técnicas, revisión de código y mejora continua del producto."
+      },      
       {
         "puesto": "Carpintero de aluminio",
         "empresa": "MAFAC",

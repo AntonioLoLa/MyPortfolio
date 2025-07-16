@@ -11,15 +11,33 @@ import Navbar from '@/app/components/Navbar';
 
 export default function HomePage() {
   return (
-    <main className="flex flex-col items-center gap-16 px-6 py-10 sm:px-20 scroll-smooth">
-      <Navbar />
-      <section id="hero"><Hero /></section>
-      <section id="about"><About /></section>
-      <section id="skills"><Skills /></section>
-      <section id="projects"><Projects /></section>
-      <section id="experience"><Experience /></section>
-      <section id="languages"><Languages /></section>
-      <section id="contact"><Contact /></section>
+    <main className="min-h-screen">
+      {/* Navbar en móvil */}
+      <div className="lg:hidden px-6 py-4 border-b border-gray-700 bg-neutral-950 text-white flex justify-between items-center">
+        <h1 className="text-lg font-bold">Antonio Lozano</h1>
+        <Navbar mobile />
+      </div>
+
+      {/* Grid layout en desktop */}
+      <div className="grid grid-cols-1 ">
+        {/* Sidebar en escritorio */}
+        <aside className="hidden lg:flex lg:flex-col lg:fixed lg:top-0 lg:left-0 lg:h-screen lg:w-[260px] p-6 border-r border-gray-800 bg-neutral-950">
+
+
+          <Navbar />
+        </aside>
+
+        {/* Main content */}
+        <div className="flex flex-col gap-16 px-6 py-10 sm:px-20 lg:ml-[260px] scroll-smooth">
+          <section id="hero"><Hero /></section>
+          <section id="about"><About /></section>
+          <section id="skills"><Skills /></section>
+          <section id="projects"><Projects /></section>
+          <section id="experience"><Experience /></section>
+          <section id="languages"><Languages /></section>
+          <section id="contact"><Contact /></section>
+        </div>
+      </div>
     </main>
   );
 }

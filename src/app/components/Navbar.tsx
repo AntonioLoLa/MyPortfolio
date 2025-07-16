@@ -1,28 +1,37 @@
-"use client";
+'use client';
 
-import Link from "next/link";
+import Link from 'next/link';
+import { useTranslations } from 'next-intl';
+import LanguageSwitcher from './LanguageSwitcher';
 
-import { useTranslations } from "next-intl";
-import LanguageSwitcher from "./LanguageSwitcher";
+interface NavbarProps {
+  mobile?: boolean;
+}
 
-export default function Navbar() {
-  const t = useTranslations("navbar");
+export default function Navbar({ mobile = false }: NavbarProps) {
+  const t = useTranslations('navbar');
+  const navItems: { label: string; href: string }[] = t.raw('items');
 
-  const navItems: { label: string; href: string }[] = t.raw("items");
+  if (mobile) {
+    return (
+      <div className="flex items-center">
+        <LanguageSwitcher />
+      </div>
+    );
+  }
 
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 backdrop-blur-lg bg-black/60 shadow-sm border-b border-gray-700 transition-all">
-      <div className="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
-        <h1 className="font-bold text-lg">Antonio Lozano</h1>
+    <nav className="flex flex-col gap-6 text-sm font-medium">
+      <h1 className="text-xl font-bold mb-4">Antonio Lozano</h1>
+      <div className="flex flex-col gap-3">
+        {navItems.map((item) => (
+          <Link key={item.href} href={item.href} className="hover:underline">
+            {item.label}
+          </Link>
+        ))}
+      </div>
+      <div className="mt-auto pt-6 border-t border-gray-700">
         <LanguageSwitcher />
-
-        <div className="hidden md:flex gap-6 text-sm font-medium items-center">
-          {navItems.map((item) => (
-            <Link key={item.href} href={item.href} className="hover:underline">
-              {item.label}
-            </Link>
-          ))}
-        </div>
       </div>
     </nav>
   );

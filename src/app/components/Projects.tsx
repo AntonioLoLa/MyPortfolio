@@ -65,7 +65,7 @@ export default function Projects() {
                     className="flex items-center gap-1 text-blue-400 hover:text-blue-300 text-sm font-medium transition"
                   >
                     <ExternalLink size={16} />
-                    Demo
+                    Link
                   </a>
                 )}
               </div>

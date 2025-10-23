@@ -4,9 +4,16 @@ import { useTranslations } from 'next-intl';
 import { Briefcase } from 'lucide-react';
 import { motion } from 'framer-motion';
 
+type Experiencia = {
+  puesto: string;
+  empresa: string;
+  fecha: string;
+  responsabilidades: string[];
+};
+
 export default function Experience() {
   const t = useTranslations('experience');
-  const experiencias = t.raw('items');
+  const experiencias = t.raw('items') as Experiencia[];
 
   return (
     <section className="w-full max-w-5xl mx-auto px-6 py-12">
@@ -15,7 +22,7 @@ export default function Experience() {
       </h2>
 
       <div className="flex flex-col gap-6">
-        {experiencias.map((exp: any, i: number) => (
+        {experiencias.map((exp, i) => (
           <motion.div
             key={i}
             whileHover={{ scale: 1.02 }}
@@ -33,10 +40,9 @@ export default function Experience() {
             <p className="text-sm text-gray-400 font-medium mb-3">{exp.empresa}</p>
 
             <ul className="list-disc list-inside text-sm text-gray-300 leading-relaxed space-y-1">
-              {Array.isArray(exp.responsabilidades) &&
-                exp.responsabilidades.map((r: string, j: number) => (
-                  <li key={j}>{r}</li>
-                ))}
+              {exp.responsabilidades.map((r, j) => (
+                <li key={j}>{r}</li>
+              ))}
             </ul>
           </motion.div>
         ))}

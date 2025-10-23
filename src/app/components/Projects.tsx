@@ -4,9 +4,17 @@ import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
 import { Github, ExternalLink } from 'lucide-react';
 
+type Proyecto = {
+  title: string;
+  description: string;
+  tech: string[];
+  codeLink?: string;
+  demoLink?: string;
+};
+
 export default function Projects() {
   const t = useTranslations('projects');
-  const proyectos = t.raw('items');
+  const proyectos = t.raw('items') as Proyecto[];
 
   return (
     <section className="w-full max-w-5xl mx-auto px-6 py-12">
@@ -15,28 +23,25 @@ export default function Projects() {
       </h2>
 
       <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-        {proyectos.map((proj: any, index: number) => (
+        {proyectos.map((proj, index) => (
           <motion.div
             key={index}
             whileHover={{ scale: 1.03 }}
             className="bg-white/5 border border-white/10 rounded-2xl p-5 shadow-sm hover:shadow-lg hover:border-blue-400/40 transition"
           >
-            <h3 className="text-xl font-semibold text-white mb-2">
-              {proj.title}
-            </h3>
+            <h3 className="text-xl font-semibold text-white mb-2">{proj.title}</h3>
 
             <p className="text-gray-300 text-sm mb-4">{proj.description}</p>
 
             <div className="flex flex-wrap gap-2 mb-4">
-              {Array.isArray(proj.tech) &&
-                proj.tech.map((t: string, i: number) => (
-                  <span
-                    key={i}
-                    className="bg-blue-500/20 text-blue-300 text-xs px-2 py-1 rounded-full border border-blue-400/20"
-                  >
-                    {t}
-                  </span>
-                ))}
+              {proj.tech.map((t, i) => (
+                <span
+                  key={i}
+                  className="bg-blue-500/20 text-blue-300 text-xs px-2 py-1 rounded-full border border-blue-400/20"
+                >
+                  {t}
+                </span>
+              ))}
             </div>
 
             {(proj.codeLink || proj.demoLink) && (
@@ -52,7 +57,6 @@ export default function Projects() {
                     {t('code')}
                   </a>
                 )}
-
                 {proj.demoLink && (
                   <a
                     href={proj.demoLink}
@@ -61,7 +65,7 @@ export default function Projects() {
                     className="flex items-center gap-1 text-blue-400 hover:text-blue-300 text-sm font-medium transition"
                   >
                     <ExternalLink size={16} />
-                    Link
+                    Demo
                   </a>
                 )}
               </div>

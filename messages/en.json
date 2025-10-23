@@ -2,36 +2,58 @@
   "hero": {
     "greeting": "Hi! I'm <name>Antonio</name>",
     "description": "Full Stack Developer focused on building modern, functional, and user-centered web experiences.",
-    "contact": "🚀 Contact me"
+    "contact": "🚀 Get in touch",
+    "see_projects": "View projects",
+    "download_cv": "Download CV",
+    "photo_alt": "Photo of Antonio Lozano",
+    "cta_contact_aria": "Go to contact section",
+    "cta_projects_aria": "View projects",
+    "cta_cv_aria": "Download CV"
   },
   "about": {
     "title": "👨‍💻 About Me",
-    "description": "I'm Antonio Lozano Larrubia, a computer engineer graduated from the Autonomous University of Barcelona with a specialization in Information Technologies. I'm passionate about full stack web development and enjoy creating functional, scalable, and user-centered solutions. I also have a growing interest in cybersecurity and artificial intelligence, areas in which I continue to self-learn. My goal is to keep growing professionally and contribute to meaningful tech projects.",
-    "birthdate": "📅 Birth Date",
+    "description": "I'm Antonio Lozano Larrubia, a Computer Engineer graduated from the Autonomous University of Barcelona, specialized in Information Technologies. I’m passionate about full stack web development and enjoy creating scalable, functional, and user-centered applications. I also have a strong interest in cybersecurity and artificial intelligence, fields in which I keep learning autonomously. My goal is to keep growing as a professional and contribute to technological projects that generate a real impact.",
+    
+    "birthdate": "📅 Date of Birth",
     "nationality": "🌍 Nationality",
     "studies": "🎓 Education",
     "contact": "📨 Contact",
-    "nationality_value": "Spanish 🇪🇸",
-    "studies_value_1": "Bachelor's in Computer Engineering – UAB",
+
+    "nationality_value": "Spanish",
+    "studies_value_1": "Bachelor’s Degree in Computer Engineering – Autonomous University of Barcelona (UAB)",
     "studies_value_2": "Technological Baccalaureate – Institut Joan Oliver",
-    "skills_title": "🧠 Personal Competencies",
+
+    "skills_title": "🧠 Personal Skills",
     "skills": [
-      "Responsible and committed",
-      "Quick learner and adaptable",
-      "Teamwork and interdisciplinary collaboration",
-      "Goal-oriented and effective problem solving",
-      "Clear and effective communication",
-      "Analytical thinking and problem-solving"
+      "Strong sense of responsibility and commitment to results",
+      "Fast learning and adaptability to new environments",
+      "Teamwork and multidisciplinary collaboration",
+      "Goal-oriented with focus on delivering effective solutions",
+      "Clear communication and continuous improvement mindset",
+      "Analytical thinking and problem-solving skills"
     ],
+
     "additional_title": "📌 Additional Information",
     "additional": [
       "Driver’s license and own vehicle",
-      "Full availability"
+      "Immediate availability and flexible schedule"
     ]
+  },
+  "profile": {
+    "title": "🧭 Professional Profile",
+    "description": "Computer Engineer specialized in Full Stack Development, with over one year of experience building scalable, secure, and user-focused web applications. I mainly work with modern technologies such as Symfony, Vue, and Next.js, applying engineering methodologies like CI/CD, TDD, and automation.\n\nPassionate about innovation and continuous learning, I enjoy designing software that transforms complex processes into simple, efficient, and high-impact solutions. My goal is to keep growing professionally and contribute to technology projects that create tangible value.",
+    "focus_title": "🎯 My Focus",
+    "focus": "Designing and developing modern web solutions using technologies such as Symfony, Vue, and Next.js, while ensuring quality, scalability, and performance.",
+    "methodologies_title": "⚙️ How I Work",
+    "methodologies": "I follow agile methodologies, applying CI/CD, TDD, and process automation. I strive to maintain clean, documented, and maintainable code.",
+    "motivation_title": "🚀 What Drives Me",
+    "motivation": "Turning ideas into useful, efficient software, optimizing complex processes, and learning something new every day. I aim to contribute to projects that have real-world impact and foster innovation."
   },
   "contact": {
     "title": "📬 Want to get in touch?",
-    "description": "Write to me at"
+    "description": "Send me an email at",
+    "aria_label_cv": "Download CV in PDF format",
+    "download_cv": "Download CV"
   },
   "languages": {
     "title": "🌍 Languages",
@@ -45,8 +67,9 @@
   "navbar": {
     "items": [
       { "label": "Home", "href": "#hero" },
-      { "label": "About", "href": "#about" },
-      { "label": "Skills", "href": "#skills" },
+      { "label": "About Me", "href": "#about" },
+      { "label": "Professional Profile", "href": "#profile" },
+      { "label": "Technical Skills", "href": "#skills" },
       { "label": "Projects", "href": "#projects" },
       { "label": "Experience", "href": "#experience" },
       { "label": "Languages", "href": "#languages" },
@@ -59,54 +82,64 @@
   },
   "projects": {
     "title": "🛠️ Projects",
+    "code": "Code",
     "items": [
       {
-        "title": "Inventory Planner",
-        "description": "Automates campaign flow for DOOH support planning.",
-        "tech": ["Vue", "Symfony", "Maria DB", "OAuth2", "Open Street Map", "Overpass Turbo"]
+        "title": "DOOH Inventory Planner",
+        "description": "Application that automates the planning of DOOH campaign supports, reducing manual work from hours to minutes.",
+        "tech": ["Vue", "Symfony", "MariaDB", "OAuth2", "OpenStreetMap", "Overpass Turbo"],
+        "codeLink": "",
+        "demoLink": "https://exte.market/"
       },
       {
-        "title": "Pokémon Game",
-        "description": "Simulates the Pokémon game with core features.",
-        "tech": ["JavaScript", "Vue", "NodeJS"]
-      },
-      {
-        "title": "Flutter Project",
-        "description": "Access control app for a building.",
-        "tech": ["Flutter", "Java", "Dart"]
+        "title": "Cutting Calculator",
+        "description": "Web application that automates the calculation of cutting bars in construction, reducing human errors and improving process efficiency.",
+        "tech": ["Next.js", "TypeScript", "Tailwind CSS", "JWT"],
+        "codeLink": "",
+        "demoLink": "https://mafac-programa-cortes.vercel.app/"
       },
       {
         "title": "Personal Portfolio",
-        "description": "Website built from scratch to showcase my projects, experience and skills. Developed with modern and multilingual technologies.",
-        "tech": ["Next.js", "TypeScript", "Tailwind CSS", "next-intl", "Vercel"]
+        "description": "Website built from scratch to showcase my projects, experience, and skills. Developed with Next.js, TypeScript, and multilingual responsive design.",
+        "tech": ["Next.js", "TypeScript", "Tailwind CSS", "next-intl", "Vercel"],
+        "codeLink": "",
+        "demoLink": "https://antoniolola-portfolio.vercel.app/"
       },
       {
-        "title": "Chess",
-        "description": "Application that simulates a full chess game, including valid move logic and alternating turns.",
-        "tech": ["C++"]
+        "title": "Pokémon Game",
+        "description": "Simulation of the classic Pokémon game with battle logic, turns, and data storage.",
+        "tech": ["JavaScript", "Vue", "Node.js"],
+        "codeLink": "https://github.com/AntonioLoLa/Pokemon",
+        "demoLink": ""
       },
       {
-        "title": "Location Map",
-        "description": "Simulates locations and routes with shortest path search.",
-        "tech": ["C++"]
+        "title": "Flutter Project",
+        "description": "Mobile application for building access control, including authentication and user management.",
+        "tech": ["Flutter", "Java", "Dart"],
+        "codeLink": "https://github.com/AntonioLoLa/DS_FLUTTER",
+        "demoLink": ""
       },
       {
-        "title": "Commerce Website",
-        "description": "Sneaker store website for purchases.",
-        "tech": ["HTML", "CSS", "JS", "PHP"]
+        "title": "Chess Game",
+        "description": "C++ application simulating a complete chess game, including move validation and alternate turns.",
+        "tech": ["C++"],
+        "codeLink": "",
+        "demoLink": ""
       },
       {
-        "title": "Cutting Program",
-        "description": "Construction calculator to determine number of bars to cut.",
-        "tech": ["HTML", "CSS", "JavaScript"]
+        "title": "E-commerce Website",
+        "description": "Sneakers e-commerce website featuring a shopping cart and basic order management.",
+        "tech": ["HTML", "CSS", "JavaScript", "PHP"],
+        "codeLink": "",
+        "demoLink": ""
       }
     ]
   },
   "skills": {
     "title": "🧠 Technical Skills",
     "languages_title": "💻 Programming Languages",
-    "frameworks_title": "⚙️ Frameworks and Libraries",
-    "tools_title": "🔧 Tools and Utilities",
+    "frameworks_title": "⚙️ Frameworks & Libraries",
+    "tools_title": "🔧 Tools & Utilities",
     "databases_title": "🗄️ Databases",
     "languages": ["HTML", "CSS", "JavaScript", "TypeScript", "PHP", "Python", "Java", "C++", "Dart", "SQL", "Bash", "R"],
     "frameworks": ["Vue", "Symfony", "Yii2", "Node.js", "Next.js", "Flutter"],
@@ -117,16 +150,26 @@
     "title": "💼 Professional Experience",
     "items": [
       {
-        "puesto": "Full Stack Developer",
+        "puesto": "Full Stack Engineer",
         "empresa": "EXTE",
         "fecha": "September 2024 - Present",
-        "descripcion": "Full development of web applications: implementation of user interfaces (frontend), design and construction of REST APIs, and database management. Active collaboration in technical decisions, code reviews, and continuous product improvement."
+        "responsabilidades": [
+          "Full stack development using Vue, Symfony, Yii2, and MySQL/MariaDB.",
+          "Implementation of OAuth2/JWT and continuous integration pipelines (GitLab CI/CD).",
+          "Process automation with crons and TDD-based testing.",
+          "DOOH data integration (Broadsign, VIOOH, Hivestack) with automatic synchronization.",
+          "Continuous improvement through code review, documentation, and performance optimization."
+        ]
       },
       {
         "puesto": "Aluminum Carpenter",
-        "empresa": "MAFAC",
-        "fecha": "June 2019 - August 2023",
-        "descripcion": "Manual work in manufacturing and assembling aluminum structures. Learned discipline, teamwork, precision, and responsibility in real-world environments."
+        "empresa": "MAFAC VALLÉS, SLL",
+        "fecha": "June 2020 - September 2023",
+        "responsabilidades": [
+          "Manufacturing and assembly of aluminum structures.",
+          "Development of discipline, precision, and teamwork skills.",
+          "Responsibility in real-world production environments."
+        ]
       }
     ]
   }

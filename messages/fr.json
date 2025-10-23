@@ -1,134 +1,176 @@
 {
-    "hero": {
-      "greeting": "Bonjour ! Je suis <name>Antonio</name>",
-      "description": "Développeur Full Stack spécialisé dans la création d’expériences web modernes, fonctionnelles et centrées sur l’utilisateur.",
-      "contact": "🚀 Contactez-moi"
-    },
-    "about": {
-      "title": "👨‍💻 À propos de moi",
-      "description": "Je suis Antonio Lozano Larrubia, ingénieur en informatique diplômé de l’Université Autonome de Barcelone, spécialisé en technologies de l'information. Je suis passionné par le développement web full stack et j’aime créer des solutions fonctionnelles, évolutives et centrées sur l’utilisateur. Je m’intéresse également de plus en plus à la cybersécurité et à l’intelligence artificielle, domaines dans lesquels je continue à me former de manière autodidacte. Mon objectif est de continuer à évoluer professionnellement et à contribuer à des projets technologiques qui font la différence.",
-      "birthdate": "📅 Date de naissance",
-      "nationality": "🌍 Nationalité",
-      "studies": "🎓 Études",
-      "contact": "📨 Contact",
-      "nationality_value": "Espagnole 🇪🇸",
-      "studies_value_1": "Licence en ingénierie informatique – UAB",
-      "studies_value_2": "Baccalauréat technologique – Institut Joan Oliver",
-      "skills_title": "🧠 Compétences personnelles",
-      "skills": [
-        "Responsable et engagé",
-        "Capacité à apprendre rapidement et à s’adapter",
-        "Travail en équipe et collaboration interdisciplinaire",
-        "Engagé à atteindre des objectifs et livrer des solutions efficaces",
-        "Communication claire et efficace",
-        "Pensée analytique et résolution de problèmes"
-      ],
-      "additional_title": "📌 Informations supplémentaires",
-      "additional": [
-        "Permis de conduire et véhicule personnel",
-        "Disponibilité totale"
-      ]
-    },
-    "contact": {
-      "title": "📬 Vous souhaitez me contacter ?",
-      "description": "Écrivez-moi à"
-    },
-    "languages": {
-      "title": "🌍 Langues",
-      "items": [
-        { "name": "Espagnol", "level": "C2" },
-        { "name": "Catalan", "level": "C2" },
-        { "name": "Anglais", "level": "B2" },
-        { "name": "Français", "level": "A2" }
-      ]
-    },
-    "navbar": {
-      "items": [
-        { "label": "Accueil", "href": "#hero" },
-        { "label": "À propos", "href": "#about" },
-        { "label": "Compétences", "href": "#skills" },
-        { "label": "Projets", "href": "#projects" },
-        { "label": "Expérience", "href": "#experience" },
-        { "label": "Langues", "href": "#languages" },
-        { "label": "Contact", "href": "#contact" }
-      ],
-      "theme": {
-        "light": "☀️ Clair",
-        "dark": "🌙 Sombre"
-      }
-    },
-    "projects": {
-      "title": "🛠️ Projets",
-      "items": [
-        {
-          "title": "Planificateur d’inventaire",
-          "description": "Automatise le flux de campagnes de planification de supports DOOH.",
-          "tech": ["Vue", "Symfony", "Maria DB", "OAuth2", "Open Street Map", "Overpass Turbo"]
-        },
-        {
-          "title": "Jeu Pokémon",
-          "description": "Simulation du jeu Pokémon avec ses principales fonctionnalités.",
-          "tech": ["JavaScript", "Vue", "NodeJS"]
-        },
-        {
-          "title": "Projet Flutter",
-          "description": "Application de contrôle d’accès à un bâtiment.",
-          "tech": ["Flutter", "Java", "Dart"]
-        },
-        {
-            "title": "Portfolio personnel",
-            "description": "Site web créé de zéro pour présenter mes projets, mon expérience et mes compétences. Développé avec des technologies modernes et multilingues.",
-            "tech": ["Next.js", "TypeScript", "Tailwind CSS", "next-intl", "Vercel"]
-        },
-        {
-            "title": "Échecs",
-            "description": "Application qui simule une partie complète d’échecs, incluant la logique des mouvements valides et l’alternance des tours.",
-            "tech": ["C++"]
-        },
-        {
-          "title": "Carte des emplacements",
-          "description": "Simule des emplacements et des itinéraires avec recherche du chemin le plus court.",
-          "tech": ["C++"]
-        },
-        {
-          "title": "Site e-commerce",
-          "description": "Site de vente de baskets avec gestion des achats.",
-          "tech": ["HTML", "CSS", "JS", "PHP"]
-        },
-        {
-          "title": "Programme de découpe",
-          "description": "Calculateur de chantier qui détermine le nombre de barres à découper.",
-          "tech": ["HTML", "CSS", "JavaScript"]
-        }
-      ]
-    },
-    "skills": {
-      "title": "🧠 Compétences Techniques",
-      "languages_title": "💻 Langages de Programmation",
-      "frameworks_title": "⚙️ Frameworks et Bibliothèques",
-      "tools_title": "🔧 Outils et Utilitaires",
-      "databases_title": "🗄️ Bases de Données",
-      "languages": ["HTML", "CSS", "JavaScript", "TypeScript", "PHP", "Python", "Java", "C++", "Dart", "SQL", "Bash", "R"],
-      "frameworks": ["Vue", "Symfony", "Yii2", "Node.js", "Next.js", "Flutter"],
-      "tools": ["Git", "GitHub", "GitLab", "Docker", "Figma", "Tailwind CSS", "Prettier", "ESLint", "Mapbox"],
-      "databases": ["MySQL", "PostgreSQL", "MariaDB"]
-    },
-    "experience": {
-      "title": "💼 Expérience Professionnelle",
-      "items": [
-        {
-          "puesto": "Développeur Full Stack",
-          "empresa": "EXTE",
-          "fecha": "Septembre 2024 - Aujourd’hui",
-          "descripcion": "Développement complet d’applications web : mise en œuvre des interfaces utilisateur (frontend), conception et création d’APIs REST, et gestion de bases de données. Collaboration active aux décisions techniques, revues de code et amélioration continue du produit."
-        },
-        {
-          "puesto": "Menuisier en aluminium",
-          "empresa": "MAFAC",
-          "fecha": "Juin 2019 - Août 2023",
-          "descripcion": "Travail manuel dans la fabrication et l’assemblage de structures en aluminium. J’ai appris la discipline, le travail d’équipe, la précision et la responsabilité en milieu réel."
-        }
-      ]
+  "hero": {
+    "greeting": "Bonjour ! Je suis <name>Antonio</name>",
+    "description": "Développeur Full Stack passionné par la création d’expériences web modernes, fonctionnelles et centrées sur l’utilisateur.",
+    "contact": "🚀 Me contacter",
+    "see_projects": "Voir les projets",
+    "download_cv": "Télécharger le CV",
+    "photo_alt": "Photo d’Antonio Lozano",
+    "cta_contact_aria": "Aller à la section contact",
+    "cta_projects_aria": "Voir les projets",
+    "cta_cv_aria": "Télécharger le CV"
+  },
+  "about": {
+    "title": "👨‍💻 À propos de moi",
+    "description": "Je suis Antonio Lozano Larrubia, ingénieur en informatique diplômé de l’Université Autonome de Barcelone, spécialisé en technologies de l’information. Je suis passionné par le développement web Full Stack et j’aime concevoir des applications fonctionnelles, évolutives et centrées sur l’utilisateur. Je m’intéresse également à la cybersécurité et à l’intelligence artificielle, domaines dans lesquels je continue à me former de manière autodidacte. Mon objectif est de poursuivre ma croissance professionnelle et de contribuer à des projets technologiques à fort impact.",
+    
+    "birthdate": "📅 Date de naissance",
+    "nationality": "🌍 Nationalité",
+    "studies": "🎓 Études",
+    "contact": "📨 Contact",
+
+    "nationality_value": "Espagnole",
+    "studies_value_1": "Licence en ingénierie informatique – Université Autonome de Barcelone (UAB)",
+    "studies_value_2": "Baccalauréat technologique – Institut Joan Oliver",
+
+    "skills_title": "🧠 Compétences personnelles",
+    "skills": [
+      "Responsabilité et engagement envers les résultats",
+      "Capacité d’apprentissage rapide et d’adaptation à de nouveaux environnements",
+      "Travail en équipe et collaboration multidisciplinaire",
+      "Orientation vers les objectifs et livraison de solutions efficaces",
+      "Communication claire et amélioration continue",
+      "Esprit analytique et résolution de problèmes complexes"
+    ],
+
+    "additional_title": "📌 Informations complémentaires",
+    "additional": [
+      "Permis de conduire et véhicule personnel",
+      "Disponibilité immédiate et horaires flexibles"
+    ]
+  },
+  "profile": {
+    "title": "🧭 Profil professionnel",
+    "description": "Ingénieur en informatique spécialisé dans le développement Full Stack, avec plus d’un an d’expérience dans la création d’applications web évolutives, sécurisées et centrées sur l’utilisateur. Je travaille principalement avec des technologies modernes comme Symfony, Vue et Next.js, en appliquant des méthodologies d’ingénierie telles que CI/CD, TDD et l’automatisation.\n\nPassionné par l’innovation et l’apprentissage continu, j’aime concevoir des logiciels transformant des processus complexes en solutions simples, efficaces et à fort impact. Mon objectif est de continuer à progresser professionnellement et de contribuer à des projets technologiques créant une valeur réelle.",
+    "focus_title": "🎯 Mon approche",
+    "focus": "Concevoir et développer des solutions web modernes avec Symfony, Vue et Next.js, en appliquant des principes de qualité, de performance et de scalabilité.",
+    "methodologies_title": "⚙️ Ma méthode de travail",
+    "methodologies": "Je travaille selon des méthodologies agiles, en appliquant CI/CD, TDD et l’automatisation des processus. J’accorde une grande importance à un code propre, documenté et facile à maintenir.",
+    "motivation_title": "🚀 Ce qui me motive",
+    "motivation": "Transformer des idées en logiciels utiles et performants, optimiser des processus complexes et apprendre chaque jour. Je souhaite participer à des projets qui ont un impact réel et favorisent l’innovation."
+  },
+  "contact": {
+    "title": "📬 Vous souhaitez me contacter ?",
+    "description": "Écrivez-moi à",
+    "aria_label_cv": "Télécharger le CV au format PDF",
+    "download_cv": "Télécharger le CV"
+  },
+  "languages": {
+    "title": "🌍 Langues",
+    "items": [
+      { "name": "Espagnol", "level": "C2" },
+      { "name": "Catalan", "level": "C2" },
+      { "name": "Anglais", "level": "B2" },
+      { "name": "Français", "level": "A2" }
+    ]
+  },
+  "navbar": {
+    "items": [
+      { "label": "Accueil", "href": "#hero" },
+      { "label": "À propos", "href": "#about" },
+      { "label": "Profil professionnel", "href": "#profile" },
+      { "label": "Compétences techniques", "href": "#skills" },
+      { "label": "Projets", "href": "#projects" },
+      { "label": "Expérience", "href": "#experience" },
+      { "label": "Langues", "href": "#languages" },
+      { "label": "Contact", "href": "#contact" }
+    ],
+    "theme": {
+      "light": "☀️ Clair",
+      "dark": "🌙 Sombre"
     }
+  },
+  "projects": {
+    "title": "🛠️ Projets",
+    "code": "Code",
+    "items": [
+      {
+        "title": "Planificateur d’inventaire DOOH",
+        "description": "Application qui automatise la planification des campagnes DOOH, réduisant les processus manuels de plusieurs heures à quelques minutes.",
+        "tech": ["Vue", "Symfony", "MariaDB", "OAuth2", "OpenStreetMap", "Overpass Turbo"],
+        "codeLink": "",
+        "demoLink": "https://exte.market/"
+      },
+      {
+        "title": "Calculateur de coupes",
+        "description": "Application web permettant d’automatiser le calcul des barres de coupe dans le secteur du bâtiment, réduisant les erreurs humaines et améliorant l’efficacité.",
+        "tech": ["Next.js", "TypeScript", "Tailwind CSS", "JWT"],
+        "codeLink": "",
+        "demoLink": "https://mafac-programa-cortes.vercel.app/"
+      },
+      {
+        "title": "Portfolio personnel",
+        "description": "Site web développé de zéro pour présenter mes projets, mon expérience et mes compétences. Construit avec Next.js, TypeScript et un design réactif multilingue.",
+        "tech": ["Next.js", "TypeScript", "Tailwind CSS", "next-intl", "Vercel"],
+        "codeLink": "",
+        "demoLink": "https://antoniolola-portfolio.vercel.app/"
+      },
+      {
+        "title": "Jeu Pokémon",
+        "description": "Simulation du jeu Pokémon classique, avec logique de combat, gestion des tours et sauvegarde des données.",
+        "tech": ["JavaScript", "Vue", "Node.js"],
+        "codeLink": "https://github.com/AntonioLoLa/Pokemon",
+        "demoLink": ""
+      },
+      {
+        "title": "Projet Flutter",
+        "description": "Application mobile de contrôle d’accès aux bâtiments, avec authentification et gestion des utilisateurs.",
+        "tech": ["Flutter", "Java", "Dart"],
+        "codeLink": "https://github.com/AntonioLoLa/DS_FLUTTER",
+        "demoLink": ""
+      },
+      {
+        "title": "Jeu d’échecs",
+        "description": "Application C++ simulant une partie complète d’échecs, avec validation des mouvements et alternance des tours.",
+        "tech": ["C++"],
+        "codeLink": "",
+        "demoLink": ""
+      },
+      {
+        "title": "Site e-commerce",
+        "description": "Site de commerce électronique pour l’achat de sneakers, incluant un panier et une gestion basique des commandes.",
+        "tech": ["HTML", "CSS", "JavaScript", "PHP"],
+        "codeLink": "",
+        "demoLink": ""
+      }
+    ]
+  },
+  "skills": {
+    "title": "🧠 Compétences techniques",
+    "languages_title": "💻 Langages de programmation",
+    "frameworks_title": "⚙️ Frameworks et bibliothèques",
+    "tools_title": "🔧 Outils et utilitaires",
+    "databases_title": "🗄️ Bases de données",
+    "languages": ["HTML", "CSS", "JavaScript", "TypeScript", "PHP", "Python", "Java", "C++", "Dart", "SQL", "Bash", "R"],
+    "frameworks": ["Vue", "Symfony", "Yii2", "Node.js", "Next.js", "Flutter"],
+    "tools": ["Git", "GitHub", "GitLab", "Docker", "Figma", "Tailwind CSS", "Prettier", "ESLint", "Mapbox"],
+    "databases": ["MySQL", "PostgreSQL", "MariaDB"]
+  },
+  "experience": {
+    "title": "💼 Expérience professionnelle",
+    "items": [
+      {
+        "puesto": "Ingénieur Full Stack",
+        "empresa": "EXTE",
+        "fecha": "Septembre 2024 - Présent",
+        "responsabilidades": [
+          "Développement Full Stack avec Vue, Symfony, Yii2 et MySQL/MariaDB.",
+          "Mise en œuvre de OAuth2/JWT et pipelines d’intégration continue (GitLab CI/CD).",
+          "Automatisation des processus via des crons et tests basés sur TDD.",
+          "Intégration de données DOOH (Broadsign, VIOOH, Hivestack) avec mise à jour automatique.",
+          "Amélioration continue via la revue de code, la documentation et l’optimisation des performances."
+        ]
+      },
+      {
+        "puesto": "Menuisier en aluminium",
+        "empresa": "MAFAC VALLÈS, SLL",
+        "fecha": "Juin 2020 - Septembre 2023",
+        "responsabilidades": [
+          "Fabrication et assemblage de structures en aluminium.",
+          "Développement de la discipline, de la précision et du travail d’équipe.",
+          "Responsabilité dans des environnements de production réels."
+        ]
+      }
+    ]
   }
-  
+}

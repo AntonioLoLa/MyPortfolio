@@ -2,36 +2,58 @@
   "hero": {
     "greeting": "¡Hola! Soy <name>Antonio</name>",
     "description": "Desarrollador Full Stack con foco en crear experiencias web modernas, funcionales y centradas en el usuario.",
-    "contact": "🚀 Contacta conmigo"
-  },
+    "contact": "🚀 Contacta conmigo",
+    "see_projects": "Ver proyectos",
+    "download_cv": "Descargar CV",
+    "photo_alt": "Foto de Antonio Lozano",
+    "cta_contact_aria": "Ir a la sección de contacto",
+    "cta_projects_aria": "Ver proyectos",
+    "cta_cv_aria": "Descargar CV"
+  },  
   "about": {
     "title": "👨‍💻 Sobre mí",
-    "description": "Soy Antonio Lozano Larrubia, ingeniero informático graduado en la Universidad Autónoma de Barcelona con especialización en Tecnologías de la Información. Me apasiona el desarrollo web full stack y disfruto creando soluciones funcionales, escalables y centradas en el usuario. También tengo un creciente interés por la ciberseguridad y la inteligencia artificial, áreas en las que me sigo formando de forma autodidacta. Mi objetivo es seguir creciendo profesionalmente y contribuir a proyectos tecnológicos que marquen la diferencia.",
+    "description": "Soy Antonio Lozano Larrubia, ingeniero informático graduado por la Universidad Autónoma de Barcelona, especializado en Tecnologías de la Información. Me apasiona el desarrollo web full stack y disfruto creando aplicaciones funcionales, escalables y centradas en el usuario. También tengo un gran interés por la ciberseguridad y la inteligencia artificial, áreas en las que sigo formándome de manera autodidacta. Mi objetivo es seguir creciendo como profesional y contribuir a proyectos tecnológicos que generen un impacto real.",
+    
     "birthdate": "📅 Fecha de nacimiento",
     "nationality": "🌍 Nacionalidad",
     "studies": "🎓 Estudios",
     "contact": "📨 Contacto",
-    "nationality_value": "Española 🇪🇸",
-    "studies_value_1": "Grado en Ingeniería Informática – UAB",
+
+    "nationality_value": "Española",
+    "studies_value_1": "Grado en Ingeniería Informática – Universidad Autónoma de Barcelona (UAB)",
     "studies_value_2": "Bachillerato Tecnológico – Institut Joan Oliver",
+
     "skills_title": "🧠 Competencias personales",
     "skills": [
-      "Responsable y comprometido",
-      "Capacidad para aprender rápido y adaptarse",
-      "Trabajo en equipo y colaboración interdisciplinar",
-      "Comprometido con cumplir metas y entregar soluciones efectivas",
-      "Comunicación clara y eficaz",
-      "Pensamiento analítico y resolución de problemas"
+      "Responsabilidad y compromiso con los resultados",
+      "Aprendizaje rápido y adaptación a nuevos entornos",
+      "Trabajo en equipo y colaboración multidisciplinar",
+      "Cumplimiento de metas y entrega de soluciones efectivas",
+      "Comunicación clara y enfoque en la mejora continua",
+      "Pensamiento analítico y resolución de problemas complejos"
     ],
+
     "additional_title": "📌 Información adicional",
     "additional": [
       "Carnet de conducir y vehículo propio",
-      "Disponibilidad completa"
+      "Disponibilidad inmediata y flexibilidad horaria"
     ]
+  },
+  "profile": {
+    "title": "🧭 Perfil profesional",
+    "description": "Ingeniero informático especializado en desarrollo Full Stack, con más de un año de experiencia construyendo aplicaciones web escalables, seguras y centradas en el usuario. Trabajo principalmente con tecnologías modernas como Symfony, Vue y Next.js, aplicando metodologías de ingeniería como CI/CD, TDD y automatización.\n\nApasionado por la innovación y el aprendizaje continuo, disfruto diseñando software que transforma procesos complejos en soluciones simples, eficientes y de alto impacto. Mi objetivo es seguir creciendo profesionalmente y contribuir a proyectos tecnológicos que generen un valor tangible.",
+    "focus_title": "🎯 En qué me enfoco",
+    "focus": "Diseñar y desarrollar soluciones web modernas utilizando tecnologías como Symfony, Vue y Next.js, aplicando principios de calidad, escalabilidad y rendimiento.",
+    "methodologies_title": "⚙️ Cómo trabajo",
+    "methodologies": "Trabajo bajo metodologías ágiles, aplicando CI/CD, TDD y automatización de procesos. Me gusta mantener un código limpio, documentado y fácil de mantener.",
+    "motivation_title": "🚀 Lo que me motiva",
+    "motivation": "Transformar ideas en software útil y eficiente, optimizar procesos complejos y seguir aprendiendo cada día. Busco participar en proyectos que generen un impacto real y fomenten la innovación."
   },
   "contact": {
     "title": "📬 ¿Quieres contactar conmigo?",
-    "description": "Escríbeme a"
+    "description": "Escríbeme a",
+    "aria_label_cv": "Descargar CV en formato PDF",
+    "download_cv": "Descargar CV"
   },
   "languages": {
     "title": "🌍 Idiomas",
@@ -46,7 +68,8 @@
     "items": [
       { "label": "Inicio", "href": "#hero" },
       { "label": "Sobre mí", "href": "#about" },
-      { "label": "Skills", "href": "#skills" },
+      { "label": "Perfil Profesional", "href": "#profile" },
+      { "label": "Habilidades Técnicas", "href": "#skills" },
       { "label": "Proyectos", "href": "#projects" },
       { "label": "Experiencia", "href": "#experience" },
       { "label": "Idiomas", "href": "#languages" },
@@ -59,44 +82,60 @@
   },
   "projects": {
     "title": "🛠️ Proyectos",
+    "code": "Código",
     "items": [
       {
-        "title": "Planificador de inventario",
-        "description": "Automatiza el flujo de campañas de planificación de soportes DOOH.",
-        "tech": ["Vue", "Symfony", "Maria DB", "OAuth2", "Open Street Map", "Overpass Turbo"]
+        "title": "Planificador de inventario DOOH",
+        "description": "Aplicación que automatiza la planificación de campañas de soportes DOOH, reduciendo procesos manuales de horas a minutos.",
+        "tech": ["Vue", "Symfony", "MariaDB", "OAuth2", "OpenStreetMap", "Overpass Turbo"],
+        "codeLink": "",
+        "demoLink": "https://exte.market/"
       },
       {
-        "title": "Juego Pokémon",
-        "description": "Simulación del juego Pokémon con sus funcionalidades principales.",
-        "tech": ["JavaScript", "Vue", "NodeJS"]
-      },
-      {
-        "title": "Proyecto Flutter",
-        "description": "App de control de acceso a un edificio.",
-        "tech": ["Flutter", "Java", "Dart"]
+        "title": "Calculadora de cortes",
+        "description": "Aplicación web para automatizar el cálculo de barras de corte en obra, eliminando errores manuales y mejorando la eficiencia del proceso.",
+        "tech": ["Next.js", "TypeScript", "Tailwind CSS", "JWT"],
+        "codeLink": "",
+        "demoLink": "https://mafac-programa-cortes.vercel.app/"
       },
       {
         "title": "Portfolio personal",
-        "description": "Sitio web creado desde cero para mostrar mis proyectos, experiencia y habilidades. Desarrollado con tecnologías modernas y multilingüe.",
-        "tech": ["Next.js", "TypeScript", "Tailwind CSS", "next-intl", "Vercel"]
+        "description": "Sitio web desarrollado desde cero para mostrar proyectos, experiencia y habilidades. Construido con Next.js y diseño responsivo multilingüe.",
+        "tech": ["Next.js", "TypeScript", "Tailwind CSS", "next-intl", "Vercel"],
+        "codeLink": "",
+        "demoLink": "https://antoniolola-portfolio.vercel.app/"
+      },
+      {
+        "title": "Juego Pokémon",
+        "description": "Simulación del clásico juego Pokémon con lógica de combate, turnos y almacenamiento de datos.",
+        "tech": ["JavaScript", "Vue", "Node.js"],
+        "codeLink": "https://github.com/AntonioLoLa/Pokemon",
+        "demoLink": ""
+      },
+      {
+        "title": "Proyecto Flutter",
+        "description": "Aplicación móvil de control de acceso a edificios, con autenticación y gestión de usuarios.",
+        "tech": ["Flutter", "Java", "Dart"],
+        "codeLink": "https://github.com/AntonioLoLa/DS_FLUTTER",
+        "demoLink": ""
       },
       {
         "title": "Ajedrez",
-        "description": "Aplicación que simula un juego completo de ajedrez, incluyendo lógica de movimientos válidos, turnos alternos.",
-        "tech": ["C++"]
-      },      
-      {
-        "title": "Web de comercio",
-        "description": "Sitio web de sneakers para operaciones de compra.",
-        "tech": ["HTML", "CSS", "JS", "PHP"]
+        "description": "Aplicación en C++ que simula un juego completo de ajedrez, incluyendo validación de movimientos y turnos alternos.",
+        "tech": ["C++"],
+        "codeLink": "",
+        "demoLink": ""
       },
       {
-        "title": "Programa de cortes",
-        "description": "Calculadora para obras que determina el número de barras a cortar.",
-        "tech": ["HTML", "CSS", "JavaScript"]
+        "title": "Web de comercio",
+        "description": "Sitio web de comercio electrónico para la compra de sneakers, con carrito de compras y gestión básica de pedidos.",
+        "tech": ["HTML", "CSS", "JavaScript", "PHP"],
+        "codeLink": "",
+        "demoLink": ""
       }
     ]
   },
+
   "skills": {
     "title": "🧠 Habilidades Técnicas",
     "languages_title": "💻 Lenguajes de Programación",
@@ -112,17 +151,29 @@
     "title": "💼 Experiencia Profesional",
     "items": [
       {
-        "puesto": "Desarrollador Full Stack",
+        "puesto": "Full Stack Engineer",
         "empresa": "EXTE",
         "fecha": "Septiembre 2024 - Actualidad",
-        "descripcion": "Desarrollo completo de aplicaciones web: implementación de interfaces de usuario (frontend), diseño y construcción de APIs REST, y gestión de bases de datos. Colaboración activa en decisiones técnicas, revisión de código y mejora continua del producto."
-      },      
+        "responsabilidades": [
+          "Desarrollo full stack con Vue, Symfony, Yii2 y MySQL/MariaDB.",
+          "Implementación de OAuth2/JWT y pipelines de integración continua (GitLab CI/CD).",
+          "Automatización de procesos con crons y pruebas TDD.",
+          "Integración de datos DOOH (Broadsign, VIOOH, Hivestack) con actualización automática.",
+          "Mejora continua mediante code review, documentación y optimización de rendimiento."
+        ]
+      },
       {
         "puesto": "Carpintero de aluminio",
-        "empresa": "MAFAC",
-        "fecha": "Junio 2019 - Agosto 2023",
-        "descripcion": "Trabajo manual en fabricación y montaje de estructuras de aluminio. Aprendí disciplina, trabajo en equipo, precisión y responsabilidad en entornos reales."
+        "empresa": "MAFAC VALLÉS, SLL",
+        "fecha": "Junio 2020 - Septiembre 2023",
+        "responsabilidades": [
+          "Fabricación y montaje de estructuras de aluminio.",
+          "Desarrollo de disciplina, precisión y trabajo en equipo.",
+          "Responsabilidad en entornos de producción reales."
+        ]
       }
     ]
   }
+
+
 }

@@ -17,7 +17,7 @@ export default function Languages() {
   };
 
   return (
-    <section className="w-full max-w-4xl mx-auto px-4 sm:px-0 mt-12">
+    <section className="w-full max-w-5xl mx-auto px-6 py-12">
       <h2 className="text-3xl font-bold mb-6">{t('title')}</h2>
 
       <div className="flex flex-col gap-4">

@@ -2,7 +2,6 @@
 
 import Hero from '@/app/components/Hero';
 import About from '@/app/components/About';
-import Profile from '@/app/components/Profile';
 import Skills from '@/app/components/Skills';
 import Projects from '@/app/components/Projects';
 import Experience from '@/app/components/Experience';
@@ -29,13 +28,12 @@ export default function HomePage() {
         </aside>
 
         {/* Main content */}
-        <div className="flex flex-col gap-12 px-4 py-8 sm:px-6 md:px-8 lg:ml-64 lg:py-12 lg:px-12 max-w-7xl lg:max-w-6xl">
+        <div className="flex flex-col gap-12 px-4 py-8 sm:px-6 md:px-8 lg:ml-64 lg:py-12 lg:px-12 lg:pr-8 xl:px-16 max-w-7xl lg:max-w-none lg:flex-1">
           <section id="hero"><Hero /></section>
           <section id="about"><About /></section>
-          <section id="profile"><Profile /></section>
+          <section id="experience"><Experience /></section>
           <section id="skills"><Skills /></section>
           <section id="projects"><Projects /></section>
-          <section id="experience"><Experience /></section>
           <section id="languages"><Languages /></section>
           <section id="contact"><Contact /></section>
         </div>

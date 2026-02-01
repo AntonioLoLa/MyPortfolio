@@ -1,7 +1,7 @@
 {
   "hero": {
     "greeting": "Hola! Sóc <name>Antonio</name>",
-    "description": "Desenvolupador Full Stack enfocat a crear experiències web modernes, funcionals i centrades en l'usuari.",
+    "description": "Enginyer Full Stack amb especialització en backend, creant aplicacions web escalables. Fort coneixement en PHP (Symfony, Yii2), Python (FastAPI) i desenvolupament d'APIs robustes. Apassionat per construir sistemes backend eficients que potencien experiències d'usuari excepcionals.",
     "contact": "🚀 Contacta amb mi",
     "see_projects": "Veure projectes",
     "download_cv": "Descarrega el CV",
@@ -82,7 +82,12 @@
   },
   "projects": {
     "title": "🛠️ Projectes",
+    "personal_title": "🚀 Projectes Personals",
+    "personal_subtitle": "Desenvolupament independent i solucions pràctiques",
+    "academic_title": "🎓 Projectes Acadèmics",
+    "academic_subtitle": "Treballs desenvolupats durant els meus estudis universitaris",
     "code": "Codi",
+    "featured_projects": "Projectes destacats",
     "items": [
       {
         "title": "Planificador d'inventari DOOH",
@@ -148,10 +153,10 @@
     "frameworks_title": "⚙️ Frameworks i llibreries",
     "tools_title": "🔧 Eines i utilitats",
     "databases_title": "🗄️ Bases de dades",
-    "languages": ["HTML", "CSS", "JavaScript", "TypeScript", "PHP", "Python", "Java", "C++", "Dart", "SQL", "Bash", "R"],
-    "frameworks": ["Vue", "Symfony", "Yii2", "Node.js", "Next.js", "Flutter"],
-    "tools": ["Git", "GitHub", "GitLab", "Docker", "Figma", "Tailwind CSS", "Prettier", "ESLint", "Mapbox"],
-    "databases": ["MySQL", "PostgreSQL", "MariaDB"]
+    "languages": ["PHP", "JavaScript", "TypeScript", "Python", "SQL", "HTML", "CSS", "Bash"],
+    "frameworks": ["Symfony", "Yii2", "Vue.js", "FastAPI", "Next.js", "Node.js"],
+    "tools": ["Git", "GitHub", "GitLab", "Docker", "CI/CD", "OAuth2", "JWT", "TDD", "Composer", "NPM"],
+    "databases": ["MySQL", "PostgreSQL", "MariaDB", "Redis"]
   },
   "experience": {
     "title": "💼 Experiència professional",
@@ -161,22 +166,10 @@
         "empresa": "EXTE",
         "fecha": "Setembre 2024 - Actualitat",
         "responsabilidades": [
-          "Desenvolupament full stack amb Vue.js, Symfony i Yii2 en arquitectura microserveis amb MariaDB, integrant +3 proveïdors DOOH.",
-          "Vaig implementar OAuth2/JWT i pipelines de integració contínua (GitLab CI/CD), reduint despliegaments manuals un 80%.",
-          "Vaig automatitzar processament de dades massives amb crons i proves TDD, millorant la cobertura de codi al 85%.",
-          "Vaig integrar APIs de Broadsign, VIOOH i Hivestack amb sincronització automàtica, augmentant l'eficiència operacional un 60%.",
-          "Vaig optimitzar consultes SQL i caché, reduint els temps de resposta de 2.5s a 300ms en operacions DOOH."
-        ]
-      },
-      {
-        "puesto": "Desenvolupador Independent & Estudiant",
-        "empresa": "Projectes Personals & UAB",
-        "fecha": "Juny 2020 - Setembre 2024",
-        "responsabilidades": [
-          "Vaig construir 7+ projectes full stack: Expense Optimizer (FastAPI+Streamlit+AI), Calculadora de Talls, Portfolio personal, Joc Pokémon.",
-          "Vaig dissenyar i executar arquitectura d'Expense Optimizer: parsejament intel·ligent de 5 bancs espanyols, categorització automàtica, detecció d'anomalies.",
-          "Vaig completar el Grau en Enginyeria Informàtica per la UAB (2024) amb especialització en Tecnologies de la Informació.",
-          "Vaig dominar 12+ llenguatges/frameworks: Vue, Symfony, Next.js, FastAPI, Flutter, contribuint al portfolio tècnic per a ofertes tech empresarials."
+          "Vaig integrar i automatitzar l'inventari DOOH de 3 plataformes (Broadsign, VIOOH, Hivestack), transformant processos manuals propensos a errors en sistemes automatitzats amb informació actualitzada en temps real",
+          "Vaig desenvolupar una aplicació de planificació d'inventari DOOH utilitzant Vue.js, Symfony i Yii2, convertint processos tècnics manuals en interfícies visuals escalables que faciliten la planificació de campanyes",
+          "Vaig crear un microservei per al càlcul automàtic de pressupostos de campanyes segons formats i càlculs interns específics de l'empresa, reemplaçant càlculs manuals",
+          "Vaig implementar autenticació OAuth2/JWT i pipelines GitLab CI/CD, millorant l'eficiència de desplegaments i la qualitat del codi mitjançant pràctiques de testing automatitzat"
         ]
       }
     ]

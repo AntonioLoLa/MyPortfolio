@@ -1,7 +1,7 @@
 {
   "hero": {
     "greeting": "¡Hola! Soy <name>Antonio</name>",
-    "description": "Ingeniero Full Stack apasionado creando soluciones web innovadoras que impulsan el impacto empresarial. Experto en tecnologías modernas como Vue.js, Symfony, Next.js y FastAPI. Transformo desafíos complejos en aplicaciones elegantes y escalables, con énfasis en rendimiento, seguridad y experiencia de usuario.",
+    "description": "Ingeniero Full Stack con especialización en backend, creando aplicaciones web escalables. Fuerte conocimiento en PHP (Symfony, Yii2), Python (FastAPI) y desarrollo de APIs robustas. Apasionado por construir sistemas backend eficientes que potencian experiencias de usuario excepcionales.",
     "contact": "🚀 Contacta conmigo",
     "see_projects": "Ver proyectos",
     "download_cv": "Descargar CV",
@@ -12,7 +12,7 @@
   },  
   "about": {
     "title": "👨‍💻 Sobre mí",
-    "description": "Ingeniero informático especializado en desarrollo Full Stack con +1 año de experiencia transformando requisitos complejos en soluciones web escalables y de alto impacto. He liderado la automatización de procesos DOOH, reduciendo tareas manuales de horas a minutos, e integrado APIs de múltiples proveedores bajo metodologías CI/CD y TDD. Combino expertise en backend (Symfony, FastAPI) con frontend moderno (Vue, Next.js), asegurando código limpio, bien documentado y fácil de mantener. Apasionado por la innovación tecnológica, busco resolver problemas reales mediante arquitecturas escalables y excelencia en ingeniería de software.",
+    "description": "Graduado en Ingeniería Informática con más de 1 año de experiencia profesional como Full Stack Engineer, con fuerte especialización en backend. Fuerte conocimiento en frameworks PHP (Symfony, Yii2), Python (FastAPI) y desarrollo de APIs RESTful. Me especializo en construir sistemas backend escalables, optimización de bases de datos e implementación de pipelines CI/CD. Comprometido con código limpio, prácticas TDD y entrega de soluciones de alto rendimiento.",
     
     "birthdate": "📅 Fecha de nacimiento",
     "nationality": "🌍 Nacionalidad",
@@ -23,20 +23,21 @@
     "studies_value_1": "Grado en Ingeniería Informática – Universidad Autónoma de Barcelona (UAB)",
     "studies_value_2": "Bachillerato Tecnológico – Institut Joan Oliver",
 
-    "skills_title": "🧠 Competencias personales",
+    "skills_title": "🧠 Fortalezas Backend Clave",
     "skills": [
-      "Responsabilidad y compromiso con los resultados",
-      "Aprendizaje rápido y adaptación a nuevos entornos",
-      "Trabajo en equipo y colaboración multidisciplinar",
-      "Cumplimiento de metas y entrega de soluciones efectivas",
-      "Comunicación clara y enfoque en la mejora continua",
-      "Pensamiento analítico y resolución de problemas complejos"
+      "Fuerte conocimiento en PHP con Symfony y desarrollo Vue.js",
+      "Experiencia sólida en Vue.js con componentes y aplicaciones modernas",
+      "Diseño e implementación de APIs RESTful",
+      "Optimización de bases de datos y rendimiento de consultas",
+      "Implementación de pipelines CI/CD y prácticas DevOps",
+      "Desarrollo Python con FastAPI (nivel intermedio)"
     ],
 
-    "additional_title": "📌 Información adicional",
+    "additional_title": "📌 Atributos Profesionales",
     "additional": [
       "Carnet de conducir y vehículo propio",
-      "Disponibilidad inmediata y flexibilidad horaria"
+      "Disponibilidad inmediata y flexibilidad horaria",
+      "Fuertes habilidades de comunicación y trabajo en equipo"
     ]
   },
   "profile": {
@@ -68,10 +69,9 @@
     "items": [
       { "label": "Inicio", "href": "#hero" },
       { "label": "Sobre mí", "href": "#about" },
-      { "label": "Perfil Profesional", "href": "#profile" },
+      { "label": "Experiencia", "href": "#experience" },
       { "label": "Habilidades Técnicas", "href": "#skills" },
       { "label": "Proyectos", "href": "#projects" },
-      { "label": "Experiencia", "href": "#experience" },
       { "label": "Idiomas", "href": "#languages" },
       { "label": "Contacto", "href": "#contact" }
     ],
@@ -82,7 +82,12 @@
   },
   "projects": {
     "title": "🛠️ Proyectos",
+    "personal_title": "🚀 Proyectos Personales",
+    "personal_subtitle": "Desarrollo independiente y soluciones prácticas",
+    "academic_title": "🎓 Proyectos Académicos",
+    "academic_subtitle": "Trabajos desarrollados durante mis estudios universitarios",
     "code": "Código",
+    "featured_projects": "Proyectos destacados",
     "items": [
       {
         "title": "Planificador de inventario DOOH",
@@ -145,14 +150,14 @@
 
   "skills": {
     "title": "🧠 Habilidades Técnicas",
-    "languages_title": "💻 Lenguajes de Programación",
-    "frameworks_title": "⚙️ Frameworks y Librerías",
-    "tools_title": "🔧 Herramientas y Utilidades",
-    "databases_title": "🗄️ Bases de Datos",
-    "languages": ["HTML", "CSS", "JavaScript", "TypeScript", "PHP", "Python", "Java", "C++", "Dart", "SQL", "Bash", "R"],
-    "frameworks": ["Vue", "Symfony", "Yii2", "Node.js", "Next.js", "Flutter"],
-    "tools": ["Git", "GitHub", "GitLab", "Docker", "Figma", "Tailwind CSS", "Prettier", "ESLint", "Mapbox"],
-    "databases": ["MySQL", "PostgreSQL", "MariaDB"]
+    "languages_title": "💻 Lenguajes Principales",
+    "frameworks_title": "⚙️ Frameworks Backend y Frontend",
+    "tools_title": "🔧 Herramientas DevOps y Desarrollo",
+    "databases_title": "🗄️ Bases de Datos y Caché",
+    "languages": ["PHP", "JavaScript", "TypeScript", "Python", "SQL", "HTML", "CSS", "Bash"],
+    "frameworks": ["Symfony", "Yii2", "Vue.js", "FastAPI", "Next.js", "Node.js"],
+    "tools": ["Git", "GitHub", "GitLab", "Docker", "CI/CD", "OAuth2", "JWT", "TDD", "Composer", "NPM"],
+    "databases": ["MySQL", "PostgreSQL", "MariaDB", "Redis"]
   },
   "experience": {
     "title": "💼 Experiencia Profesional",
@@ -162,22 +167,10 @@
         "empresa": "EXTE",
         "fecha": "Septiembre 2024 - Actualidad",
         "responsabilidades": [
-          "Desarrollo full stack con Vue.js, Symfony y Yii2 en arquitectura microservicios con MariaDB, integrando +3 proveedores DOOH.",
-          "Implementé OAuth2/JWT y pipelines de integración continua (GitLab CI/CD), reduciendo despliegues manuales en 80%.",
-          "Automaticé procesamiento de datos masivos con crons y pruebas TDD, mejorando cobertura de código a 85%.",
-          "Integré APIs de Broadsign, VIOOH y Hivestack con sincronización automática, aumentando eficiencia operativa en 60%.",
-          "Optimicé queries SQL y caché, reduciendo tiempos de respuesta de 2.5s a 300ms en operaciones DOOH."
-        ]
-      },
-      {
-        "puesto": "Desarrollador Independiente & Estudiante",
-        "empresa": "Proyectos Personales & UAB",
-        "fecha": "Junio 2020 - Septiembre 2024",
-        "responsabilidades": [
-          "Construí 7+ proyectos full stack: Expense Optimizer (FastAPI+Streamlit+AI), Cutting Calculator, Portfolio personal, Pokémon Game.",
-          "Diseñé y ejecuté arquitectura de Expense Optimizer: parseo inteligente de 5 bancos españoles, categorización automática, detección de anomalías.",
-          "Completé Grado en Ingeniería Informática por UAB (2024) con especialización en Tecnologías de la Información.",
-          "Dominé 12+ lenguajes/frameworks: Vue, Symfony, Next.js, FastAPI, Flutter, contribuyendo al portfolio técnico para ofertas tech empresariales."
+          "Integré y automatizé inventario DOOH de 3 plataformas (Broadsign, VIOOH, Hivestack), transformando procesos manuales propensos a errores en sistemas automatizados con información actualizada en tiempo real",
+          "Desarrollé aplicación de planificación de inventario DOOH usando Vue.js, Symfony y Yii2, convirtiendo procesos técnicos manuales en interfaces visuales escalables que facilitan la planificación de campañas",
+          "Creé microservicio para cálculo automático de presupuestos de campañas según formatos y cálculos internos específicos de la empresa, reemplazando cálculos manuales",
+          "Implementé autenticación OAuth2/JWT y pipelines GitLab CI/CD, mejorando la eficiencia de despliegues y la calidad del código mediante prácticas de testing automatizado"
         ]
       }
     ]

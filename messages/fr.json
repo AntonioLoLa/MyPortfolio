@@ -1,7 +1,7 @@
 {
   "hero": {
     "greeting": "Bonjour ! Je suis <name>Antonio</name>",
-    "description": "Développeur Full Stack passionné par la création d'expériences web modernes, fonctionnelles et centrées sur l'utilisateur.",
+    "description": "Ingénieur Full Stack avec spécialisation en backend, créant des applications web scalables. Forte connaissance en PHP (Symfony, Yii2), Python (FastAPI) et développement d'APIs robustes. Passionné par la construction de systèmes backend efficaces qui offrent des expériences utilisateur exceptionnelles.",
     "contact": "🚀 Me contacter",
     "see_projects": "Voir les projets",
     "download_cv": "Télécharger le CV",
@@ -82,7 +82,12 @@
   },
   "projects": {
     "title": "🛠️ Projets",
+    "personal_title": "🚀 Projets Personnels",
+    "personal_subtitle": "Développement indépendant et solutions pratiques",
+    "academic_title": "🎓 Projets Académiques",
+    "academic_subtitle": "Travaux développés pendant mes études universitaires",
     "code": "Code",
+    "featured_projects": "Projets en vedette",
     "items": [
       {
         "title": "Planificateur d'inventaire DOOH",
@@ -148,10 +153,10 @@
     "frameworks_title": "⚙️ Frameworks et bibliothèques",
     "tools_title": "🔧 Outils et utilitaires",
     "databases_title": "🗄️ Bases de données",
-    "languages": ["HTML", "CSS", "JavaScript", "TypeScript", "PHP", "Python", "Java", "C++", "Dart", "SQL", "Bash", "R"],
-    "frameworks": ["Vue", "Symfony", "Yii2", "Node.js", "Next.js", "Flutter"],
-    "tools": ["Git", "GitHub", "GitLab", "Docker", "Figma", "Tailwind CSS", "Prettier", "ESLint", "Mapbox"],
-    "databases": ["MySQL", "PostgreSQL", "MariaDB"]
+    "languages": ["PHP", "JavaScript", "TypeScript", "Python", "SQL", "HTML", "CSS", "Bash"],
+    "frameworks": ["Symfony", "Yii2", "Vue.js", "FastAPI", "Next.js", "Node.js"],
+    "tools": ["Git", "GitHub", "GitLab", "Docker", "CI/CD", "OAuth2", "JWT", "TDD", "Composer", "NPM"],
+    "databases": ["MySQL", "PostgreSQL", "MariaDB", "Redis"]
   },
   "experience": {
     "title": "💼 Expérience professionnelle",
@@ -161,22 +166,10 @@
         "empresa": "EXTE",
         "fecha": "Septembre 2024 - Présent",
         "responsabilidades": [
-          "Développement full stack avec Vue.js, Symfony et Yii2 en architecture microservices avec MariaDB, intégrant +3 fournisseurs DOOH.",
-          "Implémentation d'OAuth2/JWT et pipelines d'intégration continue (GitLab CI/CD), réduisant les déploiements manuels de 80%.",
-          "Automatisation du traitement des données massives avec crons et tests TDD, améliorant la couverture du code à 85%.",
-          "Intégration des API Broadsign, VIOOH et Hivestack avec synchronisation automatique, augmentant l'efficacité opérationnelle de 60%.",
-          "Optimisation des requêtes SQL et du cache, réduisant les temps de réponse de 2,5s à 300ms dans les opérations DOOH."
-        ]
-      },
-      {
-        "puesto": "Développeur Indépendant & Étudiant",
-        "empresa": "Projets Personnels & UAB",
-        "fecha": "Juin 2020 - Septembre 2024",
-        "responsabilidades": [
-          "Construction de 7+ projets full stack : Expense Optimizer (FastAPI+Streamlit+IA), Calculateur de Coupes, Portfolio personnel, Jeu Pokémon.",
-          "Conception et exécution de l'architecture d'Expense Optimizer : analyse intelligente de 5 banques espagnoles, catégorisation automatique, détection des anomalies.",
-          "Obtention de la Licence en Ingénierie Informatique de l'UAB (2024) avec spécialisation en Technologies de l'Information.",
-          "Maîtrise de 12+ langages/frameworks : Vue, Symfony, Next.js, FastAPI, Flutter, constituant le portefeuille technique pour les offres d'entreprises technologiques."
+          "Intégrai et automatisai l'inventaire DOOH de 3 plateformes (Broadsign, VIOOH, Hivestack), transformant des processus manuels sujets aux erreurs en systèmes automatisés avec informations mises à jour en temps réel",
+          "Développai une application de planification d'inventaire DOOH utilisant Vue.js, Symfony et Yii2, convertissant des processus techniques manuels en interfaces visuelles scalables facilitant la planification de campagnes",
+          "Créai un microservice pour le calcul automatique des budgets de campagnes selon les formats et calculs internes spécifiques de l'entreprise, remplaçant les calculs manuels",
+          "Implémentai l'authentification OAuth2/JWT et les pipelines GitLab CI/CD, améliorant l'efficacité des déploiements et la qualité du code grâce aux pratiques de test automatisé"
         ]
       }
     ]

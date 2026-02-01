@@ -1,7 +1,7 @@
 {
   "hero": {
     "greeting": "Hi! I'm <name>Antonio</name>",
-    "description": "Passionate Full Stack Engineer crafting innovative web solutions that drive business impact. Expert in modern technologies like Vue.js, Symfony, Next.js, and FastAPI. I transform complex challenges into elegant, scalable applications with a focus on performance, security, and user experience.",
+    "description": "Full Stack Engineer with backend specialization, creating scalable web applications. Strong knowledge in PHP (Symfony, Yii2), Python (FastAPI) and robust API development. Passionate about building efficient backend systems that power exceptional user experiences.",
     "contact": "🚀 Get in touch",
     "see_projects": "View projects",
     "download_cv": "Download CV",
@@ -12,7 +12,7 @@
   },
   "about": {
     "title": "👨‍💻 About Me",
-    "description": "Computer Engineer specialized in Full Stack Development with +1 year of experience transforming complex requirements into scalable, high-impact web solutions. I've led DOOH process automation initiatives, reducing manual tasks from hours to minutes, and integrated multi-provider APIs using CI/CD and TDD methodologies. I combine backend expertise (Symfony, FastAPI) with modern frontend technologies (Vue, Next.js), ensuring clean, well-documented, and maintainable code. Passionate about technological innovation, I solve real-world problems through scalable architectures and software engineering excellence.",
+    "description": "Computer Engineering graduate with 1+ years of professional experience as a Full Stack Engineer, with strong backend specialization. Strong knowledge in PHP frameworks (Symfony, Yii2), Python (FastAPI), and RESTful API development. Specialize in building scalable backend systems, database optimization, and implementing CI/CD pipelines. Committed to clean code, TDD practices, and delivering high-performance solutions.",
     
     "birthdate": "📅 Date of Birth",
     "nationality": "🌍 Nationality",
@@ -20,23 +20,24 @@
     "contact": "📨 Contact",
 
     "nationality_value": "Spanish",
-    "studies_value_1": "Bachelor’s Degree in Computer Engineering – Autonomous University of Barcelona (UAB)",
+    "studies_value_1": "Bachelor's Degree in Computer Engineering – Autonomous University of Barcelona (UAB)",
     "studies_value_2": "Technological Baccalaureate – Institut Joan Oliver",
 
-    "skills_title": "🧠 Personal Skills",
+    "skills_title": "🧠 Key Backend Strengths",
     "skills": [
-      "Strong sense of responsibility and commitment to results",
-      "Fast learning and adaptability to new environments",
-      "Teamwork and multidisciplinary collaboration",
-      "Goal-oriented with focus on delivering effective solutions",
-      "Clear communication and continuous improvement mindset",
-      "Analytical thinking and problem-solving skills"
+      "Strong knowledge in PHP with Symfony and Vue.js development",
+      "Vue.js expertise with components and modern applications",
+      "RESTful API design and implementation",
+      "Database optimization and query performance tuning",
+      "CI/CD pipeline implementation and DevOps practices",
+      "Python development with FastAPI (intermediate level)"
     ],
 
-    "additional_title": "📌 Additional Information",
+    "additional_title": "📌 Professional Attributes",
     "additional": [
-      "Driver’s license and own vehicle",
-      "Immediate availability and flexible schedule"
+      "Driver's license and own vehicle",
+      "Immediate availability and flexible schedule",
+      "Strong communication and teamwork skills"
     ]
   },
   "profile": {
@@ -68,10 +69,9 @@
     "items": [
       { "label": "Home", "href": "#hero" },
       { "label": "About Me", "href": "#about" },
-      { "label": "Professional Profile", "href": "#profile" },
+      { "label": "Experience", "href": "#experience" },
       { "label": "Technical Skills", "href": "#skills" },
       { "label": "Projects", "href": "#projects" },
-      { "label": "Experience", "href": "#experience" },
       { "label": "Languages", "href": "#languages" },
       { "label": "Contact", "href": "#contact" }
     ],
@@ -82,7 +82,12 @@
   },
   "projects": {
     "title": "🛠️ Projects",
+    "personal_title": "🚀 Personal Projects",
+    "personal_subtitle": "Independent development and practical solutions",
+    "academic_title": "🎓 Academic Projects", 
+    "academic_subtitle": "Projects developed during my university studies",
     "code": "Code",
+    "featured_projects": "Featured projects",
     "items": [
       {
         "title": "DOOH Inventory Planner",
@@ -144,14 +149,14 @@
   },
   "skills": {
     "title": "🧠 Technical Skills",
-    "languages_title": "💻 Programming Languages",
-    "frameworks_title": "⚙️ Frameworks & Libraries",
-    "tools_title": "🔧 Tools & Utilities",
-    "databases_title": "🗄️ Databases",
-    "languages": ["HTML", "CSS", "JavaScript", "TypeScript", "PHP", "Python", "Java", "C++", "Dart", "SQL", "Bash", "R"],
-    "frameworks": ["Vue", "Symfony", "Yii2", "Node.js", "Next.js", "Flutter"],
-    "tools": ["Git", "GitHub", "GitLab", "Docker", "Figma", "Tailwind CSS", "Prettier", "ESLint", "Mapbox"],
-    "databases": ["MySQL", "PostgreSQL", "MariaDB"]
+    "languages_title": "💻 Core Languages",
+    "frameworks_title": "⚙️ Backend & Frontend Frameworks",
+    "tools_title": "🔧 DevOps & Development Tools",
+    "databases_title": "🗄️ Databases & Caching",
+    "languages": ["PHP", "JavaScript", "TypeScript", "Python", "SQL", "HTML", "CSS", "Bash"],
+    "frameworks": ["Symfony", "Yii2", "Vue.js", "FastAPI", "Next.js", "Node.js"],
+    "tools": ["Git", "GitHub", "GitLab", "Docker", "CI/CD", "OAuth2", "JWT", "TDD", "Composer", "NPM"],
+    "databases": ["MySQL", "PostgreSQL", "MariaDB", "Redis"]
   },
   "experience": {
     "title": "💼 Professional Experience",
@@ -161,22 +166,10 @@
         "empresa": "EXTE",
         "fecha": "September 2024 - Present",
         "responsabilidades": [
-          "Full stack development with Vue.js, Symfony, and Yii2 in microservices architecture with MariaDB, integrating 3+ DOOH providers.",
-          "Implemented OAuth2/JWT and CI/CD pipelines (GitLab CI/CD), reducing manual deployments by 80%.",
-          "Automated large-scale data processing with crons and TDD testing, improving code coverage to 85%.",
-          "Integrated Broadsign, VIOOH, and Hivestack APIs with automatic synchronization, increasing operational efficiency by 60%.",
-          "Optimized SQL queries and caching, reducing response times from 2.5s to 300ms in DOOH operations."
-        ]
-      },
-      {
-        "puesto": "Independent Developer & Student",
-        "empresa": "Personal Projects & UAB",
-        "fecha": "June 2020 - September 2024",
-        "responsabilidades": [
-          "Built 7+ full-stack projects: Expense Optimizer (FastAPI+Streamlit+AI), Cutting Calculator, Personal Portfolio, Pokémon Game.",
-          "Architected Expense Optimizer: intelligent parsing of 5 Spanish banks, auto-categorization, anomaly detection with AI summaries.",
-          "Completed Bachelor's Degree in Computer Engineering from UAB (2024) specializing in Information Technologies.",
-          "Mastered 12+ languages/frameworks: Vue, Symfony, Next.js, FastAPI, Flutter, building technical portfolio for enterprise tech roles."
+          "Integrated and automated DOOH inventory from 3 platforms (Broadsign, VIOOH, Hivestack), transforming error-prone manual processes into automated systems with real-time updated information",
+          "Developed DOOH inventory planning application using Vue.js, Symfony and Yii2, converting technical manual processes into scalable visual interfaces that facilitate campaign planning",
+          "Created microservice for automatic campaign budget calculation according to company-specific formats and internal calculations, replacing manual computations",
+          "Implemented OAuth2/JWT authentication and GitLab CI/CD pipelines, improving deployment efficiency and code quality through automated testing practices"
         ]
       }
     ]

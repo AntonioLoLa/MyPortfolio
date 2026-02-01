@@ -64,7 +64,7 @@ export default function About() {
                   height={24}
                   className="rounded-sm"
                 />
-                <span className="text-slate-300">Española</span>
+                <span className="text-slate-300">{t('nationality_value')}</span>
               </div>
             </div>
           </div>

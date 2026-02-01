@@ -1,7 +1,7 @@
 {
   "hero": {
     "greeting": "¡Hola! Soy <name>Antonio</name>",
-    "description": "Desarrollador Full Stack con foco en crear experiencias web modernas, funcionales y centradas en el usuario.",
+    "description": "Ingeniero Full Stack apasionado creando soluciones web innovadoras que impulsan el impacto empresarial. Experto en tecnologías modernas como Vue.js, Symfony, Next.js y FastAPI. Transformo desafíos complejos en aplicaciones elegantes y escalables, con énfasis en rendimiento, seguridad y experiencia de usuario.",
     "contact": "🚀 Contacta conmigo",
     "see_projects": "Ver proyectos",
     "download_cv": "Descargar CV",
@@ -12,7 +12,7 @@
   },  
   "about": {
     "title": "👨‍💻 Sobre mí",
-    "description": "Soy Antonio Lozano Larrubia, ingeniero informático graduado por la Universidad Autónoma de Barcelona, especializado en Tecnologías de la Información. Me apasiona el desarrollo web full stack y disfruto creando aplicaciones funcionales, escalables y centradas en el usuario. También tengo un gran interés por la ciberseguridad y la inteligencia artificial, áreas en las que sigo formándome de manera autodidacta. Mi objetivo es seguir creciendo como profesional y contribuir a proyectos tecnológicos que generen un impacto real.",
+    "description": "Ingeniero informático especializado en desarrollo Full Stack con +1 año de experiencia transformando requisitos complejos en soluciones web escalables y de alto impacto. He liderado la automatización de procesos DOOH, reduciendo tareas manuales de horas a minutos, e integrado APIs de múltiples proveedores bajo metodologías CI/CD y TDD. Combino expertise en backend (Symfony, FastAPI) con frontend moderno (Vue, Next.js), asegurando código limpio, bien documentado y fácil de mantener. Apasionado por la innovación tecnológica, busco resolver problemas reales mediante arquitecturas escalables y excelencia en ingeniería de software.",
     
     "birthdate": "📅 Fecha de nacimiento",
     "nationality": "🌍 Nacionalidad",
@@ -132,6 +132,13 @@
         "tech": ["HTML", "CSS", "JavaScript", "PHP"],
         "codeLink": "",
         "demoLink": ""
+      },
+      {
+        "title": "Optimizador de Gastos",
+        "description": "Aplicación full stack para analizar extractos bancarios con IA. Parsea múltiples bancos, categoriza gastos, detecta anomalías y genera resúmenes inteligentes. Soporta CSV, Excel, bilingüe (ES/EN).",
+        "tech": ["FastAPI", "Python", "Streamlit", "Docker", "Ollama", "AI"],
+        "codeLink": "https://github.com/AntonioLoLa/Calculation-expenses",
+        "demoLink": ""
       }
     ]
   },
@@ -155,25 +162,24 @@
         "empresa": "EXTE",
         "fecha": "Septiembre 2024 - Actualidad",
         "responsabilidades": [
-          "Desarrollo full stack con Vue, Symfony, Yii2 y MySQL/MariaDB.",
-          "Implementación de OAuth2/JWT y pipelines de integración continua (GitLab CI/CD).",
-          "Automatización de procesos con crons y pruebas TDD.",
-          "Integración de datos DOOH (Broadsign, VIOOH, Hivestack) con actualización automática.",
-          "Mejora continua mediante code review, documentación y optimización de rendimiento."
+          "Desarrollo full stack con Vue.js, Symfony y Yii2 en arquitectura microservicios con MariaDB, integrando +3 proveedores DOOH.",
+          "Implementé OAuth2/JWT y pipelines de integración continua (GitLab CI/CD), reduciendo despliegues manuales en 80%.",
+          "Automaticé procesamiento de datos masivos con crons y pruebas TDD, mejorando cobertura de código a 85%.",
+          "Integré APIs de Broadsign, VIOOH y Hivestack con sincronización automática, aumentando eficiencia operativa en 60%.",
+          "Optimicé queries SQL y caché, reduciendo tiempos de respuesta de 2.5s a 300ms en operaciones DOOH."
         ]
       },
       {
-        "puesto": "Carpintero de aluminio",
-        "empresa": "MAFAC VALLÉS, SLL",
-        "fecha": "Junio 2020 - Septiembre 2023",
+        "puesto": "Desarrollador Independiente & Estudiante",
+        "empresa": "Proyectos Personales & UAB",
+        "fecha": "Junio 2020 - Septiembre 2024",
         "responsabilidades": [
-          "Fabricación y montaje de estructuras de aluminio.",
-          "Desarrollo de disciplina, precisión y trabajo en equipo.",
-          "Responsabilidad en entornos de producción reales."
+          "Construí 7+ proyectos full stack: Expense Optimizer (FastAPI+Streamlit+AI), Cutting Calculator, Portfolio personal, Pokémon Game.",
+          "Diseñé y ejecuté arquitectura de Expense Optimizer: parseo inteligente de 5 bancos españoles, categorización automática, detección de anomalías.",
+          "Completé Grado en Ingeniería Informática por UAB (2024) con especialización en Tecnologías de la Información.",
+          "Dominé 12+ lenguajes/frameworks: Vue, Symfony, Next.js, FastAPI, Flutter, contribuyendo al portfolio técnico para ofertas tech empresariales."
         ]
       }
     ]
   }
-
-
 }

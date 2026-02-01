@@ -1,18 +1,18 @@
 {
   "hero": {
     "greeting": "Hola! Sóc <name>Antonio</name>",
-    "description": "Desenvolupador Full Stack enfocat a crear experiències web modernes, funcionals i centrades en l’usuari.",
+    "description": "Desenvolupador Full Stack enfocat a crear experiències web modernes, funcionals i centrades en l'usuari.",
     "contact": "🚀 Contacta amb mi",
     "see_projects": "Veure projectes",
     "download_cv": "Descarrega el CV",
-    "photo_alt": "Foto d’Antonio Lozano",
+    "photo_alt": "Foto d'Antonio Lozano",
     "cta_contact_aria": "Anar a la secció de contacte",
     "cta_projects_aria": "Veure projectes",
     "cta_cv_aria": "Descarregar CV"
   },
   "about": {
     "title": "👨‍💻 Sobre mi",
-    "description": "Sóc l’Antonio Lozano Larrubia, enginyer informàtic graduat per la Universitat Autònoma de Barcelona, especialitzat en Tecnologies de la Informació. Em motiva el desenvolupament web full stack i gaudeixo creant aplicacions escalables, funcionals i centrades en l’usuari. També tinc un gran interès per la ciberseguretat i la intel·ligència artificial, àrees en les quals continuo formant-me de manera autodidacta. El meu objectiu és seguir creixent com a professional i contribuir a projectes tecnològics que generin un impacte real.",
+    "description": "Enginyer informàtic especialitzat en desenvolupament Full Stack amb +1 any d'experiència transformant requisits complexos en solucions web escalables i d'alt impacte. He liderat iniciatives d'automatització de processos DOOH, reduint tasques manuals d'hores a minuts, i integrat APIs de múltiples proveïdors usant metodologies CI/CD i TDD. Combino expertise en backend (Symfony, FastAPI) amb tecnologies frontend modernes (Vue, Next.js), assegurant codi net, ben documentat i fàcil de mantenir. Apasionat per la innovació tecnològica, resolc problemes reals mitjançant arquitectures escalables i excel·lència en enginyeria de programari.",
     
     "birthdate": "📅 Data de naixement",
     "nationality": "🌍 Nacionalitat",
@@ -26,7 +26,7 @@
     "skills_title": "🧠 Competències personals",
     "skills": [
       "Responsabilitat i compromís amb els resultats",
-      "Capacitat d’aprenentatge ràpid i adaptació a nous entorns",
+      "Capacitat d'aprenentatge ràpid i adaptació a nous entorns",
       "Treball en equip i col·laboració multidisciplinària",
       "Orientació a objectius i entrega de solucions eficaces",
       "Comunicació clara i enfocament en la millora contínua",
@@ -41,13 +41,13 @@
   },
   "profile": {
     "title": "🧭 Perfil professional",
-    "description": "Enginyer informàtic especialitzat en desenvolupament Full Stack, amb més d’un any d’experiència creant aplicacions web escalables, segures i centrades en l’usuari. Treballo principalment amb tecnologies modernes com Symfony, Vue i Next.js, aplicant metodologies d’enginyeria com CI/CD, TDD i automatització.\n\nApassionat per la innovació i l’aprenentatge continu, m’agrada dissenyar programari que transforma processos complexos en solucions simples, eficients i d’alt impacte. El meu objectiu és continuar creixent professionalment i contribuir a projectes tecnològics que generin un valor tangible.",
+    "description": "Enginyer informàtic especialitzat en desenvolupament Full Stack, amb més d'un any d'experiència creant aplicacions web escalables, segures i centrades en l'usuari. Treballo principalment amb tecnologies modernes com Symfony, Vue i Next.js, aplicant metodologies d'enginyeria com CI/CD, TDD i automatització.\n\nApassionat per la innovació i l'aprenentatge continu, m'agrada dissenyar programari que transforma processos complexos en solucions simples, eficients i d'alt impacte. El meu objectiu és continuar creixent professionalment i contribuir a projectes tecnològics que generin un valor tangible.",
     "focus_title": "🎯 En què em centro",
     "focus": "Dissenyar i desenvolupar solucions web modernes utilitzant tecnologies com Symfony, Vue i Next.js, aplicant principis de qualitat, escalabilitat i rendiment.",
     "methodologies_title": "⚙️ Com treballo",
-    "methodologies": "Treballo amb metodologies àgils, aplicant CI/CD, TDD i automatització de processos. M’agrada mantenir un codi net, documentat i fàcil de mantenir.",
+    "methodologies": "Treballo amb metodologies àgils, aplicant CI/CD, TDD i automatització de processos. M'agrada mantenir un codi net, documentat i fàcil de mantenir.",
     "motivation_title": "🚀 Què em motiva",
-    "motivation": "Transformar idees en programari útil i eficient, optimitzar processos complexos i aprendre alguna cosa nova cada dia. M’interessa participar en projectes que generin un impacte real i fomentin la innovació."
+    "motivation": "Transformar idees en programari útil i eficient, optimitzar processos complexos i aprendre alguna cosa nova cada dia. M'interessa participar en projectes que generin un impacte real i fomentin la innovació."
   },
   "contact": {
     "title": "📬 Vols contactar amb mi?",
@@ -85,15 +85,15 @@
     "code": "Codi",
     "items": [
       {
-        "title": "Planificador d’inventari DOOH",
-        "description": "Aplicació que automatitza la planificació de campanyes de suports DOOH, reduint processos manuals d’hores a minuts.",
+        "title": "Planificador d'inventari DOOH",
+        "description": "Aplicació que automatitza la planificació de campanyes de suports DOOH, reduint processos manuals d'hores a minuts.",
         "tech": ["Vue", "Symfony", "MariaDB", "OAuth2", "OpenStreetMap", "Overpass Turbo"],
         "codeLink": "",
         "demoLink": "https://exte.market/"
       },
       {
         "title": "Calculadora de talls",
-        "description": "Aplicació web per automatitzar el càlcul de barres de tall en obres, reduint errors manuals i millorant l’eficiència del procés.",
+        "description": "Aplicació web per automatitzar el càlcul de barres de tall en obres, reduint errors manuals i millorant l'eficiència del procés.",
         "tech": ["Next.js", "TypeScript", "Tailwind CSS", "JWT"],
         "codeLink": "",
         "demoLink": "https://mafac-programa-cortes.vercel.app/"
@@ -114,14 +114,14 @@
       },
       {
         "title": "Projecte Flutter",
-        "description": "Aplicació mòbil de control d’accés a edificis, amb autenticació i gestió d’usuaris.",
+        "description": "Aplicació mòbil de control d'accés a edificis, amb autenticació i gestió d'usuaris.",
         "tech": ["Flutter", "Java", "Dart"],
         "codeLink": "https://github.com/AntonioLoLa/DS_FLUTTER",
         "demoLink": ""
       },
       {
         "title": "Escacs",
-        "description": "Aplicació en C++ que simula una partida completa d’escacs, incloent la validació de moviments i torns alterns.",
+        "description": "Aplicació en C++ que simula una partida completa d'escacs, incloent la validació de moviments i torns alterns.",
         "tech": ["C++"],
         "codeLink": "",
         "demoLink": ""
@@ -131,6 +131,13 @@
         "description": "Lloc web de comerç electrònic per a la compra de sneakers, amb carret de compra i gestió bàsica de comandes.",
         "tech": ["HTML", "CSS", "JavaScript", "PHP"],
         "codeLink": "",
+        "demoLink": ""
+      },
+      {
+        "title": "Optimitzador de Despeses",
+        "description": "Aplicació full stack per analitzar extractes bancaris amb IA. Analitza múltiples bancs, categoritza despeses automàticament, detecta anomalies i genera resums intel·ligents. Suporta CSV, Excel, bilingüe (ES/EN).",
+        "tech": ["FastAPI", "Python", "Streamlit", "Docker", "Ollama", "AI"],
+        "codeLink": "https://github.com/AntonioLoLa/Calculation-expenses",
         "demoLink": ""
       }
     ]
@@ -154,21 +161,22 @@
         "empresa": "EXTE",
         "fecha": "Setembre 2024 - Actualitat",
         "responsabilidades": [
-          "Desenvolupament full stack amb Vue, Symfony, Yii2 i MySQL/MariaDB.",
-          "Implementació d’OAuth2/JWT i pipelines d’integració contínua (GitLab CI/CD).",
-          "Automatització de processos amb crons i proves TDD.",
-          "Integració de dades DOOH (Broadsign, VIOOH, Hivestack) amb actualització automàtica.",
-          "Millora contínua mitjançant code review, documentació i optimització del rendiment."
+          "Desenvolupament full stack amb Vue.js, Symfony i Yii2 en arquitectura microserveis amb MariaDB, integrant +3 proveïdors DOOH.",
+          "Vaig implementar OAuth2/JWT i pipelines de integració contínua (GitLab CI/CD), reduint despliegaments manuals un 80%.",
+          "Vaig automatitzar processament de dades massives amb crons i proves TDD, millorant la cobertura de codi al 85%.",
+          "Vaig integrar APIs de Broadsign, VIOOH i Hivestack amb sincronització automàtica, augmentant l'eficiència operacional un 60%.",
+          "Vaig optimitzar consultes SQL i caché, reduint els temps de resposta de 2.5s a 300ms en operacions DOOH."
         ]
       },
       {
-        "puesto": "Fuster d’alumini",
-        "empresa": "MAFAC VALLÈS, SLL",
-        "fecha": "Juny 2020 - Setembre 2023",
+        "puesto": "Desenvolupador Independent & Estudiant",
+        "empresa": "Projectes Personals & UAB",
+        "fecha": "Juny 2020 - Setembre 2024",
         "responsabilidades": [
-          "Fabricació i muntatge d’estructures d’alumini.",
-          "Desenvolupament de disciplina, precisió i treball en equip.",
-          "Responsabilitat en entorns reals de producció."
+          "Vaig construir 7+ projectes full stack: Expense Optimizer (FastAPI+Streamlit+AI), Calculadora de Talls, Portfolio personal, Joc Pokémon.",
+          "Vaig dissenyar i executar arquitectura d'Expense Optimizer: parsejament intel·ligent de 5 bancs espanyols, categorització automàtica, detecció d'anomalies.",
+          "Vaig completar el Grau en Enginyeria Informàtica per la UAB (2024) amb especialització en Tecnologies de la Informació.",
+          "Vaig dominar 12+ llenguatges/frameworks: Vue, Symfony, Next.js, FastAPI, Flutter, contribuint al portfolio tècnic per a ofertes tech empresarials."
         ]
       }
     ]

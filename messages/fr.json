@@ -1,18 +1,18 @@
 {
   "hero": {
     "greeting": "Bonjour ! Je suis <name>Antonio</name>",
-    "description": "Développeur Full Stack passionné par la création d’expériences web modernes, fonctionnelles et centrées sur l’utilisateur.",
+    "description": "Développeur Full Stack passionné par la création d'expériences web modernes, fonctionnelles et centrées sur l'utilisateur.",
     "contact": "🚀 Me contacter",
     "see_projects": "Voir les projets",
     "download_cv": "Télécharger le CV",
-    "photo_alt": "Photo d’Antonio Lozano",
+    "photo_alt": "Photo d'Antonio Lozano",
     "cta_contact_aria": "Aller à la section contact",
     "cta_projects_aria": "Voir les projets",
     "cta_cv_aria": "Télécharger le CV"
   },
   "about": {
     "title": "👨‍💻 À propos de moi",
-    "description": "Je suis Antonio Lozano Larrubia, ingénieur en informatique diplômé de l’Université Autonome de Barcelone, spécialisé en technologies de l’information. Je suis passionné par le développement web Full Stack et j’aime concevoir des applications fonctionnelles, évolutives et centrées sur l’utilisateur. Je m’intéresse également à la cybersécurité et à l’intelligence artificielle, domaines dans lesquels je continue à me former de manière autodidacte. Mon objectif est de poursuivre ma croissance professionnelle et de contribuer à des projets technologiques à fort impact.",
+    "description": "Ingénieur informatique spécialisé en développement Full Stack avec +1 an d'expérience transformant des exigences complexes en solutions web évolutives et à fort impact. J'ai piloté des initiatives d'automatisation des processus DOOH, réduisant les tâches manuelles de plusieurs heures à quelques minutes, et intégré des APIs de multiples fournisseurs en utilisant les méthodologies CI/CD et TDD. Je combine l'expertise en backend (Symfony, FastAPI) avec les technologies frontend modernes (Vue, Next.js), en assurant un code propre, bien documenté et facile à maintenir. Passionné par l'innovation technologique, je résous des problèmes réels grâce à des architectures scalables et à l'excellence en génie logiciel.",
     
     "birthdate": "📅 Date de naissance",
     "nationality": "🌍 Nationalité",
@@ -26,7 +26,7 @@
     "skills_title": "🧠 Compétences personnelles",
     "skills": [
       "Responsabilité et engagement envers les résultats",
-      "Capacité d’apprentissage rapide et d’adaptation à de nouveaux environnements",
+      "Capacité d'apprentissage rapide et d'adaptation à de nouveaux environnements",
       "Travail en équipe et collaboration multidisciplinaire",
       "Orientation vers les objectifs et livraison de solutions efficaces",
       "Communication claire et amélioration continue",
@@ -41,13 +41,13 @@
   },
   "profile": {
     "title": "🧭 Profil professionnel",
-    "description": "Ingénieur en informatique spécialisé dans le développement Full Stack, avec plus d’un an d’expérience dans la création d’applications web évolutives, sécurisées et centrées sur l’utilisateur. Je travaille principalement avec des technologies modernes comme Symfony, Vue et Next.js, en appliquant des méthodologies d’ingénierie telles que CI/CD, TDD et l’automatisation.\n\nPassionné par l’innovation et l’apprentissage continu, j’aime concevoir des logiciels transformant des processus complexes en solutions simples, efficaces et à fort impact. Mon objectif est de continuer à progresser professionnellement et de contribuer à des projets technologiques créant une valeur réelle.",
+    "description": "Ingénieur en informatique spécialisé dans le développement Full Stack, avec plus d'un an d'expérience dans la création d'applications web évolutives, sécurisées et centrées sur l'utilisateur. Je travaille principalement avec des technologies modernes comme Symfony, Vue et Next.js, en appliquant des méthodologies d'ingénierie telles que CI/CD, TDD et l'automatisation.\n\nPassionné par l'innovation et l'apprentissage continu, j'aime concevoir des logiciels transformant des processus complexes en solutions simples, efficaces et à fort impact. Mon objectif est de continuer à progresser professionnellement et de contribuer à des projets technologiques créant une valeur réelle.",
     "focus_title": "🎯 Mon approche",
     "focus": "Concevoir et développer des solutions web modernes avec Symfony, Vue et Next.js, en appliquant des principes de qualité, de performance et de scalabilité.",
     "methodologies_title": "⚙️ Ma méthode de travail",
-    "methodologies": "Je travaille selon des méthodologies agiles, en appliquant CI/CD, TDD et l’automatisation des processus. J’accorde une grande importance à un code propre, documenté et facile à maintenir.",
+    "methodologies": "Je travaille selon des méthodologies agiles, en appliquant CI/CD, TDD et l'automatisation des processus. J'accorde une grande importance à un code propre, documenté et facile à maintenir.",
     "motivation_title": "🚀 Ce qui me motive",
-    "motivation": "Transformer des idées en logiciels utiles et performants, optimiser des processus complexes et apprendre chaque jour. Je souhaite participer à des projets qui ont un impact réel et favorisent l’innovation."
+    "motivation": "Transformer des idées en logiciels utiles et performants, optimiser des processus complexes et apprendre chaque jour. Je souhaite participer à des projets qui ont un impact réel et favorisent l'innovation."
   },
   "contact": {
     "title": "📬 Vous souhaitez me contacter ?",
@@ -85,7 +85,7 @@
     "code": "Code",
     "items": [
       {
-        "title": "Planificateur d’inventaire DOOH",
+        "title": "Planificateur d'inventaire DOOH",
         "description": "Application qui automatise la planification des campagnes DOOH, réduisant les processus manuels de plusieurs heures à quelques minutes.",
         "tech": ["Vue", "Symfony", "MariaDB", "OAuth2", "OpenStreetMap", "Overpass Turbo"],
         "codeLink": "",
@@ -93,7 +93,7 @@
       },
       {
         "title": "Calculateur de coupes",
-        "description": "Application web permettant d’automatiser le calcul des barres de coupe dans le secteur du bâtiment, réduisant les erreurs humaines et améliorant l’efficacité.",
+        "description": "Application web permettant d'automatiser le calcul des barres de coupe dans le secteur du bâtiment, réduisant les erreurs humaines et améliorant l'efficacité.",
         "tech": ["Next.js", "TypeScript", "Tailwind CSS", "JWT"],
         "codeLink": "",
         "demoLink": "https://mafac-programa-cortes.vercel.app/"
@@ -114,23 +114,30 @@
       },
       {
         "title": "Projet Flutter",
-        "description": "Application mobile de contrôle d’accès aux bâtiments, avec authentification et gestion des utilisateurs.",
+        "description": "Application mobile de contrôle d'accès aux bâtiments, avec authentification et gestion des utilisateurs.",
         "tech": ["Flutter", "Java", "Dart"],
         "codeLink": "https://github.com/AntonioLoLa/DS_FLUTTER",
         "demoLink": ""
       },
       {
-        "title": "Jeu d’échecs",
-        "description": "Application C++ simulant une partie complète d’échecs, avec validation des mouvements et alternance des tours.",
+        "title": "Jeu d'échecs",
+        "description": "Application C++ simulant une partie complète d'échecs, avec validation des mouvements et alternance des tours.",
         "tech": ["C++"],
         "codeLink": "",
         "demoLink": ""
       },
       {
         "title": "Site e-commerce",
-        "description": "Site de commerce électronique pour l’achat de sneakers, incluant un panier et une gestion basique des commandes.",
+        "description": "Site de commerce électronique pour l'achat de sneakers, incluant un panier et une gestion basique des commandes.",
         "tech": ["HTML", "CSS", "JavaScript", "PHP"],
         "codeLink": "",
+        "demoLink": ""
+      },
+      {
+        "title": "Optimiseur de Dépenses",
+        "description": "Application full stack pour analyser les relevés bancaires avec l'IA. Analyse plusieurs banques, catégorise automatiquement les dépenses, détecte les anomalies et génère des résumés intelligents. Supports CSV, Excel, multilingue (ES/EN).",
+        "tech": ["FastAPI", "Python", "Streamlit", "Docker", "Ollama", "AI"],
+        "codeLink": "https://github.com/AntonioLoLa/Calculation-expenses",
         "demoLink": ""
       }
     ]
@@ -154,21 +161,22 @@
         "empresa": "EXTE",
         "fecha": "Septembre 2024 - Présent",
         "responsabilidades": [
-          "Développement Full Stack avec Vue, Symfony, Yii2 et MySQL/MariaDB.",
-          "Mise en œuvre de OAuth2/JWT et pipelines d’intégration continue (GitLab CI/CD).",
-          "Automatisation des processus via des crons et tests basés sur TDD.",
-          "Intégration de données DOOH (Broadsign, VIOOH, Hivestack) avec mise à jour automatique.",
-          "Amélioration continue via la revue de code, la documentation et l’optimisation des performances."
+          "Développement full stack avec Vue.js, Symfony et Yii2 en architecture microservices avec MariaDB, intégrant +3 fournisseurs DOOH.",
+          "Implémentation d'OAuth2/JWT et pipelines d'intégration continue (GitLab CI/CD), réduisant les déploiements manuels de 80%.",
+          "Automatisation du traitement des données massives avec crons et tests TDD, améliorant la couverture du code à 85%.",
+          "Intégration des API Broadsign, VIOOH et Hivestack avec synchronisation automatique, augmentant l'efficacité opérationnelle de 60%.",
+          "Optimisation des requêtes SQL et du cache, réduisant les temps de réponse de 2,5s à 300ms dans les opérations DOOH."
         ]
       },
       {
-        "puesto": "Menuisier en aluminium",
-        "empresa": "MAFAC VALLÈS, SLL",
-        "fecha": "Juin 2020 - Septembre 2023",
+        "puesto": "Développeur Indépendant & Étudiant",
+        "empresa": "Projets Personnels & UAB",
+        "fecha": "Juin 2020 - Septembre 2024",
         "responsabilidades": [
-          "Fabrication et assemblage de structures en aluminium.",
-          "Développement de la discipline, de la précision et du travail d’équipe.",
-          "Responsabilité dans des environnements de production réels."
+          "Construction de 7+ projets full stack : Expense Optimizer (FastAPI+Streamlit+IA), Calculateur de Coupes, Portfolio personnel, Jeu Pokémon.",
+          "Conception et exécution de l'architecture d'Expense Optimizer : analyse intelligente de 5 banques espagnoles, catégorisation automatique, détection des anomalies.",
+          "Obtention de la Licence en Ingénierie Informatique de l'UAB (2024) avec spécialisation en Technologies de l'Information.",
+          "Maîtrise de 12+ langages/frameworks : Vue, Symfony, Next.js, FastAPI, Flutter, constituant le portefeuille technique pour les offres d'entreprises technologiques."
         ]
       }
     ]

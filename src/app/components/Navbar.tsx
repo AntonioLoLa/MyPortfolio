@@ -21,11 +21,11 @@ export default function Navbar({ mobile = false }: NavbarProps) {
   }
 
   return (
-    <nav className="flex flex-col gap-6 text-sm font-medium">
-      <h1 className="text-xl font-bold mb-4">Antonio Lozano</h1>
+    <nav className="flex flex-col gap-6 text-sm font-medium text-slate-300">
+      <h1 className="text-xl font-bold mb-4 text-white">Antonio Lozano</h1>
       <div className="flex flex-col gap-3">
         {navItems.map((item) => (
-          <Link key={item.href} href={item.href} className="hover:underline">
+          <Link key={item.href} href={item.href} className="hover:text-blue-400 hover:underline transition-colors">
             {item.label}
           </Link>
         ))}

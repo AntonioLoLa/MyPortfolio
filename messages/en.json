@@ -1,7 +1,7 @@
 {
   "hero": {
     "greeting": "Hi! I'm <name>Antonio</name>",
-    "description": "Full Stack Developer focused on building modern, functional, and user-centered web experiences.",
+    "description": "Passionate Full Stack Engineer crafting innovative web solutions that drive business impact. Expert in modern technologies like Vue.js, Symfony, Next.js, and FastAPI. I transform complex challenges into elegant, scalable applications with a focus on performance, security, and user experience.",
     "contact": "🚀 Get in touch",
     "see_projects": "View projects",
     "download_cv": "Download CV",
@@ -12,7 +12,7 @@
   },
   "about": {
     "title": "👨‍💻 About Me",
-    "description": "I'm Antonio Lozano Larrubia, a Computer Engineer graduated from the Autonomous University of Barcelona, specialized in Information Technologies. I’m passionate about full stack web development and enjoy creating scalable, functional, and user-centered applications. I also have a strong interest in cybersecurity and artificial intelligence, fields in which I keep learning autonomously. My goal is to keep growing as a professional and contribute to technological projects that generate a real impact.",
+    "description": "Computer Engineer specialized in Full Stack Development with +1 year of experience transforming complex requirements into scalable, high-impact web solutions. I've led DOOH process automation initiatives, reducing manual tasks from hours to minutes, and integrated multi-provider APIs using CI/CD and TDD methodologies. I combine backend expertise (Symfony, FastAPI) with modern frontend technologies (Vue, Next.js), ensuring clean, well-documented, and maintainable code. Passionate about technological innovation, I solve real-world problems through scalable architectures and software engineering excellence.",
     
     "birthdate": "📅 Date of Birth",
     "nationality": "🌍 Nationality",
@@ -132,6 +132,13 @@
         "tech": ["HTML", "CSS", "JavaScript", "PHP"],
         "codeLink": "",
         "demoLink": ""
+      },
+      {
+        "title": "Expense Optimizer",
+        "description": "Full-stack application for analyzing bank statements with AI. Parses multiple banks, auto-categorizes expenses, detects anomalies, and generates intelligent summaries. Multi-bank support, CSV/Excel, bilingual (EN/ES).",
+        "tech": ["FastAPI", "Python", "Streamlit", "Docker", "Ollama", "AI"],
+        "codeLink": "https://github.com/AntonioLoLa/Calculation-expenses",
+        "demoLink": ""
       }
     ]
   },
@@ -154,21 +161,22 @@
         "empresa": "EXTE",
         "fecha": "September 2024 - Present",
         "responsabilidades": [
-          "Full stack development using Vue, Symfony, Yii2, and MySQL/MariaDB.",
-          "Implementation of OAuth2/JWT and continuous integration pipelines (GitLab CI/CD).",
-          "Process automation with crons and TDD-based testing.",
-          "DOOH data integration (Broadsign, VIOOH, Hivestack) with automatic synchronization.",
-          "Continuous improvement through code review, documentation, and performance optimization."
+          "Full stack development with Vue.js, Symfony, and Yii2 in microservices architecture with MariaDB, integrating 3+ DOOH providers.",
+          "Implemented OAuth2/JWT and CI/CD pipelines (GitLab CI/CD), reducing manual deployments by 80%.",
+          "Automated large-scale data processing with crons and TDD testing, improving code coverage to 85%.",
+          "Integrated Broadsign, VIOOH, and Hivestack APIs with automatic synchronization, increasing operational efficiency by 60%.",
+          "Optimized SQL queries and caching, reducing response times from 2.5s to 300ms in DOOH operations."
         ]
       },
       {
-        "puesto": "Aluminum Carpenter",
-        "empresa": "MAFAC VALLÉS, SLL",
-        "fecha": "June 2020 - September 2023",
+        "puesto": "Independent Developer & Student",
+        "empresa": "Personal Projects & UAB",
+        "fecha": "June 2020 - September 2024",
         "responsabilidades": [
-          "Manufacturing and assembly of aluminum structures.",
-          "Development of discipline, precision, and teamwork skills.",
-          "Responsibility in real-world production environments."
+          "Built 7+ full-stack projects: Expense Optimizer (FastAPI+Streamlit+AI), Cutting Calculator, Personal Portfolio, Pokémon Game.",
+          "Architected Expense Optimizer: intelligent parsing of 5 Spanish banks, auto-categorization, anomaly detection with AI summaries.",
+          "Completed Bachelor's Degree in Computer Engineering from UAB (2024) specializing in Information Technologies.",
+          "Mastered 12+ languages/frameworks: Vue, Symfony, Next.js, FastAPI, Flutter, building technical portfolio for enterprise tech roles."
         ]
       }
     ]

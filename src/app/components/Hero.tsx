@@ -58,7 +58,7 @@ export default function Hero() {
         {/* Subtitle and role */}
         <div className="space-y-4 mb-10">
           <p className="text-2xl sm:text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400">
-            Full Stack Engineer
+            Backend Engineer
           </p>
           <p className="text-base sm:text-lg text-slate-300 max-w-2xl mx-auto leading-relaxed">
             {t('description')}

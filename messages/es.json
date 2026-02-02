@@ -1,7 +1,7 @@
 {
   "hero": {
     "greeting": "¡Hola! Soy <name>Antonio</name>",
-    "description": "Ingeniero Full Stack con especialización en backend, creando aplicaciones web escalables. Fuerte conocimiento en PHP (Symfony, Yii2), Python (FastAPI) y desarrollo de APIs robustas. Apasionado por construir sistemas backend eficientes que potencian experiencias de usuario excepcionales.",
+    "description": "Backend Engineer con experiencia en sistemas en producción y desarrollo de servicios backend escalables. Especializado en PHP (Symfony, Yii2) y diseño de APIs REST, con experiencia en integraciones de plataformas externas, automatización de procesos y CI/CD. Exposición a Python (FastAPI) y frontend moderno para soluciones end-to-end. Orientado a impacto real en negocio, calidad de código y sistemas mantenibles.",
     "contact": "🚀 Contacta conmigo",
     "see_projects": "Ver proyectos",
     "download_cv": "Descargar CV",

@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(wsl -d ubuntu-22.04 -- bash -lc 'cd ~/projects/portfolio/MyPortfolio && echo \"--- node ---\" && node -v && echo \"--- npm ---\" && npm -v && echo \"--- pnpm ---\" && \\(pnpm -v || echo \"no pnpm\"\\) && echo \"--- corepack ---\" && \\(corepack -v || echo \"no corepack\"\\) && echo \"--- git ---\" && git branch --show-current && git status --short')",
+      "mcp__Claude_Preview__preview_start"
+    ]
+  }
+}

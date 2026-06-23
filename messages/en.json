@@ -1,177 +1,213 @@
 {
+  "meta": {
+    "title": "Antonio Lozano — Backend & AI/ML Engineer",
+    "description": "Backend engineer with 2+ years of production experience building geospatial systems, integration pipelines and automation at EXTE. Currently specializing in AI/ML through an MSc at UNIR.",
+    "keywords": "Backend Engineer, AI Engineer, Machine Learning, PHP, Symfony, Python, FastAPI, Vue.js, Next.js, Barcelona"
+  },
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "skills": "Skills",
+    "education": "Education",
+    "contact": "Contact",
+    "resume": "Résumé",
+    "menu": "Open menu",
+    "close": "Close menu",
+    "themeToggle": "Toggle theme"
+  },
   "hero": {
-    "greeting": "Hi! I'm <name>Antonio</name>",
-    "description": "Backend Engineer with experience working on production systems and building scalable backend services. Specialized in PHP (Symfony, Yii2) and REST API design, with hands-on experience integrating external platforms, automating processes, and implementing CI/CD pipelines. Exposure to Python (FastAPI) and modern frontend technologies for end-to-end solutions. Strongly oriented toward real business impact, code quality, and building maintainable, robust systems.",
-    "contact": "🚀 Get in touch",
-    "see_projects": "View projects",
-    "download_cv": "Download CV",
-    "photo_alt": "Photo of Antonio Lozano",
-    "cta_contact_aria": "Go to contact section",
-    "cta_projects_aria": "View projects",
-    "cta_cv_aria": "Download CV"
+    "status": "Open to backend & AI/ML roles",
+    "name": "Antonio Lozano",
+    "role": "Backend & AI/ML Engineer",
+    "headline": "I build reliable backend systems where solid engineering meets applied AI.",
+    "summary": "Backend-focused full-stack engineer with 2+ years of production experience at EXTE — geospatial systems, real-time integration pipelines and planning automation. Now deepening into Machine Learning through an MSc in AI.",
+    "ctaPrimary": "Get in touch",
+    "ctaSecondary": "View work",
+    "ctaResume": "Download résumé",
+    "location": "Sabadell · Barcelona",
+    "photoAlt": "Portrait of Antonio Lozano",
+    "stats": [
+      { "value": "2+ yrs", "label": "Production experience" },
+      { "value": "3", "label": "DOOH platforms integrated" },
+      { "value": "days → min", "label": "Campaign planning time cut" },
+      { "value": "MSc AI", "label": "In progress at UNIR" }
+    ]
   },
   "about": {
-    "title": "👨‍💻 About Me",
-    "description": "Computer Engineering graduate with 1+ years of professional experience as a Full Stack Engineer, with strong backend specialization. Strong knowledge in PHP frameworks (Symfony, Yii2), Python (FastAPI), and RESTful API development. Specialize in building scalable backend systems, database optimization, and implementing CI/CD pipelines. Committed to clean code, TDD practices, and delivering high-performance solutions.",
-    
-    "birthdate": "📅 Date of Birth",
-    "nationality": "🌍 Nationality",
-    "studies": "🎓 Education",
-    "contact": "📨 Contact",
-
-    "nationality_value": "Spanish",
-    "studies_value_1": "Bachelor's Degree in Computer Engineering – Autonomous University of Barcelona (UAB)",
-    "studies_value_2": "Technological Baccalaureate – Institut Joan Oliver",
-
-    "skills_title": "🧠 Key Backend Strengths",
-    "skills": [
-      "Strong knowledge in PHP with Symfony and Vue.js development",
-      "Vue.js expertise with components and modern applications",
-      "RESTful API design and implementation",
-      "Database optimization and query performance tuning",
-      "CI/CD pipeline implementation and DevOps practices",
-      "Python development with FastAPI (intermediate level)"
+    "eyebrow": "About",
+    "title": "Engineering that ships and scales",
+    "paragraphs": [
+      "I'm a backend-leaning full-stack engineer based in Barcelona. At EXTE I own features end to end — from secure REST APIs and microservices to the Vue.js dashboards that sit on top of them — with a strong bias toward real business impact, clean code and maintainable systems.",
+      "My day-to-day mixes PHP (Symfony, Yii2), Python (FastAPI) and geospatial data, integrating external platforms and turning slow manual processes into automated, observable systems. I'm now specializing in Machine Learning through an MSc in AI, bringing applied ML, NLP and MLOps into my engineering toolkit."
     ],
-
-    "additional_title": "📌 Professional Attributes",
-    "additional": [
-      "Driver's license and own vehicle",
-      "Immediate availability and flexible schedule",
-      "Strong communication and teamwork skills"
+    "facts": [
+      { "label": "Based in", "value": "Sabadell, Barcelona (open to remote)" },
+      { "label": "Currently", "value": "Backend Engineer @ EXTE" },
+      { "label": "Studying", "value": "MSc Artificial Intelligence @ UNIR" },
+      { "label": "Focus", "value": "Backend systems · Applied AI/ML" }
     ]
   },
-  "profile": {
-    "title": "🧭 Professional Profile",
-    "description": "Computer Engineer specialized in Full Stack Development, with over one year of experience building scalable, secure, and user-focused web applications. I mainly work with modern technologies such as Symfony, Vue, and Next.js, applying engineering methodologies like CI/CD, TDD, and automation.\n\nPassionate about innovation and continuous learning, I enjoy designing software that transforms complex processes into simple, efficient, and high-impact solutions. My goal is to keep growing professionally and contribute to technology projects that create tangible value.",
-    "focus_title": "🎯 My Focus",
-    "focus": "Designing and developing modern web solutions using technologies such as Symfony, Vue, and Next.js, while ensuring quality, scalability, and performance.",
-    "methodologies_title": "⚙️ How I Work",
-    "methodologies": "I follow agile methodologies, applying CI/CD, TDD, and process automation. I strive to maintain clean, documented, and maintainable code.",
-    "motivation_title": "🚀 What Drives Me",
-    "motivation": "Turning ideas into useful, efficient software, optimizing complex processes, and learning something new every day. I aim to contribute to projects that have real-world impact and foster innovation."
-  },
-  "contact": {
-    "title": "📬 Want to get in touch?",
-    "description": "Send me an email at",
-    "aria_label_cv": "Download CV in PDF format",
-    "download_cv": "Download CV"
-  },
-  "languages": {
-    "title": "🌍 Languages",
+  "experience": {
+    "eyebrow": "Experience",
+    "title": "Where I've made an impact",
+    "current": "Present",
     "items": [
-      { "name": "Spanish", "level": "C2" },
-      { "name": "Catalan", "level": "C2" },
-      { "name": "English", "level": "B2" },
-      { "name": "French", "level": "A2" }
+      {
+        "role": "Backend Engineer (Full-Stack)",
+        "company": "EXTE",
+        "period": "Sep 2024 — Present",
+        "location": "Barcelona",
+        "summary": "DOOH advertising platform. End-to-end ownership across backend services and the Vue.js products on top of them.",
+        "highlights": [
+          "Engineered a campaign planning microservice with agency-specific business rules and geospatial proximity calculations (POI + screen radius), cutting planning time from several days to minutes and removing manual coordination bottlenecks.",
+          "Built inventory sync pipelines integrating external DOOH platforms (Broadsign, VIOOH, Hivestack) via REST APIs, keeping screen and availability data consistent in real time.",
+          "Developed full-stack dashboards (Vue.js + Elasticsearch) with an integrated map layer (MBTiles + Martin tile server + Mapbox/MapLibre) for real-time inventory visualization, used by agency clients and internal teams.",
+          "Designed secure REST APIs (OAuth2, JWT, OWASP) and built CRUD services across monolithic and microservice architectures (Symfony, Yii2, MariaDB, Docker).",
+          "Implemented GitLab CI/CD pipelines with automated testing and staged deployments, improving release stability; contributed reusable components to the internal Vue.js UI library."
+        ],
+        "stack": ["PHP", "Symfony", "Yii2", "Vue.js", "Elasticsearch", "MariaDB", "Docker", "GitLab CI/CD"]
+      },
+      {
+        "role": "Aluminum Carpenter",
+        "company": "MAFAC Vallés, SLL",
+        "period": "Jun 2020 — Sep 2023",
+        "location": "Barcelona",
+        "summary": "Hands-on manufacturing role that built the teamwork, accountability and work ethic I apply to every engineering project.",
+        "highlights": [
+          "Delivered precise, deadline-driven work in a high-accountability environment — later the seed of the Cutting Calculator tool I built to automate the team's bar-cutting math."
+        ],
+        "stack": []
+      }
     ]
-  },
-  "navbar": {
-    "items": [
-      { "label": "Home", "href": "#hero" },
-      { "label": "About Me", "href": "#about" },
-      { "label": "Experience", "href": "#experience" },
-      { "label": "Technical Skills", "href": "#skills" },
-      { "label": "Projects", "href": "#projects" },
-      { "label": "Languages", "href": "#languages" },
-      { "label": "Contact", "href": "#contact" }
-    ],
-    "theme": {
-      "light": "☀️ Light",
-      "dark": "🌙 Dark"
-    }
   },
   "projects": {
-    "title": "🛠️ Projects",
-    "personal_title": "🚀 Personal Projects",
-    "personal_subtitle": "Independent development and practical solutions",
-    "academic_title": "🎓 Academic Projects", 
-    "academic_subtitle": "Projects developed during my university studies",
-    "code": "Code",
-    "featured_projects": "Featured projects",
-    "items": [
+    "eyebrow": "Selected work",
+    "title": "Projects with real impact",
+    "subtitle": "A few things I've built — at work, for clients, and to learn.",
+    "featuredLabel": "Featured",
+    "viewCode": "Code",
+    "viewDemo": "Live",
+    "moreTitle": "More projects",
+    "featured": [
       {
-        "title": "DOOH Inventory Planner",
-        "description": "Application that automates the planning of DOOH campaign supports, reducing manual work from hours to minutes.",
-        "tech": ["Vue", "Symfony", "MariaDB", "OAuth2", "OpenStreetMap", "Overpass Turbo"],
-        "codeLink": "",
-        "demoLink": "https://exte.market/"
+        "name": "DOOH Campaign & Inventory Planner",
+        "tagline": "Geospatial planning automation @ EXTE",
+        "description": "Planning microservice and full-stack dashboard for digital out-of-home campaigns. Agency-specific business rules plus POI + screen-radius geospatial calculations turn a multi-day manual process into a few minutes, with real-time inventory on an interactive map.",
+        "impact": "Planning time: days → minutes",
+        "stack": ["Vue.js", "Symfony", "Yii2", "Elasticsearch", "MariaDB", "Mapbox", "MBTiles"],
+        "year": "2024 — 2025",
+        "links": { "demo": "https://exte.market/", "code": "" }
       },
       {
-        "title": "Cutting Calculator",
-        "description": "Web application that automates the calculation of cutting bars in construction, reducing human errors and improving process efficiency.",
-        "tech": ["Next.js", "TypeScript", "Tailwind CSS", "JWT"],
-        "codeLink": "",
-        "demoLink": "https://mafac-programa-cortes.vercel.app/"
+        "name": "Expense Optimizer",
+        "tagline": "AI-powered bank statement analysis",
+        "description": "Full-stack app that parses statements from multiple banks, auto-categorizes expenses, detects anomalies and generates intelligent summaries with a local LLM. Multi-bank, CSV/Excel, bilingual (EN/ES).",
+        "impact": "Runs fully local with Ollama — no data leaves your machine",
+        "stack": ["FastAPI", "Python", "Streamlit", "Docker", "Ollama", "LLM"],
+        "year": "2025",
+        "links": { "demo": "", "code": "https://github.com/AntonioLoLa/Calculation-expenses" }
       },
       {
-        "title": "Personal Portfolio",
-        "description": "Website built from scratch to showcase my projects, experience, and skills. Developed with Next.js, TypeScript, and multilingual responsive design.",
-        "tech": ["Next.js", "TypeScript", "Tailwind CSS", "next-intl", "Vercel"],
-        "codeLink": "",
-        "demoLink": "https://antoniolola-portfolio.vercel.app/"
+        "name": "Cutting Calculator",
+        "tagline": "Bar-cutting optimizer for construction",
+        "description": "Web app that automates bar-cutting calculations for aluminum carpentry, cutting human error and speeding up the shop floor — built for the team I used to work with at MAFAC.",
+        "impact": "Eliminates manual cutting math and rework",
+        "stack": ["Next.js", "TypeScript", "Tailwind CSS", "JWT"],
+        "year": "2024",
+        "links": { "demo": "https://mafac-programa-cortes.vercel.app/", "code": "" }
+      }
+    ],
+    "more": [
+      {
+        "name": "This Portfolio",
+        "description": "Internationalized, accessible portfolio built with Next.js 16, TypeScript, Tailwind and next-intl, with light/dark theming and a token-based design system.",
+        "stack": ["Next.js", "TypeScript", "Tailwind", "next-intl"],
+        "links": { "demo": "https://antoniolola-portfolio.vercel.app/", "code": "" }
       },
       {
-        "title": "Pokémon Game",
-        "description": "Simulation of the classic Pokémon game with battle logic, turns, and data storage.",
-        "tech": ["JavaScript", "Vue", "Node.js"],
-        "codeLink": "https://github.com/AntonioLoLa/Pokemon",
-        "demoLink": ""
+        "name": "Pokémon Battle Engine",
+        "description": "Simulation of the classic Pokémon game with battle logic, turn handling and data persistence.",
+        "stack": ["JavaScript", "Vue", "Node.js"],
+        "links": { "demo": "", "code": "https://github.com/AntonioLoLa/Pokemon" }
       },
       {
-        "title": "Flutter Project",
-        "description": "Mobile application for building access control, including authentication and user management.",
-        "tech": ["Flutter", "Java", "Dart"],
-        "codeLink": "https://github.com/AntonioLoLa/DS_FLUTTER",
-        "demoLink": ""
+        "name": "Access Control (Mobile)",
+        "description": "Cross-platform app for building access control with authentication and user management.",
+        "stack": ["Flutter", "Dart", "Java"],
+        "links": { "demo": "", "code": "https://github.com/AntonioLoLa/DS_FLUTTER" }
       },
       {
-        "title": "Chess Game",
-        "description": "C++ application simulating a complete chess game, including move validation and alternate turns.",
-        "tech": ["C++"],
-        "codeLink": "",
-        "demoLink": ""
-      },
-      {
-        "title": "E-commerce Website",
-        "description": "Sneakers e-commerce website featuring a shopping cart and basic order management.",
-        "tech": ["HTML", "CSS", "JavaScript", "PHP"],
-        "codeLink": "",
-        "demoLink": ""
-      },
-      {
-        "title": "Expense Optimizer",
-        "description": "Full-stack application for analyzing bank statements with AI. Parses multiple banks, auto-categorizes expenses, detects anomalies, and generates intelligent summaries. Multi-bank support, CSV/Excel, bilingual (EN/ES).",
-        "tech": ["FastAPI", "Python", "Streamlit", "Docker", "Ollama", "AI"],
-        "codeLink": "https://github.com/AntonioLoLa/Calculation-expenses",
-        "demoLink": ""
+        "name": "Chess Engine",
+        "description": "Complete chess game in C++ with full move validation and turn alternation.",
+        "stack": ["C++"],
+        "links": { "demo": "", "code": "" }
       }
     ]
   },
   "skills": {
-    "title": "🧠 Technical Skills",
-    "languages_title": "💻 Core Languages",
-    "frameworks_title": "⚙️ Backend & Frontend Frameworks",
-    "tools_title": "🔧 DevOps & Development Tools",
-    "databases_title": "🗄️ Databases & Caching",
-    "languages": ["PHP", "JavaScript", "TypeScript", "Python", "SQL", "HTML", "CSS", "Bash"],
-    "frameworks": ["Symfony", "Yii2", "Vue.js", "FastAPI", "Next.js", "Node.js"],
-    "tools": ["Git", "GitHub", "GitLab", "Docker", "CI/CD", "OAuth2", "JWT", "TDD", "Composer", "NPM"],
-    "databases": ["MySQL", "PostgreSQL", "MariaDB", "Redis"]
-  },
-  "experience": {
-    "title": "💼 Professional Experience",
-    "items": [
-      {
-        "puesto": "Full Stack Engineer",
-        "empresa": "EXTE",
-        "fecha": "September 2024 - Present",
-        "responsabilidades": [
-          "Integrated and automated DOOH inventory from 3 platforms (Broadsign, VIOOH, Hivestack), transforming error-prone manual processes into automated systems with real-time updated information",
-          "Developed DOOH inventory planning application using Vue.js, Symfony and Yii2, converting technical manual processes into scalable visual interfaces that facilitate campaign planning",
-          "Created microservice for automatic campaign budget calculation according to company-specific formats and internal calculations, replacing manual computations",
-          "Implemented OAuth2/JWT authentication and GitLab CI/CD pipelines, improving deployment efficiency and code quality through automated testing practices"
-        ]
-      }
+    "eyebrow": "Toolbox",
+    "title": "Technologies I work with",
+    "groups": [
+      { "label": "Backend", "items": ["PHP", "Symfony", "Yii2", "Python", "FastAPI", "Node.js", "REST APIs", "Microservices"] },
+      { "label": "Frontend", "items": ["Vue.js", "Next.js", "TypeScript", "JavaScript", "HTML5", "CSS", "Tailwind"] },
+      { "label": "AI / ML", "items": ["Machine Learning", "NLP", "Computer Vision", "scikit-learn", "pandas", "NumPy", "MLOps"] },
+      { "label": "Data & Search", "items": ["Elasticsearch", "PostgreSQL", "MariaDB", "SQL", "Geospatial", "Mapbox / MapLibre"] },
+      { "label": "DevOps & Tools", "items": ["Docker", "GitLab CI/CD", "Git", "Linux", "Bash", "n8n", "Flowise"] },
+      { "label": "Practices", "items": ["TDD", "OAuth2 / JWT", "Scrum", "CRISP-DM", "OWASP", "Code Review"] }
     ]
+  },
+  "education": {
+    "eyebrow": "Background",
+    "title": "Education & credentials",
+    "degreesTitle": "Education",
+    "degrees": [
+      {
+        "title": "MSc Artificial Intelligence",
+        "org": "International University of La Rioja (UNIR)",
+        "period": "2026 — Present",
+        "detail": "Machine Learning · NLP · Computer Vision · MLOps · Generative AI"
+      },
+      {
+        "title": "BSc Computer Engineering",
+        "org": "Autonomous University of Barcelona (UAB)",
+        "period": "2021 — 2025",
+        "detail": "Specialization in Information Technology"
+      },
+      {
+        "title": "Technological Baccalaureate",
+        "org": "Joan Oliver Institute",
+        "period": "2019 — 2021",
+        "detail": ""
+      }
+    ],
+    "certsTitle": "Certifications",
+    "certifications": [
+      { "name": "Data Analysis Using Python", "issuer": "IBM" },
+      { "name": "Development with AI", "issuer": "Big School" },
+      { "name": "Introduction to AI Concepts", "issuer": "Microsoft" }
+    ],
+    "languagesTitle": "Languages",
+    "languages": [
+      { "name": "Spanish", "level": "Native" },
+      { "name": "Catalan", "level": "Native" },
+      { "name": "English", "level": "B2" },
+      { "name": "French", "level": "A2" }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let's build something",
+    "description": "I'm open to backend and AI/ML roles, and happy to talk through interesting problems. The fastest way to reach me is email.",
+    "emailCta": "Send me an email",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "resume": "Download résumé",
+    "availability": "Available for new opportunities"
+  },
+  "footer": {
+    "tagline": "Backend & AI/ML Engineer",
+    "built": "Built with Next.js & Tailwind CSS",
+    "rights": "All rights reserved."
   }
 }

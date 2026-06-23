@@ -9,12 +9,5 @@ export const siteConfig = {
     github: 'https://github.com/AntonioLoLa',
     linkedin: 'https://www.linkedin.com/in/antonio-lozano-larrubia',
   },
-  cv: {
-    en: '/CV/CV_EN-ANTONIO_LOZANO_LARRUBIA.pdf',
-    es: '/CV/CV_ES-ANTONIO_LOZANO_LARRUBIA.pdf',
-  },
+  cv: '/CV/CV_EN-ANTONIO_LOZANO_LARRUBIA.pdf',
 } as const;
-
-export function cvHref(locale: string): string {
-  return locale === 'es' ? siteConfig.cv.es : siteConfig.cv.en;
-}

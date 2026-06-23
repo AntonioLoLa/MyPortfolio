@@ -1,16 +1,15 @@
 'use client';
 
 import Image from 'next/image';
-import { useLocale, useTranslations } from 'next-intl';
+import { useTranslations } from 'next-intl';
 import { ArrowRight, ArrowUpRight, Download, MapPin } from 'lucide-react';
 import { ButtonLink } from '@/components/ui/Button';
-import { cvHref } from '@/lib/site';
+import { siteConfig } from '@/lib/site';
 
 type Stat = { value: string; label: string };
 
 export default function Hero() {
   const t = useTranslations('hero');
-  const locale = useLocale();
   const stats = t.raw('stats') as Stat[];
 
   return (
@@ -62,7 +61,7 @@ export default function Hero() {
               {t('ctaSecondary')}
               <ArrowUpRight size={16} />
             </ButtonLink>
-            <ButtonLink href={cvHref(locale)} variant="ghost" download>
+            <ButtonLink href={siteConfig.cv} variant="ghost" download>
               <Download size={16} />
               {t('ctaResume')}
             </ButtonLink>

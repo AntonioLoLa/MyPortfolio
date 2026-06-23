@@ -1,18 +1,17 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { useLocale, useTranslations } from 'next-intl';
+import { useTranslations } from 'next-intl';
 import { Menu, X, FileText } from 'lucide-react';
 import ThemeToggle from './ThemeToggle';
 import LanguageSwitcher from './LanguageSwitcher';
 import { cn } from '@/lib/utils';
-import { cvHref } from '@/lib/site';
+import { siteConfig } from '@/lib/site';
 
 const sectionIds = ['about', 'experience', 'projects', 'skills', 'education', 'contact'] as const;
 
 export default function Header() {
   const t = useTranslations('nav');
-  const locale = useLocale();
   const [active, setActive] = useState<string>('about');
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
@@ -80,7 +79,7 @@ export default function Header() {
           <LanguageSwitcher />
           <ThemeToggle />
           <a
-            href={cvHref(locale)}
+            href={siteConfig.cv}
             download
             className="hidden items-center gap-1.5 rounded-full border border-border px-3 py-1.5 text-sm font-medium text-foreground transition-colors hover:border-accent/60 sm:inline-flex"
           >
@@ -118,7 +117,7 @@ export default function Header() {
             ))}
             <li>
               <a
-                href={cvHref(locale)}
+                href={siteConfig.cv}
                 download
                 onClick={() => setOpen(false)}
                 className="mt-1 flex items-center gap-2 rounded-lg px-3 py-2.5 text-sm font-medium text-accent"

@@ -1,14 +1,13 @@
 'use client';
 
-import { useLocale, useTranslations } from 'next-intl';
+import { useTranslations } from 'next-intl';
 import { Mail, Github, Linkedin, ArrowUpRight, Download } from 'lucide-react';
 import Reveal from '@/components/ui/Reveal';
 import { ButtonLink } from '@/components/ui/Button';
-import { siteConfig, cvHref } from '@/lib/site';
+import { siteConfig } from '@/lib/site';
 
 export default function Contact() {
   const t = useTranslations('contact');
-  const locale = useLocale();
 
   return (
     <section id="contact" className="scroll-mt-24 py-20 sm:py-28">
@@ -43,7 +42,7 @@ export default function Contact() {
                 {t('github')}
                 <ArrowUpRight size={14} />
               </ButtonLink>
-              <ButtonLink href={cvHref(locale)} variant="ghost" download>
+              <ButtonLink href={siteConfig.cv} variant="ghost" download>
                 <Download size={16} />
                 {t('resume')}
               </ButtonLink>

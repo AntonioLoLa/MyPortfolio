@@ -17,10 +17,10 @@
     "themeToggle": "Cambiar tema"
   },
   "hero": {
-    "status": "Disponible para roles de backend e IA/ML",
+    "status": "Abierto a nuevas oportunidades",
     "name": "Antonio Lozano",
     "role": "Ingeniero Backend & IA/ML",
-    "headline": "Ingeniero backend. Diseño sistemas que convierten procesos de días en minutos.",
+    "headline": "Diseño sistemas que convierten procesos de días en minutos.",
     "summary": "Ingeniero full-stack con foco en backend y más de 2 años de experiencia en producción en EXTE — sistemas geoespaciales, pipelines de integración en tiempo real y automatización de planificación. Ahora profundizando en Machine Learning con un Máster en IA.",
     "ctaPrimary": "Hablemos",
     "ctaSecondary": "Ver proyectos",
@@ -36,7 +36,7 @@
   },
   "about": {
     "eyebrow": "Sobre mí",
-    "title": "Backend de principio a fin",
+    "title": "De principio a fin",
     "paragraphs": [
       "Soy ingeniero full-stack orientado a backend, con base en Barcelona. En EXTE desarrollo funcionalidades de principio a fin — desde APIs REST seguras y microservicios hasta los dashboards en Vue.js que se apoyan en ellos — y me preocupo de que el código quede limpio y el sistema sea fácil de mantener.",
       "Mi día a día combina PHP (Symfony, Yii2), Python (FastAPI) y datos geoespaciales: integro plataformas externas y convierto procesos manuales lentos en sistemas automatizados. Ahora estoy cursando un Máster en IA y aprendiendo Machine Learning, NLP y MLOps para dar el salto a ese campo."

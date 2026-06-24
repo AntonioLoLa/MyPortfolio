@@ -20,7 +20,7 @@
     "status": "Disponible para roles de backend e IA/ML",
     "name": "Antonio Lozano",
     "role": "Ingeniero Backend & IA/ML",
-    "headline": "Construyo sistemas backend fiables donde la buena ingeniería se encuentra con la IA aplicada.",
+    "headline": "Construyo sistemas backend que aguantan en producción, y ahora estoy dando el salto al Machine Learning.",
     "summary": "Ingeniero full-stack con foco en backend y más de 2 años de experiencia en producción en EXTE — sistemas geoespaciales, pipelines de integración en tiempo real y automatización de planificación. Ahora profundizando en Machine Learning con un Máster en IA.",
     "ctaPrimary": "Hablemos",
     "ctaSecondary": "Ver proyectos",
@@ -36,10 +36,10 @@
   },
   "about": {
     "eyebrow": "Sobre mí",
-    "title": "Ingeniería que se entrega y escala",
+    "title": "Backend de principio a fin",
     "paragraphs": [
-      "Soy ingeniero full-stack orientado a backend, con base en Barcelona. En EXTE desarrollo funcionalidades de principio a fin — desde APIs REST seguras y microservicios hasta los dashboards en Vue.js que se apoyan en ellos — con un fuerte enfoque en el impacto real de negocio, el código limpio y los sistemas mantenibles.",
-      "Mi día a día combina PHP (Symfony, Yii2), Python (FastAPI) y datos geoespaciales, integrando plataformas externas y convirtiendo procesos manuales lentos en sistemas automatizados y observables. Ahora me especializo en Machine Learning con un Máster en IA, incorporando ML aplicado, NLP y MLOps a mi caja de herramientas."
+      "Soy ingeniero full-stack orientado a backend, con base en Barcelona. En EXTE desarrollo funcionalidades de principio a fin — desde APIs REST seguras y microservicios hasta los dashboards en Vue.js que se apoyan en ellos — y me preocupo de que el código quede limpio y el sistema sea fácil de mantener.",
+      "Mi día a día combina PHP (Symfony, Yii2), Python (FastAPI) y datos geoespaciales: integro plataformas externas y convierto procesos manuales lentos en sistemas automatizados. Ahora estoy cursando un Máster en IA y aprendiendo Machine Learning, NLP y MLOps para dar el salto a ese campo."
     ],
     "facts": [
       { "label": "Ubicación", "value": "Sabadell, Barcelona (abierto a remoto)" },
@@ -197,8 +197,8 @@
   },
   "contact": {
     "eyebrow": "Contacto",
-    "title": "Construyamos algo",
-    "description": "Estoy abierto a roles de backend e IA/ML, y encantado de hablar sobre problemas interesantes. La forma más rápida de contactarme es el email.",
+    "title": "¿Hablamos?",
+    "description": "Estoy abierto a roles de backend e IA/ML, y siempre con ganas de hablar sobre proyectos interesantes. Lo más rápido es escribirme un email.",
     "emailCta": "Escríbeme un email",
     "linkedin": "LinkedIn",
     "github": "GitHub",

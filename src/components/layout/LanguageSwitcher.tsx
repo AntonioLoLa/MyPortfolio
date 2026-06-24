@@ -1,6 +1,6 @@
 'use client';
 
-import { useTransition } from 'react';
+import { useEffect, useTransition } from 'react';
 import { useLocale } from 'next-intl';
 import { usePathname, useRouter } from '@/i18n/navigation';
 import { cn } from '@/lib/utils';
@@ -15,6 +15,13 @@ export default function LanguageSwitcher() {
   const pathname = usePathname();
   const router = useRouter();
   const [isPending, startTransition] = useTransition();
+
+  // Prefetch the other locale so switching feels instant, especially on mobile.
+  useEffect(() => {
+    locales
+      .filter(({ code }) => code !== locale)
+      .forEach(({ code }) => router.prefetch(pathname, { locale: code }));
+  }, [locale, pathname, router]);
 
   return (
     <div

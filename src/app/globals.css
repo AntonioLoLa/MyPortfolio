@@ -37,6 +37,13 @@
     border-color: hsl(var(--border));
   }
 
+  /* Remove the residual tap delay some mobile browsers add to interactive elements */
+  button,
+  a,
+  [role='button'] {
+    touch-action: manipulation;
+  }
+
   html {
     background-color: hsl(var(--background));
     scroll-behavior: smooth;

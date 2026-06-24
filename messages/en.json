@@ -17,10 +17,10 @@
     "themeToggle": "Toggle theme"
   },
   "hero": {
-    "status": "Open to backend & AI/ML roles",
+    "status": "Open to new opportunities",
     "name": "Antonio Lozano",
     "role": "Backend & AI/ML Engineer",
-    "headline": "I build reliable backend systems where solid engineering meets applied AI.",
+    "headline": "I design systems that turn days of work into minutes.",
     "summary": "Backend-focused full-stack engineer with 2+ years of production experience at EXTE — geospatial systems, real-time integration pipelines and planning automation. Now deepening into Machine Learning through an MSc in AI.",
     "ctaPrimary": "Get in touch",
     "ctaSecondary": "View work",
@@ -36,10 +36,10 @@
   },
   "about": {
     "eyebrow": "About",
-    "title": "Engineering that ships and scales",
+    "title": "End to end",
     "paragraphs": [
-      "I'm a backend-leaning full-stack engineer based in Barcelona. At EXTE I own features end to end — from secure REST APIs and microservices to the Vue.js dashboards that sit on top of them — with a strong bias toward real business impact, clean code and maintainable systems.",
-      "My day-to-day mixes PHP (Symfony, Yii2), Python (FastAPI) and geospatial data, integrating external platforms and turning slow manual processes into automated, observable systems. I'm now specializing in Machine Learning through an MSc in AI, bringing applied ML, NLP and MLOps into my engineering toolkit."
+      "I'm a backend-leaning full-stack engineer based in Barcelona. At EXTE I own features end to end — from secure REST APIs and microservices to the Vue.js dashboards that sit on top of them — and I care about keeping the code clean and the system easy to maintain.",
+      "My day-to-day mixes PHP (Symfony, Yii2), Python (FastAPI) and geospatial data: I integrate external platforms and turn slow manual processes into automated ones. I'm now doing an MSc in AI and learning Machine Learning, NLP and MLOps to move into that field."
     ],
     "facts": [
       { "label": "Based in", "value": "Sabadell, Barcelona (open to remote)" },
@@ -197,8 +197,8 @@
   },
   "contact": {
     "eyebrow": "Contact",
-    "title": "Let's build something",
-    "description": "I'm open to backend and AI/ML roles, and happy to talk through interesting problems. The fastest way to reach me is email.",
+    "title": "Let's talk",
+    "description": "I'm open to backend and AI/ML roles, and always up for talking through interesting projects. The fastest way to reach me is email.",
     "emailCta": "Send me an email",
     "linkedin": "LinkedIn",
     "github": "GitHub",

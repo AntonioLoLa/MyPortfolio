@@ -1,213 +1,548 @@
 {
   "meta": {
-    "title": "Antonio Lozano — Ingeniero Backend & IA/ML",
-    "description": "Ingeniero backend con más de 2 años de experiencia en producción construyendo sistemas geoespaciales, pipelines de integración y automatización en EXTE. Especializándose en IA/ML con un Máster en la UNIR.",
-    "keywords": "Ingeniero Backend, Ingeniero IA, Machine Learning, PHP, Symfony, Python, FastAPI, Vue.js, Next.js, Barcelona"
+    "title": "Antonio Lozano — Ingeniero de software camino de la IA aplicada",
+    "description": "Cuaderno de un ingeniero de software: dos años construyendo de punta a punta la plataforma interna de EXTE, unas prácticas en Sopra Steria sobre un resolutor agéntico de incidencias y proyectos de ML evaluados contra una línea base. Máster en Inteligencia Artificial (UNIR).",
+    "keywords": "Ingeniero IA, Applied AI, Machine Learning, MLOps, Ingeniero de Software, Ingeniero Backend, Full-Stack, Python, FastAPI, agentes LLM, RAG, validación walk-forward, Barcelona",
+    "ogAlt": "Antonio Lozano — Cuaderno de ingeniería de IA aplicada"
   },
   "nav": {
-    "about": "Sobre mí",
-    "experience": "Experiencia",
-    "projects": "Proyectos",
-    "skills": "Skills",
-    "education": "Formación",
+    "skip": "Saltar al contenido",
+    "label": "Secciones",
+    "work": "Trabajo",
+    "practice": "Práctica",
+    "trajectory": "Trayectoria",
     "contact": "Contacto",
-    "resume": "CV",
-    "menu": "Abrir menú",
-    "close": "Cerrar menú",
-    "themeToggle": "Cambiar tema"
+    "cv": "CV",
+    "language": "Idioma"
   },
-  "hero": {
-    "status": "Abierto a nuevas oportunidades",
-    "name": "Antonio Lozano",
-    "role": "Ingeniero Backend & IA/ML",
-    "headline": "Diseño sistemas que convierten procesos de días en minutos.",
-    "summary": "Ingeniero full-stack con foco en backend y más de 2 años de experiencia en producción en EXTE — sistemas geoespaciales, pipelines de integración en tiempo real y automatización de planificación. Ahora profundizando en Machine Learning con un Máster en IA.",
-    "ctaPrimary": "Hablemos",
-    "ctaSecondary": "Ver proyectos",
-    "ctaResume": "Descargar CV",
-    "location": "Sabadell · Barcelona",
-    "photoAlt": "Retrato de Antonio Lozano",
-    "stats": [
-      { "value": "2+ años", "label": "Experiencia en producción" },
-      { "value": "3", "label": "Plataformas DOOH integradas" },
-      { "value": "días → min", "label": "Tiempo de planificación reducido" },
-      { "value": "Máster IA", "label": "En curso en la UNIR" }
-    ]
+  "key": {
+    "built": "Hecho",
+    "progress": "En curso",
+    "planned": "Previsto",
+    "real": "Datos reales",
+    "synthetic": "Sintético",
+    "conceptual": "Conceptual",
+    "config": "De la configuración",
+    "illustrative": "Ilustrativo",
+    "fig": "Fig.",
+    "source": "Fuente",
+    "legendTitle": "Cómo leer este cuaderno",
+    "legendText": "Cada proyecto y cada componente indica su estado real. Cada figura dice de dónde salen sus datos."
   },
-  "about": {
-    "eyebrow": "Sobre mí",
-    "title": "De principio a fin",
-    "paragraphs": [
-      "Soy ingeniero full-stack orientado a backend, con base en Barcelona. En EXTE desarrollo funcionalidades de principio a fin — desde APIs REST seguras y microservicios hasta los dashboards en Vue.js que se apoyan en ellos — y me preocupo de que el código quede limpio y el sistema sea fácil de mantener.",
-      "Mi día a día combina PHP (Symfony, Yii2), Python (FastAPI) y datos geoespaciales: integro plataformas externas y convierto procesos manuales lentos en sistemas automatizados. Ahora estoy cursando un Máster en IA y aprendiendo Machine Learning, NLP y MLOps para dar el salto a ese campo."
-    ],
-    "facts": [
-      { "label": "Ubicación", "value": "Sabadell, Barcelona (abierto a remoto)" },
-      { "label": "Actualmente", "value": "Ingeniero Backend @ EXTE" },
-      { "label": "Estudiando", "value": "Máster en IA @ UNIR" },
-      { "label": "Foco", "value": "Sistemas backend · IA/ML aplicada" }
-    ]
+  "cover": {
+    "kicker": "Cuaderno de campo · Vol. 2026 · Barcelona",
+    "name": "Antonio Lozano Larrubia",
+    "role": "Ingeniero de software, camino de la IA aplicada",
+    "headline": "Ingeniero de software trabajando en la parte de la IA que hay que <em>medir</em>.",
+    "dek": "Dos años construyendo sistemas de punta a punta en EXTE, una empresa de AdTech: APIs, integraciones, datos geoespaciales y las interfaces con las que se usan. Ahora, un Máster en Inteligencia Artificial, unas prácticas en Sopra Steria sobre un resolutor agéntico de incidencias y trabajo de machine learning medido contra una línea base, no contra una demo.",
+    "links": {
+      "work": "Trabajo seleccionado",
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "cv": "CV (PDF)",
+      "email": "Email"
+    },
+    "figTitle": "Entrada 02 · F1 Championship Predictor",
+    "figCaption": "Validación walk-forward: entrenado solo con temporadas pasadas y evaluado en la siguiente, 30 veces (1996–2025). La ventaja es mayor al principio, cuando predecir es difícil; al final, el líder suele ser ya el campeón.",
+    "figLink": "Leer la entrada 02",
+    "baseline": "Regla: gana el líder",
+    "model": "Mi modelo",
+    "figQuestion": "¿Mi modelo acierta al campeón de F1 más que la regla «gana quien va líder»?",
+    "figUnit": "Con qué frecuencia el campeón final aparece primero, según el momento de la temporada"
   },
-  "experience": {
-    "eyebrow": "Experiencia",
-    "title": "Dónde he generado impacto",
-    "current": "Actualidad",
-    "items": [
-      {
-        "role": "Ingeniero Backend (Full-Stack)",
-        "company": "EXTE",
-        "period": "Sep 2024 — Actualidad",
-        "location": "Barcelona",
-        "summary": "Plataforma de publicidad DOOH. Responsabilidad de principio a fin sobre los servicios backend y los productos en Vue.js que los consumen.",
-        "highlights": [
-          "Diseñé un microservicio de planificación de campañas con reglas de negocio específicas por agencia y cálculos geoespaciales de proximidad (POI + radio de pantalla), reduciendo el tiempo de planificación de varios días a minutos y eliminando cuellos de botella de coordinación manual.",
-          "Construí pipelines de sincronización de inventario integrando plataformas DOOH externas (Broadsign, VIOOH, Hivestack) vía APIs REST, manteniendo los datos de pantallas y disponibilidad consistentes en tiempo real.",
-          "Desarrollé dashboards full-stack (Vue.js + Elasticsearch) con capa de mapa integrada (MBTiles + servidor de tiles Martin + Mapbox/MapLibre) para la visualización de inventario en tiempo real, usados por clientes de agencias y equipos internos.",
-          "Diseñé APIs REST seguras (OAuth2, JWT, OWASP) y servicios CRUD sobre arquitecturas monolíticas y de microservicios (Symfony, Yii2, MariaDB, Docker).",
-          "Implementé pipelines de CI/CD en GitLab con testing automatizado y despliegues por etapas, mejorando la estabilidad de las releases; contribuí componentes reutilizables a la librería de UI interna en Vue.js."
-        ],
-        "stack": ["PHP", "Symfony", "Yii2", "Vue.js", "Elasticsearch", "MariaDB", "Docker", "GitLab CI/CD"]
-      },
-      {
-        "role": "Carpintero de aluminio",
-        "company": "MAFAC Vallés, SLL",
-        "period": "Jun 2020 — Sep 2023",
-        "location": "Barcelona",
-        "summary": "Trabajo manual y de precisión que forjó el trabajo en equipo, la responsabilidad y la ética de trabajo que aplico en cada proyecto de ingeniería.",
-        "highlights": [
-          "Entregué trabajo preciso y con plazos exigentes en un entorno de alta responsabilidad — origen de la Calculadora de Cortes que después construí para automatizar el cálculo de cortes del equipo."
-        ],
-        "stack": []
-      }
-    ]
+  "contents": {
+    "kicker": "En este número",
+    "title": "Seis entradas, ordenadas por lo que dicen de hacia dónde voy.",
+    "colNo": "N.º",
+    "colEntry": "Entrada",
+    "colKind": "Tipo",
+    "colStatus": "Estado",
+    "colRepo": "Repositorio",
+    "private": "Privado",
+    "proprietary": "Herramienta interna",
+    "pushed": "push",
+    "signals": {
+      "tests": "tests",
+      "ci": "CI",
+      "docker": "Docker"
+    },
+    "ciPassing": "CI en verde",
+    "ciFailing": "CI en rojo",
+    "otherTitle": "También en GitHub",
+    "otherNote": "Listado automáticamente desde la API pública. Sin curar.",
+    "synced": "Metadatos de repositorios sincronizados desde GitHub el {date}."
   },
   "projects": {
-    "eyebrow": "Trabajo seleccionado",
-    "title": "Proyectos con impacto real",
-    "subtitle": "Algunas cosas que he construido — en el trabajo, para clientes y para aprender.",
-    "featuredLabel": "Destacado",
-    "viewCode": "Código",
-    "viewDemo": "Demo",
-    "moreTitle": "Más proyectos",
-    "featured": [
+    "resolver": {
+      "title": "Resolutor inteligente de incidencias L1/L2",
+      "kind": "IA agéntica · Prácticas Sopra Steria"
+    },
+    "f1": {
+      "title": "F1 Championship Predictor",
+      "kind": "Ingeniería de ML · MLOps"
+    },
+    "exte": {
+      "title": "EXTE",
+      "kind": "Profesional"
+    },
+    "expenses": {
+      "title": "Expense Optimizer",
+      "kind": "FastAPI · LLM local"
+    },
+    "cutting": {
+      "title": "Planificador de cortes para MAFAC",
+      "kind": "Herramienta de taller · Next.js"
+    },
+    "chess": {
+      "title": "Ajedrez, bajo test",
+      "kind": "Calidad de software · Java"
+    }
+  },
+  "resolver": {
+    "kicker": "Entrada 01 · IA agéntica · Sopra Steria, prácticas curriculares (Máster IA)",
+    "title": "Un resolutor de incidencias que tiene que justificar lo que hace",
+    "standfirst": "El reto no es un chatbot. Es un agente que recibe una incidencia L1/L2, la clasifica, reúne evidencias, propone un diagnóstico, actúa solo dentro de una política de seguridad, pide permiso a una persona antes de cualquier acción sensible y verifica el resultado antes de dar la incidencia por cerrada.",
+    "problemTitle": "El problema",
+    "problem": "La mayoría de incidencias L1/L2 se repiten: una cuenta bloqueada, una VPN que se desconecta, un permiso que falta en una carpeta. Pero un LLM que responde a una incidencia no es lo mismo que uno que la resuelve con seguridad. El problema de ingeniería es el control: decidir cuándo puede actuar el agente, registrar por qué lo hizo y saber cuándo pasar el caso a una persona.",
+    "roleTitle": "Mi parte",
+    "role": "Estoy construyendo el prototipo como reto de mis prácticas del máster: el backend, el enrutado de incidencias, su evaluación y el flujo que los rodea. Solo trabaja con escenarios simulados, sin credenciales, usuarios ni sistemas corporativos reales.",
+    "statusTitle": "Estado actual",
+    "statusDate": "Octubre de 2026",
+    "status": [
       {
-        "name": "Planificador de Campañas e Inventario DOOH",
-        "tagline": "Automatización de planificación geoespacial @ EXTE",
-        "description": "Microservicio de planificación y dashboard full-stack para campañas de publicidad exterior digital. Las reglas de negocio por agencia más los cálculos geoespaciales (POI + radio de pantalla) convierten un proceso manual de varios días en unos minutos, con inventario en tiempo real sobre un mapa interactivo.",
-        "impact": "Tiempo de planificación: días → minutos",
-        "stack": ["Vue.js", "Symfony", "Yii2", "Elasticsearch", "MariaDB", "Mapbox", "MBTiles"],
-        "year": "2024 — 2025",
-        "links": { "demo": "https://exte.market/", "code": "" }
+        "s": "built",
+        "t": "Backend en FastAPI con autenticación OIDC y un modo simulado para desarrollo."
       },
       {
-        "name": "Expense Optimizer",
-        "tagline": "Análisis de extractos bancarios con IA",
-        "description": "Aplicación full-stack que parsea extractos de múltiples bancos, categoriza gastos automáticamente, detecta anomalías y genera resúmenes inteligentes con un LLM local. Multibanco, CSV/Excel, bilingüe (EN/ES).",
-        "impact": "Funciona 100% en local con Ollama — los datos no salen de tu equipo",
-        "stack": ["FastAPI", "Python", "Streamlit", "Docker", "Ollama", "LLM"],
-        "year": "2025",
-        "links": { "demo": "", "code": "https://github.com/AntonioLoLa/Calculation-expenses" }
+        "s": "built",
+        "t": "Router de incidencias con LLM: clasificación, derivación a una persona y un juez en segundo plano, con un arnés de evaluación offline."
       },
       {
-        "name": "Calculadora de Cortes",
-        "tagline": "Optimizador de cortes para construcción",
-        "description": "Aplicación web que automatiza el cálculo de cortes de barras en carpintería de aluminio, reduciendo el error humano y agilizando el taller — construida para el equipo con el que trabajé en MAFAC.",
-        "impact": "Elimina el cálculo manual de cortes y el retrabajo",
-        "stack": ["Next.js", "TypeScript", "Tailwind CSS", "JWT"],
-        "year": "2024",
-        "links": { "demo": "https://mafac-programa-cortes.vercel.app/", "code": "" }
+        "s": "progress",
+        "t": "Cliente web (Vue 3, TypeScript): chat, aprobaciones y flujo de tickets, de momento con datos simulados."
+      },
+      {
+        "s": "planned",
+        "t": "Grafo del agente, recuperación híbrida sobre runbooks (embeddings + BM25) y herramientas de diagnóstico."
+      },
+      {
+        "s": "planned",
+        "t": "Ejecución en sandbox, puertas de política y verificación del resultado."
       }
     ],
-    "more": [
+    "scope": "Stack previsto en el alcance del reto: Python, FastAPI, LangGraph, PostgreSQL + pgvector, Redis, Pydantic, Docker Compose y evaluación automatizada. Es alcance, no trabajo terminado.",
+    "confidential": "Repositorio privado. Se describe al nivel del reto público; aquí no se publica código, datos, prompts ni documentación interna.",
+    "figTitle": "La resolución de incidencias como máquina de estados",
+    "figCaption": "Flujo conceptual del sistema objetivo; cada etapa indica su estado actual. La traza es una incidencia sintética escrita para esta página.",
+    "nodes": {
+      "intake": "Entrada",
+      "classify": "Clasificar",
+      "retrieve": "Recuperar",
+      "diagnose": "Diagnosticar",
+      "plan": "Planificar",
+      "policy": "Política",
+      "approve": "Aprobación humana",
+      "execute": "Ejecutar · sandbox",
+      "verify": "Verificar",
+      "resolved": "Resuelta",
+      "escalate": "Escalar a una persona"
+    },
+    "traceTitle": "Traza · INC-0042",
+    "trace": [
       {
-        "name": "Este Portfolio",
-        "description": "Portfolio internacionalizado y accesible con Next.js 16, TypeScript, Tailwind y next-intl, con tema claro/oscuro y un sistema de diseño basado en tokens.",
-        "stack": ["Next.js", "TypeScript", "Tailwind", "next-intl"],
-        "links": { "demo": "https://antoniolola-portfolio.vercel.app/", "code": "" }
+        "t": "00:00",
+        "n": "intake",
+        "m": "«La VPN conecta y se cae a los pocos segundos.»"
       },
       {
-        "name": "Motor de Combate Pokémon",
-        "description": "Simulación del clásico juego de Pokémon con lógica de combate, gestión de turnos y persistencia de datos.",
-        "stack": ["JavaScript", "Vue", "Node.js"],
-        "links": { "demo": "", "code": "https://github.com/AntonioLoLa/Pokemon" }
+        "t": "00:41",
+        "n": "classify",
+        "m": "red / vpn · confianza alta → vía automática"
       },
       {
-        "name": "Control de Acceso (Móvil)",
-        "description": "App multiplataforma para control de acceso a edificios con autenticación y gestión de usuarios.",
-        "stack": ["Flutter", "Dart", "Java"],
-        "links": { "demo": "", "code": "https://github.com/AntonioLoLa/DS_FLUTTER" }
+        "t": "01:10",
+        "n": "retrieve",
+        "m": "runbook VPN-03 · 2 casos parecidos"
       },
       {
-        "name": "Motor de Ajedrez",
-        "description": "Juego de ajedrez completo en C++ con validación de movimientos y alternancia de turnos.",
-        "stack": ["C++"],
-        "links": { "demo": "", "code": "" }
-      }
-    ]
-  },
-  "skills": {
-    "eyebrow": "Herramientas",
-    "title": "Tecnologías con las que trabajo",
-    "groups": [
-      { "label": "Backend", "items": ["PHP", "Symfony", "Yii2", "Python", "FastAPI", "Node.js", "REST APIs", "Microservicios"] },
-      { "label": "Frontend", "items": ["Vue.js", "Next.js", "TypeScript", "JavaScript", "HTML5", "CSS", "Tailwind"] },
-      { "label": "IA / ML", "items": ["Machine Learning", "NLP", "Computer Vision", "scikit-learn", "pandas", "NumPy", "MLOps"] },
-      { "label": "Datos & Búsqueda", "items": ["Elasticsearch", "PostgreSQL", "MariaDB", "SQL", "Geoespacial", "Mapbox / MapLibre"] },
-      { "label": "DevOps & Tools", "items": ["Docker", "GitLab CI/CD", "Git", "Linux", "Bash", "n8n", "Flowise"] },
-      { "label": "Prácticas", "items": ["TDD", "OAuth2 / JWT", "Scrum", "CRISP-DM", "OWASP", "Code Review"] }
-    ]
-  },
-  "education": {
-    "eyebrow": "Trayectoria",
-    "title": "Formación y credenciales",
-    "degreesTitle": "Formación",
-    "degrees": [
-      {
-        "title": "Máster en Inteligencia Artificial",
-        "org": "Universidad Internacional de La Rioja (UNIR)",
-        "period": "2026 — Actualidad",
-        "detail": "Machine Learning · NLP · Computer Vision · MLOps · IA Generativa"
+        "t": "01:52",
+        "n": "diagnose",
+        "m": "hipótesis: certificado de cliente caducado · evidencia: log del handshake"
       },
       {
-        "title": "Grado en Ingeniería Informática",
-        "org": "Universidad Autónoma de Barcelona (UAB)",
-        "period": "2021 — 2025",
-        "detail": "Especialización en Tecnologías de la Información"
+        "t": "02:20",
+        "n": "plan",
+        "m": "renovar certificado · acción sensible"
       },
       {
-        "title": "Bachillerato Tecnológico",
-        "org": "Institut Joan Oliver",
-        "period": "2019 — 2021",
-        "detail": ""
+        "t": "02:21",
+        "n": "policy",
+        "m": "sensible → requiere aprobación"
+      },
+      {
+        "t": "03:05",
+        "n": "approve",
+        "m": "aprobado por técnico L2"
+      },
+      {
+        "t": "03:40",
+        "n": "execute",
+        "m": "certificado renovado"
+      },
+      {
+        "t": "04:02",
+        "n": "verify",
+        "m": "conexión estable 60 s → resuelta"
       }
     ],
-    "certsTitle": "Certificaciones",
-    "certifications": [
-      { "name": "Análisis de Datos con Python", "issuer": "IBM" },
-      { "name": "Desarrollo con IA", "issuer": "Big School" },
-      { "name": "Introducción a los Conceptos de IA", "issuer": "Microsoft" }
+    "principlesTitle": "Lo que lo hace difícil",
+    "principles": [
+      {
+        "h": "Control",
+        "t": "Las políticas deciden qué puede hacer el agente por su cuenta. Lo sensible espera a una persona, y la baja confianza va a un humano en lugar de a una suposición."
+      },
+      {
+        "h": "Trazabilidad",
+        "t": "Cada transición registra su entrada, sus evidencias y su decisión, para poder auditar cualquier intervención después."
+      },
+      {
+        "h": "Utilidad",
+        "t": "Una resolución solo cuenta cuando se ha verificado. La medida son incidencias bien cerradas o bien escaladas, no respuestas fluidas."
+      }
+    ],
+    "edges": {
+      "lowConfidence": "baja confianza ⤷ persona",
+      "sensitive": "sensible ⤷ aprobación · si no, salta",
+      "rejected": "rechazada ⤷ persona",
+      "failed": "no verificada ⤷ persona"
+    },
+    "outcomes": "Resultados",
+    "colState": "Estado",
+    "colEvent": "Evento sintético"
+  },
+  "f1": {
+    "kicker": "Entrada 02 · Machine learning · Proyecto personal · Licencia MIT",
+    "title": "Predecir un campeonato con cuarenta y cinco etiquetas",
+    "standfirst": "Tras cada Gran Premio, el modelo estima la probabilidad de cada piloto de ganar el Mundial de esa temporada. Lo interesante no es la predicción, sino no engañarse en un problema con una sola etiqueta positiva por temporada.",
+    "problemTitle": "El problema, sin adornos",
+    "problem": "El conjunto de modelado tiene 21.072 filas piloto-ronda, pero solo unos 45 resultados independientes: un campeón por temporada desde 1981. Un split aleatorio filtra el final de una temporada a su propio principio, y un ROC AUC agregado mide sobre todo lo obvias que son las últimas rondas.",
+    "approachTitle": "Enfoque",
+    "approach": [
+      "Validación walk-forward por temporadas completas: 30 folds de ventana creciente, nunca un split aleatorio.",
+      "Seis familias de modelos comparadas por group log-loss; el ganador se elige con la regla de un error estándar, que prefiere el modelo más simple.",
+      "Calibración de Platt en temporadas reservadas; después, las probabilidades de cada ronda se normalizan para sumar 1 y los pilotos matemáticamente eliminados quedan a 0.",
+      "Todas las métricas estratificadas por fase de temporada y junto a la línea base «gana el líder».",
+      "Cada predicción indica si es in-sample u out-of-sample, para que repetir la historia no pase por acierto."
+    ],
+    "pipelineTitle": "Pipeline",
+    "pipeline": [
+      {
+        "h": "Fuentes",
+        "t": "API Jolpica · f1db"
+      },
+      {
+        "h": "Ingesta",
+        "t": "con rate limit, caché e idempotente"
+      },
+      {
+        "h": "PostgreSQL",
+        "t": "SQLAlchemy 2 · Alembic"
+      },
+      {
+        "h": "Features",
+        "t": "72, auditadas contra fugas"
+      },
+      {
+        "h": "Dataset",
+        "t": "Parquet versionado"
+      },
+      {
+        "h": "Entrenar",
+        "t": "6 familias · MLflow"
+      },
+      {
+        "h": "Evaluar",
+        "t": "por fase · SHAP"
+      },
+      {
+        "h": "Servir",
+        "t": "FastAPI → Streamlit"
+      }
+    ],
+    "foldsTitle": "Folds walk-forward",
+    "foldsCaption": "Cada fila es un fold: temporadas que entrenan el modelo base, tres que ajustan el calibrador y una temporada de test reservada. Derivado de conf/models.yaml. 2026 está en curso y solo se predice.",
+    "foldsLegend": {
+      "train": "Entrenar",
+      "calibrate": "Calibrar",
+      "test": "Test",
+      "predict": "Solo predecir"
+    },
+    "zooTitle": "Selección de modelo",
+    "zooCaption": "Group log-loss medio en 30 folds; menor es mejor. La línea discontinua está un error estándar por encima del mejor; solo la regresión logística queda dentro.",
+    "zooThreshold": "1 EE",
+    "sheetTitle": "Hoja de resultados",
+    "sheetCaption": "Resultados out-of-fold del modelo activo por fase de temporada, junto a la línea base.",
+    "sheetCols": {
+      "phase": "Fase",
+      "logLoss": "Log-loss",
+      "model": "Top-1",
+      "baseline": "Base",
+      "delta": "Δ"
+    },
+    "phases": {
+      "early": "Inicio · <33%",
+      "mid": "Mitad · 33–67%",
+      "late": "Final · >67%",
+      "pooled": "Total"
+    },
+    "ablation": "Ablación: reentrenar solo con las 5 features de mayor importancia por permutación casi duplica la pérdida, de 0,615 a 1,232.",
+    "engineeringTitle": "Ingeniería",
+    "engineering": [
+      "{tests} funciones de test: unitarios y de integración contra una base de datos, un modelo entrenado y un almacén MLflow reales.",
+      "Ruff, Black y mypy --strict en CI, que después construye las imágenes Docker y levanta el stack completo tras sus health checks.",
+      "Un workflow nocturno reingesta datos, reconstruye el dataset y reentrena.",
+      "Comportamiento fijado en specs de capacidades con OpenSpec; dos autoauditorías quedan registradas en el repositorio junto a sus correcciones."
+    ],
+    "limitsTitle": "Limitaciones, tal como se publican",
+    "limits": [
+      "n ≈ 45. Unas pocas temporadas realmente abiertas concentran buena parte de la pérdida.",
+      "Sin búsqueda de hiperparámetros. LightGBM queda a 0,001 del umbral, así que la clasificación hay que revisarla tras cada reentrenamiento.",
+      "El modelo desplegado se reentrena con casi todas las temporadas; solo los números walk-forward son evidencia honesta."
+    ],
+    "repo": "Repositorio",
+    "readme": "Resultados en el README",
+    "commit": "Cifras transcritas del commit {commit}.",
+    "datasetLabels": {
+      "seasons": "Temporadas",
+      "races": "Carreras",
+      "results": "Resultados",
+      "drivers": "Pilotos"
+    },
+    "paletteNote": "Las figuras de esta entrada usan la paleta del dashboard del propio proyecto."
+  },
+  "exte": {
+    "kicker": "Entrada 03 · Práctica profesional · EXTE, AdTech",
+    "title": "La plataforma interna en la que trabaja un equipo cada día",
+    "role": "Software Engineer · foco en backend, full-stack",
+    "period": "Sep 2024 — actualidad · Barcelona",
+    "standfirst": "exte.market es la aplicación interna de EXTE con la que el equipo de markets hace su trabajo diario: dashboards de campañas, planificación, deals y oportunidades, y la configuración de los marketplaces, todo organizado por workspaces. Construyo y mantengo los servicios que hay detrás y buena parte de la interfaz.",
+    "themes": [
+      {
+        "h": "Automatización de la planificación",
+        "t": "El planner: una vista de mapa y una de planificación que construyen campañas a partir de formatos y fórmulas de negocio, con proximidad geoespacial (puntos de interés × radio de pantalla). Una planificación que costaba días de coordinación manual ahora lleva minutos."
+      },
+      {
+        "h": "Dashboards",
+        "t": "Métricas de campañas por workspace guardadas en Elasticsearch, agregadas y servidas a dashboards en Vue.js."
+      },
+      {
+        "h": "Deals y marketplaces",
+        "t": "El flujo de deals y oportunidades de cada workspace y la configuración de los marketplaces asociados, sincronizados con tres plataformas DOOH externas a través de sus APIs REST."
+      },
+      {
+        "h": "Interfaces geoespaciales",
+        "t": "Una capa de mapa de teselas vectoriales: MBTiles servidos por un servidor Martin y renderizados con MapLibre / Mapbox."
+      },
+      {
+        "h": "Design system",
+        "t": "Componentes reutilizables en Vue.js para el design system de la empresa, compartidos entre productos."
+      },
+      {
+        "h": "Entrega",
+        "t": "APIs REST seguras (OAuth2, JWT) sobre Symfony / Yii2, MariaDB y Docker; GitLab CI/CD con tests automáticos y despliegues automatizados."
+      },
+      {
+        "h": "Legacy y centralización",
+        "t": "Mantenimiento y evolución de los sistemas legacy de la empresa, y trabajo en el proyecto que los centraliza."
+      }
+    ],
+    "stack": "PHP · Symfony · Yii2 · Python · FastAPI · Node.js · Vue.js · TypeScript · MariaDB · Elasticsearch · Docker · GitLab CI/CD · Linux · MapLibre · MBTiles",
+    "note": "No se muestran datos de clientes, código ni arquitectura interna. El mapa ilustra el tipo de problema; no son datos de producción.",
+    "figTitle": "Planificación por proximidad, ilustrada",
+    "figCaption": "Pantallas (cuadrados) dentro del radio de dos puntos de interés, sobre una rejilla de teselas vectoriales z/x/y. Geometría ilustrativa, no datos de clientes.",
+    "poi": "PDI",
+    "inRange": "en radio",
+    "outOfRange": "fuera de radio",
+    "modulesTitle": "exte.market por workspace",
+    "modulesCaption": "Los módulos de la herramienta interna tal como los usa el equipo, cada uno dentro de un workspace, sobre las capas que comparten. Vista simplificada, sin datos ni arquitectura interna.",
+    "workspace": "Workspace",
+    "modules": [
+      {
+        "h": "Dashboard",
+        "t": "Métricas de campañas guardadas",
+        "d": "Elasticsearch"
+      },
+      {
+        "h": "Planner",
+        "t": "Mapa + planificación por formatos y fórmulas",
+        "d": "Teselas vectoriales · proximidad"
+      },
+      {
+        "h": "Deals",
+        "t": "Deals y oportunidades",
+        "d": "APIs REST"
+      },
+      {
+        "h": "Marketplaces",
+        "t": "Marketplaces asociados",
+        "d": "3 plataformas DOOH externas"
+      }
+    ],
+    "layers": [
+      {
+        "h": "Design system",
+        "t": "Componentes Vue.js"
+      },
+      {
+        "h": "Servicios",
+        "t": "APIs REST · Symfony / Yii2 · MariaDB · Elasticsearch"
+      },
+      {
+        "h": "Entrega",
+        "t": "Docker · GitLab CI/CD · despliegues automatizados"
+      }
+    ],
+    "thesis": "TFG con EXTE: Inventory Planner DOOH · 9,9/10"
+  },
+  "workshop": {
+    "kicker": "Entradas 04–06 · Taller",
+    "title": "Herramientas pequeñas, cada una con un uso real",
+    "expenses": {
+      "text": "Subes un extracto bancario (formato CaixaBank o CSV/XLSX genérico) y obtienes gasto por categorías, balance mensual, anomalías y recomendaciones. Backend en FastAPI con analítica vectorizada en pandas; un cliente Streamlit que solo habla con él por HTTP; y un resumen opcional en lenguaje natural con un modelo local de Ollama, desactivado por defecto para que ningún dato tenga que salir de la máquina.",
+      "facts": "{tests} tests con pytest · Docker Compose · ES/EN"
+    },
+    "cutting": {
+      "text": "Herramienta hecha para MAFAC, un taller de carpintería de aluminio. Calcula cuántas barras necesita una lista de cortes mediante first-fit decreasing y avisa de los sobrantes demasiado cortos para sobrevivir a la sierra. Acceso protegido con credenciales hasheadas y JWT.",
+      "facts": "Next.js · TypeScript · Jest · CI",
+      "figTitle": "First-fit decreasing",
+      "figCaption": "El algoritmo del repositorio, ejecutado sobre una lista de cortes ilustrativa con barras de 650. Sombreado: sobrante.",
+      "bar": "Barra"
+    },
+    "chess": {
+      "text": "Un ajedrez completo en Java, escrito con un compañero para una asignatura de calidad de software: validación de movimientos legales para cada pieza y una batería de tests construida junto al código con JUnit 5 y Mockito.",
+      "facts": "{tests} casos de test JUnit · {commits} commits"
+    },
+    "live": "En vivo",
+    "code": "Código"
+  },
+  "trajectory": {
+    "kicker": "Trayectoria",
+    "title": "De los CRUD a los sistemas de IA",
+    "intro": "Empecé como casi todo el mundo: CRUDs, formularios y APIs. En EXTE eso se convirtió en microservicios, integraciones con plataformas externas, automatización y sistemas geoespaciales en producción. El máster y las prácticas son el siguiente paso en la misma línea: sistemas en los que el modelo es solo un componente y todo lo que lo rodea (datos, evaluación, control) hay que diseñarlo con ingeniería.",
+    "timeline": [
+      {
+        "y": "2021–25",
+        "h": "Grado en Ingeniería Informática",
+        "o": "Universitat Autònoma de Barcelona",
+        "n": "Mención en Tecnologías de la Información; calidad de software con tests (entrada 06)."
+      },
+      {
+        "y": "2024—",
+        "h": "Software Engineer",
+        "o": "EXTE",
+        "n": "En prácticas desde septiembre de 2024, en plantilla desde febrero de 2025. De CRUDs a microservicios, integraciones y geoespacial (entrada 03)."
+      },
+      {
+        "y": "2025",
+        "h": "TFG: Inventory Planner DOOH",
+        "o": "UAB × EXTE",
+        "n": "Planificación de campañas con mapa interactivo, filtros geográficos y puntos de interés. Nota: 9,9."
+      },
+      {
+        "y": "2025–26",
+        "h": "Expense Optimizer",
+        "o": "Proyecto personal",
+        "n": "Un LLM local (Ollama) dentro de una app FastAPI (entrada 04)."
+      },
+      {
+        "y": "2026—",
+        "h": "Máster en Inteligencia Artificial",
+        "o": "UNIR",
+        "n": "Junto al PSU de IA Generativa. ML, NLP, visión por computador, MLOps."
+      },
+      {
+        "y": "2026",
+        "h": "F1 Championship Predictor",
+        "o": "Proyecto personal",
+        "n": "ML con validación temporal, MLflow y CI (entrada 02)."
+      },
+      {
+        "y": "2026",
+        "h": "Prácticas en IA",
+        "o": "Sopra Steria",
+        "n": "Agentes con control y trazabilidad (entrada 01)."
+      }
+    ],
+    "lookingTitle": "Qué busco",
+    "looking": "Puestos de Software Engineer o AI Systems Engineer, e ingeniería de IA, ML o MLOps: equipos donde los estándares de backend de producción se encuentren con la IA aplicada, donde pueda llevar un sistema desde el modelo hasta el producto, y seguir aprendiendo de gente con más recorrido.",
+    "capsTitle": "Capacidades, con evidencia",
+    "capsCols": {
+      "area": "Área",
+      "tools": "Herramientas",
+      "where": "Dónde"
+    },
+    "caps": [
+      {
+        "a": "Backend y APIs",
+        "t": "Python, FastAPI, PHP, Symfony, Yii2, Node.js, REST, OAuth2 / JWT",
+        "w": "03 · 02 · 04 · 01"
+      },
+      {
+        "a": "ML y evaluación",
+        "t": "scikit-learn, LightGBM, XGBoost, CatBoost, polars, pandas, calibración, SHAP",
+        "w": "02"
+      },
+      {
+        "a": "Sistemas con LLM",
+        "t": "Enrutado con LLM y su evaluación, modelos locales (Ollama); recuperación y agentes en curso",
+        "w": "01 · 04"
+      },
+      {
+        "a": "MLOps y entrega",
+        "t": "MLflow, Docker Compose, GitHub Actions, GitLab CI/CD, Alembic, Linux",
+        "w": "02 · 03"
+      },
+      {
+        "a": "Datos y búsqueda",
+        "t": "PostgreSQL, MariaDB, Elasticsearch, SQLAlchemy, Parquet",
+        "w": "02 · 03"
+      },
+      {
+        "a": "Geoespacial",
+        "t": "MapLibre, Mapbox, MBTiles, Martin, teselas vectoriales",
+        "w": "03"
+      },
+      {
+        "a": "Frontend",
+        "t": "Vue.js, TypeScript, componentes de design system, Next.js, Streamlit",
+        "w": "03 · 01 · 05"
+      },
+      {
+        "a": "Calidad",
+        "t": "pytest, JUnit, Mockito, Jest, mypy --strict, especificación antes que código",
+        "w": "02 · 06 · 05"
+      }
     ],
     "languagesTitle": "Idiomas",
-    "languages": [
-      { "name": "Español", "level": "Nativo" },
-      { "name": "Catalán", "level": "Nativo" },
-      { "name": "Inglés", "level": "B2" },
-      { "name": "Francés", "level": "A2" }
-    ]
+    "languages": "Español y catalán (nativo) · Inglés (B2) · Francés (A2)",
+    "certsTitle": "Certificados",
+    "certs": "Data Analysis Using Python (IBM) · Introduction to AI Concepts (Microsoft) · Desarrollo con IA (Big School)",
+    "photoAlt": "Retrato de Antonio Lozano"
   },
   "contact": {
-    "eyebrow": "Contacto",
-    "title": "¿Hablamos?",
-    "description": "Estoy abierto a roles de backend e IA/ML, y siempre con ganas de hablar sobre proyectos interesantes. Lo más rápido es escribirme un email.",
-    "emailCta": "Escríbeme un email",
+    "kicker": "Contacto",
+    "title": "Si este trabajo encaja con tu equipo, escríbeme.",
+    "text": "Abierto a puestos de IA, ML, MLOps y backend orientado a IA, en Barcelona o en remoto. El email es la forma más rápida de contactar.",
     "linkedin": "LinkedIn",
     "github": "GitHub",
-    "resume": "Descargar CV",
-    "availability": "Disponible para nuevas oportunidades"
+    "cv": "CV (PDF)",
+    "location": "Sabadell, Barcelona"
   },
-  "footer": {
-    "tagline": "Ingeniero Backend & IA/ML",
-    "built": "Hecho con Next.js y Tailwind CSS",
-    "rights": "Todos los derechos reservados."
+  "colophon": {
+    "title": "Colofón",
+    "type": "Compuesto en Newsreader y Geist. Hecho con Next.js y renderizado estático, sin scripts de seguimiento ni de terceros.",
+    "sync": "Los metadatos de proyectos vienen de la API pública de GitHub, sincronizada por última vez el {date}. Los repositorios privados nunca se muestran.",
+    "source": "Código de este sitio",
+    "copyright": "© {year} Antonio Lozano Larrubia"
   }
 }

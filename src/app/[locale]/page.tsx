@@ -1,27 +1,49 @@
-import Header from '@/components/layout/Header';
-import Footer from '@/components/layout/Footer';
-import Hero from '@/components/sections/Hero';
-import About from '@/components/sections/About';
-import Experience from '@/components/sections/Experience';
-import Projects from '@/components/sections/Projects';
-import Skills from '@/components/sections/Skills';
-import Education from '@/components/sections/Education';
+import { setRequestLocale } from 'next-intl/server';
+import Masthead from '@/components/layout/Masthead';
+import InViewObserver from '@/components/ui/InViewObserver';
+import Band from '@/components/ui/Band';
+import Cover from '@/components/sections/Cover';
+import Contents from '@/components/sections/Contents';
+import Resolver from '@/components/sections/Resolver';
+import F1 from '@/components/sections/F1';
+import Practice from '@/components/sections/Practice';
+import Workshop from '@/components/sections/Workshop';
+import Trajectory from '@/components/sections/Trajectory';
 import Contact from '@/components/sections/Contact';
 
-export default function HomePage() {
+export default async function HomePage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+
   return (
     <>
-      <Header />
-      <main>
-        <Hero />
-        <About />
-        <Experience />
-        <Projects />
-        <Skills />
-        <Education />
-        <Contact />
+      <Masthead />
+      <main id="main">
+        {/* One band per block, alternating base and light paper. */}
+        <Band className="!pt-0">
+          <Cover />
+          <Contents />
+        </Band>
+        <Band tone="light">
+          <Resolver />
+        </Band>
+        <Band>
+          <F1 />
+        </Band>
+        <Band tone="light">
+          <Practice />
+        </Band>
+        <Band>
+          <Workshop />
+        </Band>
+        <Band tone="light">
+          <Trajectory />
+        </Band>
       </main>
-      <Footer />
+      <Band className="!pb-0">
+        <Contact />
+      </Band>
+      <InViewObserver />
     </>
   );
 }

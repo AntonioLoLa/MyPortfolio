@@ -16,12 +16,9 @@
     "sync:github": "node scripts/sync-github.mjs"
   },
   "dependencies": {
-    "framer-motion": "^12.23.1",
     "geist": "^1.3.1",
-    "lucide-react": "^0.546.0",
     "next": "16.1.6",
     "next-intl": "^4.3.4",
-    "next-themes": "^0.4.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },

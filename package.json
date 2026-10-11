@@ -8,10 +8,12 @@
   },
   "scripts": {
     "dev": "next dev",
+    "prebuild": "node scripts/sync-github.mjs --on-build",
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "sync:github": "node scripts/sync-github.mjs"
   },
   "dependencies": {
     "framer-motion": "^12.23.1",

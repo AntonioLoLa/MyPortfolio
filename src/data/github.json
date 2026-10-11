@@ -1,0 +1,143 @@
+{
+  "user": "AntonioLoLa",
+  "source": "api.github.com",
+  "syncedAt": "2026-10-11T09:04:12.562Z",
+  "repos": [
+    {
+      "name": "f1-champion-predictor",
+      "description": null,
+      "url": "https://github.com/AntonioLoLa/f1-champion-predictor",
+      "homepage": null,
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "stars": 0,
+      "archived": false,
+      "createdAt": "2026-07-29T16:11:45Z",
+      "pushedAt": "2026-08-03T19:39:51Z",
+      "signals": {
+        "readme": true,
+        "tests": true,
+        "ci": true,
+        "docker": true,
+        "files": 282
+      },
+      "ci": {
+        "workflow": "CI",
+        "conclusion": "success",
+        "at": "2026-08-03T19:37:29Z",
+        "url": "https://github.com/AntonioLoLa/f1-champion-predictor/actions/runs/30845962303"
+      }
+    },
+    {
+      "name": "Calculation-expenses",
+      "description": null,
+      "url": "https://github.com/AntonioLoLa/Calculation-expenses",
+      "homepage": null,
+      "language": "Python",
+      "topics": [],
+      "license": null,
+      "stars": 0,
+      "archived": false,
+      "createdAt": "2025-12-16T20:55:19Z",
+      "pushedAt": "2026-06-24T16:35:12Z",
+      "signals": {
+        "readme": true,
+        "tests": true,
+        "ci": false,
+        "docker": true,
+        "files": 46
+      },
+      "ci": null
+    },
+    {
+      "name": "MyPortfolio",
+      "description": null,
+      "url": "https://github.com/AntonioLoLa/MyPortfolio",
+      "homepage": "https://antonio-portfolio-gamma.vercel.app",
+      "language": "TypeScript",
+      "topics": [],
+      "license": null,
+      "stars": 0,
+      "archived": false,
+      "createdAt": "2025-07-09T17:30:27Z",
+      "pushedAt": "2026-06-24T14:44:10Z",
+      "signals": {
+        "readme": true,
+        "tests": false,
+        "ci": false,
+        "docker": false,
+        "files": 60
+      },
+      "ci": null
+    },
+    {
+      "name": "ProgramaCortes",
+      "description": null,
+      "url": "https://github.com/AntonioLoLa/ProgramaCortes",
+      "homepage": "https://programa-cortes.vercel.app",
+      "language": "TypeScript",
+      "topics": [],
+      "license": null,
+      "stars": 0,
+      "archived": false,
+      "createdAt": "2024-08-06T09:43:13Z",
+      "pushedAt": "2026-02-01T19:14:18Z",
+      "signals": {
+        "readme": true,
+        "tests": true,
+        "ci": true,
+        "docker": false,
+        "files": 40
+      },
+      "ci": {
+        "workflow": "CI",
+        "conclusion": "success",
+        "at": "2026-02-01T19:15:14Z",
+        "url": "https://github.com/AntonioLoLa/ProgramaCortes/actions/runs/21568645653"
+      }
+    },
+    {
+      "name": "TQS_chess_2024",
+      "description": null,
+      "url": "https://github.com/AntonioLoLa/TQS_chess_2024",
+      "homepage": null,
+      "language": "Java",
+      "topics": [],
+      "license": null,
+      "stars": 0,
+      "archived": false,
+      "createdAt": "2024-10-12T11:15:15Z",
+      "pushedAt": "2024-12-01T20:38:39Z",
+      "signals": {
+        "readme": true,
+        "tests": true,
+        "ci": true,
+        "docker": false,
+        "files": 117
+      },
+      "ci": null
+    },
+    {
+      "name": "Pokemon",
+      "description": null,
+      "url": "https://github.com/AntonioLoLa/Pokemon",
+      "homepage": null,
+      "language": "Vue",
+      "topics": [],
+      "license": null,
+      "stars": 0,
+      "archived": false,
+      "createdAt": "2024-08-06T10:20:43Z",
+      "pushedAt": "2024-08-06T10:25:21Z",
+      "signals": {
+        "readme": true,
+        "tests": false,
+        "ci": false,
+        "docker": false,
+        "files": 285
+      },
+      "ci": null
+    }
+  ]
+}

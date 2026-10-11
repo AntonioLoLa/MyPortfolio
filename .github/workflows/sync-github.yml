@@ -1,0 +1,48 @@
+name: Sync GitHub metadata
+
+# Refreshes src/data/github.json weekly and opens a pull request when it changed.
+# The PR is the editorial checkpoint: nothing reaches the live site without a merge.
+on:
+  schedule:
+    - cron: '0 6 * * 1' # Mondays 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      # The default GITHUB_TOKEN only raises the rate limit; the script reads public
+      # endpoints exclusively and never sees private repositories.
+      - name: Sync public repository metadata
+        run: node scripts/sync-github.mjs --strict
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Check the snapshot
+        run: node --test tests/*.test.mjs
+        env:
+          PRIVATE_REPO_NAMES: ${{ secrets.PRIVATE_REPO_NAMES }}
+
+      - name: Open a pull request if anything changed
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: chore/sync-github-metadata
+          commit-message: 'chore: sync GitHub repository metadata'
+          title: 'chore: sync GitHub repository metadata'
+          body: |
+            Automated refresh of `src/data/github.json` from the public GitHub API.
+
+            Review new entries under "Also on GitHub" before merging; promote a repository
+            to the curated index by adding it to `src/content/projects.ts`.
+          add-paths: src/data/github.json
+          delete-branch: true

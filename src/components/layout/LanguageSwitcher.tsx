@@ -6,52 +6,59 @@ import { usePathname, useRouter } from '@/i18n/navigation';
 import { cn } from '@/lib/utils';
 
 const locales = [
-  { code: 'en', label: 'EN' },
-  { code: 'es', label: 'ES' },
+  { code: 'en', label: 'EN', name: 'English' },
+  { code: 'es', label: 'ES', name: 'Español' },
 ] as const;
 
-export default function LanguageSwitcher() {
+export default function LanguageSwitcher({ label }: { label: string }) {
   const locale = useLocale();
   const pathname = usePathname();
   const router = useRouter();
   const [isPending, startTransition] = useTransition();
 
-  // Prefetch the other locale so switching feels instant, especially on mobile.
+  // Prefetch the other locale so switching feels instant, especially on mobile — once the
+  // page is idle, so it never competes with first paint for bandwidth.
   useEffect(() => {
-    locales
-      .filter(({ code }) => code !== locale)
-      .forEach(({ code }) => router.prefetch(pathname, { locale: code }));
+    const prefetch = () =>
+      locales
+        .filter(({ code }) => code !== locale)
+        .forEach(({ code }) => router.prefetch(pathname, { locale: code }));
+    if ('requestIdleCallback' in window) {
+      const id = window.requestIdleCallback(prefetch, { timeout: 4000 });
+      return () => window.cancelIdleCallback(id);
+    }
+    const id = setTimeout(prefetch, 2000);
+    return () => clearTimeout(id);
   }, [locale, pathname, router]);
 
   return (
-    <div
-      className={cn(
-        'inline-flex items-center rounded-full border border-border p-0.5 text-xs font-medium transition-opacity',
-        isPending && 'opacity-60',
-      )}
-      role="group"
-      aria-label="Language"
-    >
-      {locales.map(({ code, label }) => (
-        <button
-          key={code}
-          type="button"
-          aria-pressed={locale === code}
-          disabled={isPending}
-          onClick={() =>
-            startTransition(() => {
-              router.replace(pathname, { locale: code, scroll: false });
-            })
-          }
-          className={cn(
-            'rounded-full px-2.5 py-1 transition-colors',
-            locale === code
-              ? 'bg-foreground text-background'
-              : 'text-muted-foreground hover:text-foreground',
+    <div role="group" aria-label={label} className={cn('flex items-center', isPending && 'opacity-60')}>
+      {locales.map(({ code, label: short, name }, i) => (
+        <span key={code} className="flex items-center">
+          {i > 0 && (
+            <span className="px-1 text-ink-3" aria-hidden>
+              /
+            </span>
           )}
-        >
-          {label}
-        </button>
+          <button
+            type="button"
+            lang={code}
+            title={name}
+            aria-pressed={locale === code}
+            disabled={isPending}
+            onClick={() =>
+              startTransition(() => {
+                router.replace(pathname, { locale: code, scroll: false });
+              })
+            }
+            className={cn(
+              'py-3 uppercase transition-colors',
+              locale === code ? 'text-ink underline decoration-signal underline-offset-4' : 'text-ink-3 hover:text-ink',
+            )}
+          >
+            {short}
+          </button>
+        </span>
       ))}
     </div>
   );

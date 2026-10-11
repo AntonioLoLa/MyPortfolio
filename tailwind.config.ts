@@ -1,54 +1,43 @@
 import type { Config } from 'tailwindcss';
 
+/**
+ * Design tokens. Colours are CSS variables (see globals.css) so a section can switch to the
+ * dark "timing sheet" surface by adding the `.sheet-dark` class without new utilities.
+ */
 const config: Config = {
-  darkMode: 'class',
   content: ['./src/**/*.{js,ts,jsx,tsx,mdx}'],
   theme: {
     extend: {
       colors: {
-        background: 'hsl(var(--background))',
-        foreground: 'hsl(var(--foreground))',
-        muted: {
-          DEFAULT: 'hsl(var(--muted))',
-          foreground: 'hsl(var(--muted-foreground))',
+        paper: { DEFAULT: 'rgb(var(--paper) / <alpha-value>)', 2: 'rgb(var(--paper-2) / <alpha-value>)' },
+        ink: {
+          DEFAULT: 'rgb(var(--ink) / <alpha-value>)',
+          2: 'rgb(var(--ink-2) / <alpha-value>)',
+          3: 'rgb(var(--ink-3) / <alpha-value>)',
         },
-        card: {
-          DEFAULT: 'hsl(var(--card))',
-          muted: 'hsl(var(--card-muted))',
-        },
-        border: 'hsl(var(--border))',
-        accent: {
-          DEFAULT: 'hsl(var(--accent))',
-          2: 'hsl(var(--accent-2))',
-          foreground: 'hsl(var(--accent-foreground))',
-        },
-        ring: 'hsl(var(--ring))',
+        rule: { DEFAULT: 'rgb(var(--rule) / <alpha-value>)', strong: 'rgb(var(--rule-strong) / <alpha-value>)' },
+        signal: { DEFAULT: 'rgb(var(--signal) / <alpha-value>)', mark: 'rgb(var(--signal-mark) / <alpha-value>)' },
+        positive: 'rgb(var(--positive) / <alpha-value>)',
       },
       fontFamily: {
+        display: ['var(--font-display)', 'var(--font-display-italic)', 'Georgia', 'serif'],
         sans: ['var(--font-geist-sans)', 'system-ui', 'sans-serif'],
         mono: ['var(--font-geist-mono)', 'ui-monospace', 'monospace'],
       },
+      fontSize: {
+        // Metadata scale — mono labels never go below 11px.
+        meta: ['0.6875rem', { lineHeight: '1rem', letterSpacing: '0.04em' }],
+        label: ['0.75rem', { lineHeight: '1.1rem', letterSpacing: '0.02em' }],
+      },
       maxWidth: {
-        content: '64rem',
+        page: '88rem',
+        measure: '38rem',
       },
-      keyframes: {
-        'fade-up': {
-          from: { opacity: '0', transform: 'translateY(12px)' },
-          to: { opacity: '1', transform: 'translateY(0)' },
-        },
-        marquee: {
-          from: { transform: 'translateX(0)' },
-          to: { transform: 'translateX(-50%)' },
-        },
-        'pulse-glow': {
-          '0%, 100%': { opacity: '0.4' },
-          '50%': { opacity: '0.7' },
-        },
+      spacing: {
+        gutter: 'var(--gutter)',
       },
-      animation: {
-        'fade-up': 'fade-up 0.6s cubic-bezier(0.22, 1, 0.36, 1) both',
-        marquee: 'marquee 38s linear infinite',
-        'pulse-glow': 'pulse-glow 6s ease-in-out infinite',
+      transitionTimingFunction: {
+        journal: 'cubic-bezier(0.22, 1, 0.36, 1)',
       },
     },
   },

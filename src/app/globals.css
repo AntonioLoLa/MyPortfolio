@@ -2,132 +2,197 @@
 @tailwind components;
 @tailwind utilities;
 
+/*
+ * FIELD NOTES — design tokens
+ *
+ * Paper and ink: a warm engineering-notebook stock with blue-black ink. One annotation
+ * colour (`signal`), used the way a reviewer uses a red pen: for the one thing on the
+ * page that matters, never as decoration. Every text pairing below is WCAG AA or better
+ * on its own surface (ink 15.3:1, ink-2 7.9:1, ink-3 5.1:1, signal 5.3:1).
+ *
+ * The page alternates two sheets of the same stock, one band per block (see ui/Band.tsx):
+ * the base paper and a slightly lighter one, never a darker one — darkening a warm paper
+ * reads as brown. Within a band, sections are separated by rules and running heads. `.sheet-dark` re-points the same tokens at the F1
+ * dashboard's own palette (#0f1117 surface, Formula 1 red) for figures printed as screens
+ * (`<Plate screen>`).
+ */
 @layer base {
   :root {
     color-scheme: light;
-    --background: 0 0% 100%;
-    --foreground: 240 10% 8%;
-    --muted: 240 5% 96%;
-    --muted-foreground: 240 4% 42%;
-    --card: 0 0% 100%;
-    --card-muted: 240 5% 98%;
-    --border: 240 6% 90%;
-    --accent: 199 89% 44%;
-    --accent-2: 217 91% 55%;
-    --accent-foreground: 0 0% 100%;
-    --ring: 199 89% 44%;
+    --paper: 241 237 228; /* #F1EDE4 */
+    --paper-2: 231 225 212; /* #E7E1D4 */
+    --paper-hi: 247 245 240; /* #F7F5F0 — the lighter sheet that alternate bands use */
+    --ink: 21 23 28; /* #15171C */
+    --ink-2: 69 71 77; /* #45474D */
+    --ink-3: 102 100 94; /* #66645E */
+    --rule: 196 188 173; /* hairlines */
+    --rule-strong: 21 23 28;
+    --signal: 180 49 15; /* #B4310F — text-safe annotation red */
+    --signal-mark: 200 56 15; /* marks and fills */
+    --positive: 46 110 62;
+
+    --gutter: clamp(1.25rem, 4vw, 3rem);
+    --dur: 600ms;
   }
 
-  .dark {
+  /* The lighter sheet: re-points --paper so anything inside that fills with paper (node
+     boxes, chart markers, labels) matches the band instead of showing as a patch. */
+  .sheet-light {
+    --paper: var(--paper-hi);
+    background-color: rgb(var(--paper));
+  }
+
+  .sheet-dark {
     color-scheme: dark;
-    --background: 240 10% 4%;
-    --foreground: 0 0% 98%;
-    --muted: 240 5% 11%;
-    --muted-foreground: 240 5% 64%;
-    --card: 240 7% 7%;
-    --card-muted: 240 6% 9%;
-    --border: 240 5% 15%;
-    --accent: 190 95% 55%;
-    --accent-2: 211 100% 65%;
-    --accent-foreground: 240 10% 4%;
-    --ring: 190 95% 55%;
+    --paper: 15 17 23; /* #0F1117 — f1-champion-predictor SURFACE */
+    --paper-2: 22 25 35; /* #161923 — SURFACE_RAISED */
+    --ink: 242 243 245; /* #F2F3F5 — INK_PRIMARY */
+    --ink-2: 163 168 180;
+    --ink-3: 139 145 160;
+    --rule: 46 52 66; /* #2E3442 — BORDER_STRONG */
+    --rule-strong: 242 243 245;
+    --signal: 255 90 71; /* text-safe red on dark, 6.1:1 */
+    --signal-mark: 225 6 0; /* #E10600 — F1 red, marks only */
+    --positive: 63 185 80; /* #3FB950 — POSITIVE */
+    background-color: rgb(var(--paper));
+    color: rgb(var(--ink));
   }
 
-  * {
-    border-color: hsl(var(--border));
+  html {
+    background-color: rgb(var(--paper));
+    -webkit-text-size-adjust: 100%;
+    scroll-padding-top: 4.5rem;
   }
 
-  /* Remove the residual tap delay some mobile browsers add to interactive elements */
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
+
+  body {
+    background-color: rgb(var(--paper));
+    color: rgb(var(--ink));
+    font-feature-settings: 'ss01', 'cv11';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
   button,
   a,
   [role='button'] {
     touch-action: manipulation;
   }
 
-  html {
-    background-color: hsl(var(--background));
-    scroll-behavior: smooth;
-    scroll-padding-top: 6rem;
-    -webkit-text-size-adjust: 100%;
-  }
-
-  body {
-    background-color: hsl(var(--background));
-    color: hsl(var(--foreground));
-    font-feature-settings: 'cv11', 'ss01';
-    font-variation-settings: 'opsz' 32;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
-  }
-
   ::selection {
-    background-color: hsl(var(--accent) / 0.25);
-    color: hsl(var(--foreground));
-  }
-
-  ::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
-  }
-  ::-webkit-scrollbar-track {
-    background: transparent;
-  }
-  ::-webkit-scrollbar-thumb {
-    background-color: hsl(var(--border));
-    border-radius: 9999px;
-    border: 2px solid hsl(var(--background));
-  }
-  ::-webkit-scrollbar-thumb:hover {
-    background-color: hsl(var(--muted-foreground) / 0.5);
+    background-color: rgb(var(--signal-mark) / 0.22);
+    color: rgb(var(--ink));
   }
 
   :focus-visible {
-    outline: 2px solid hsl(var(--ring));
-    outline-offset: 2px;
-    border-radius: 4px;
+    outline: 2px solid rgb(var(--signal));
+    outline-offset: 3px;
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+
+  /* Italics inside display type come from the separately loaded italic file. */
+  .display em,
+  .display.italic,
+  .font-display.italic,
+  .display .italic {
+    font-family: var(--font-display-italic), var(--font-display), Georgia, serif;
+  }
+
+  p {
+    text-wrap: pretty;
   }
 }
 
 @layer components {
-  .container-base {
-    @apply mx-auto w-full max-w-5xl px-6 sm:px-8;
+  .page {
+    @apply mx-auto w-full max-w-page;
+    padding-inline: var(--gutter);
   }
 
-  .text-gradient {
-    @apply bg-gradient-to-r from-[hsl(var(--accent))] to-[hsl(var(--accent-2))] bg-clip-text text-transparent;
+  /* 12-column editorial grid; children place themselves with col-span utilities. */
+  .grid-journal {
+    @apply grid grid-cols-4 gap-x-5 md:grid-cols-12 md:gap-x-6;
   }
 
-  .surface {
-    background-color: hsl(var(--card));
-    border: 1px solid hsl(var(--border));
+  .meta {
+    @apply font-mono text-meta uppercase text-ink-3;
   }
 
-  .surface-muted {
-    background-color: hsl(var(--card-muted));
-    border: 1px solid hsl(var(--border));
+  .display {
+    font-family: var(--font-display), var(--font-display-italic), Georgia, serif;
+    font-weight: 380;
+    letter-spacing: -0.022em;
+    line-height: 0.98;
   }
 
-  /* Subtle grid backdrop for the hero */
-  .bg-grid {
-    background-image:
-      linear-gradient(to right, hsl(var(--border) / 0.5) 1px, transparent 1px),
-      linear-gradient(to bottom, hsl(var(--border) / 0.5) 1px, transparent 1px);
-    background-size: 56px 56px;
-    -webkit-mask-image: radial-gradient(ellipse 70% 60% at 50% 0%, #000 40%, transparent 80%);
-    mask-image: radial-gradient(ellipse 70% 60% at 50% 0%, #000 40%, transparent 80%);
+  .link {
+    @apply underline decoration-rule decoration-1 underline-offset-[0.22em] transition-colors hover:decoration-signal hover:text-signal;
+  }
+
+  /* Running head that opens every section: number, title, rule. */
+  .running-head {
+    @apply flex items-baseline gap-4 border-t border-rule-strong pt-3;
+  }
+
+  /*
+   * Plate: a figure printed on the page. Crop marks at the four corners are the site's
+   * registration motif — they say "this is an artefact, read its caption".
+   */
+  .plate {
+    position: relative;
+    --mark: rgb(var(--ink) / 0.55);
+    background:
+      linear-gradient(var(--mark), var(--mark)) top left / 10px 1px no-repeat,
+      linear-gradient(var(--mark), var(--mark)) top left / 1px 10px no-repeat,
+      linear-gradient(var(--mark), var(--mark)) top right / 10px 1px no-repeat,
+      linear-gradient(var(--mark), var(--mark)) top right / 1px 10px no-repeat,
+      linear-gradient(var(--mark), var(--mark)) bottom left / 10px 1px no-repeat,
+      linear-gradient(var(--mark), var(--mark)) bottom left / 1px 10px no-repeat,
+      linear-gradient(var(--mark), var(--mark)) bottom right / 10px 1px no-repeat,
+      linear-gradient(var(--mark), var(--mark)) bottom right / 1px 10px no-repeat;
+  }
+
+  .tabular {
+    font-variant-numeric: tabular-nums;
   }
 }
 
-@media (prefers-reduced-motion: reduce) {
-  html {
-    scroll-behavior: auto;
+/*
+ * Motion. Exactly two patterns on the whole site:
+ *   1. `.trace` — the synthetic incident stepping through the agent graph.
+ *   2. `.draw`  — chart marks extending from their baseline once, when first seen.
+ * Both are opt-in through [data-inview] set by a small observer, and both resolve to the
+ * final state when motion is reduced or JavaScript is unavailable.
+ */
+@media (prefers-reduced-motion: no-preference) {
+  .js [data-animate] .draw {
+    transform-box: fill-box;
+    transform-origin: left center;
+    transform: scaleX(0);
+    transition: transform var(--dur) cubic-bezier(0.22, 1, 0.36, 1);
+    transition-delay: calc(var(--i, 0) * 70ms);
   }
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
+  .js [data-animate][data-inview] .draw {
+    transform: scaleX(1);
+  }
+
+  .js [data-animate] .trace-dot {
+    transform: scale(0);
+    transition: transform 200ms cubic-bezier(0.22, 1, 0.36, 1);
+    transition-delay: calc(var(--step, 0) * 200ms + 100ms);
+  }
+  .js [data-animate][data-inview] .trace-dot {
+    transform: scale(1);
   }
 }

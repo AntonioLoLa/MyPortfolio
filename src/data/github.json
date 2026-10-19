@@ -1,8 +1,34 @@
 {
   "user": "AntonioLoLa",
   "source": "api.github.com",
-  "syncedAt": "2026-10-11T09:04:12.562Z",
+  "syncedAt": "2026-10-19T11:59:36.325Z",
   "repos": [
+    {
+      "name": "MyPortfolio",
+      "description": null,
+      "url": "https://github.com/AntonioLoLa/MyPortfolio",
+      "homepage": "https://antonio-portfolio-gamma.vercel.app",
+      "language": "TypeScript",
+      "topics": [],
+      "license": null,
+      "stars": 0,
+      "archived": false,
+      "createdAt": "2025-07-09T17:30:27Z",
+      "pushedAt": "2026-10-16T14:37:12Z",
+      "signals": {
+        "readme": true,
+        "tests": true,
+        "ci": true,
+        "docker": false,
+        "files": 80
+      },
+      "ci": {
+        "workflow": "CI",
+        "conclusion": "success",
+        "at": "2026-10-16T14:37:49Z",
+        "url": "https://github.com/AntonioLoLa/MyPortfolio/actions/runs/38917236635"
+      }
+    },
     {
       "name": "f1-champion-predictor",
       "description": null,
@@ -47,27 +73,6 @@
         "ci": false,
         "docker": true,
         "files": 46
-      },
-      "ci": null
-    },
-    {
-      "name": "MyPortfolio",
-      "description": null,
-      "url": "https://github.com/AntonioLoLa/MyPortfolio",
-      "homepage": "https://antonio-portfolio-gamma.vercel.app",
-      "language": "TypeScript",
-      "topics": [],
-      "license": null,
-      "stars": 0,
-      "archived": false,
-      "createdAt": "2025-07-09T17:30:27Z",
-      "pushedAt": "2026-06-24T14:44:10Z",
-      "signals": {
-        "readme": true,
-        "tests": false,
-        "ci": false,
-        "docker": false,
-        "files": 60
       },
       "ci": null
     },

@@ -1,0 +1,28 @@
+# Security fixes open a PR as soon as an advisory lands (enabled in repo settings).
+# Routine updates are batched monthly into one PR per ecosystem; majors stay out
+# because they need a deliberate migration (e.g. Tailwind 4, ESLint 10).
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: monthly
+    open-pull-requests-limit: 5
+    commit-message:
+      prefix: chore(deps)
+    groups:
+      minor-and-patch:
+        update-types: [minor, patch]
+    ignore:
+      - dependency-name: '*'
+        update-types: ['version-update:semver-major']
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    commit-message:
+      prefix: ci
+    groups:
+      actions:
+        patterns: ['*']

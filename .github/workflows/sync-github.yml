@@ -15,9 +15,9 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
           node-version: 22
 
@@ -34,7 +34,7 @@ jobs:
           PRIVATE_REPO_NAMES: ${{ secrets.PRIVATE_REPO_NAMES }}
 
       - name: Open a pull request if anything changed
-        uses: peter-evans/create-pull-request@v7
+        uses: peter-evans/create-pull-request@v8
         with:
           branch: chore/sync-github-metadata
           commit-message: 'chore: sync GitHub repository metadata'

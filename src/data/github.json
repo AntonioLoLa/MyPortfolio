@@ -1,34 +1,8 @@
 {
   "user": "AntonioLoLa",
   "source": "api.github.com",
-  "syncedAt": "2026-11-18T21:31:05.291Z",
+  "syncedAt": "2026-11-23T17:16:31.564Z",
   "repos": [
-    {
-      "name": "MyPortfolio",
-      "description": null,
-      "url": "https://github.com/AntonioLoLa/MyPortfolio",
-      "homepage": "https://antonio-portfolio-gamma.vercel.app",
-      "language": "TypeScript",
-      "topics": [],
-      "license": null,
-      "stars": 0,
-      "archived": false,
-      "createdAt": "2025-07-09T17:30:27Z",
-      "pushedAt": "2026-11-16T14:38:57Z",
-      "signals": {
-        "readme": true,
-        "tests": true,
-        "ci": true,
-        "docker": false,
-        "files": 80
-      },
-      "ci": {
-        "workflow": "CI",
-        "conclusion": "success",
-        "at": "2026-10-16T14:37:49Z",
-        "url": "https://github.com/AntonioLoLa/MyPortfolio/actions/runs/38917236635"
-      }
-    },
     {
       "name": "f1-champion-predictor",
       "description": null,
@@ -40,19 +14,45 @@
       "stars": 0,
       "archived": false,
       "createdAt": "2026-07-29T16:11:45Z",
-      "pushedAt": "2026-08-03T19:39:51Z",
+      "pushedAt": "2026-11-22T19:53:01Z",
       "signals": {
         "readme": true,
         "tests": true,
         "ci": true,
         "docker": true,
-        "files": 282
+        "files": 308
       },
       "ci": {
         "workflow": "CI",
         "conclusion": "success",
-        "at": "2026-08-03T19:37:29Z",
-        "url": "https://github.com/AntonioLoLa/f1-champion-predictor/actions/runs/30845962303"
+        "at": "2026-11-22T19:51:04Z",
+        "url": "https://github.com/AntonioLoLa/f1-champion-predictor/actions/runs/45062113056"
+      }
+    },
+    {
+      "name": "MyPortfolio",
+      "description": null,
+      "url": "https://github.com/AntonioLoLa/MyPortfolio",
+      "homepage": "https://antoniolola-portfolio.vercel.app",
+      "language": "TypeScript",
+      "topics": [],
+      "license": null,
+      "stars": 0,
+      "archived": false,
+      "createdAt": "2025-07-09T17:30:27Z",
+      "pushedAt": "2026-11-18T21:56:59Z",
+      "signals": {
+        "readme": true,
+        "tests": true,
+        "ci": true,
+        "docker": false,
+        "files": 81
+      },
+      "ci": {
+        "workflow": "CI",
+        "conclusion": "success",
+        "at": "2026-11-18T21:57:45Z",
+        "url": "https://github.com/AntonioLoLa/MyPortfolio/actions/runs/44406696064"
       }
     },
     {
@@ -98,7 +98,7 @@
       "ci": {
         "workflow": "CI",
         "conclusion": "success",
-        "at": "2026-02-01T19:15:14Z",
+        "at": "2026-11-20T06:18:01Z",
         "url": "https://github.com/AntonioLoLa/ProgramaCortes/actions/runs/21568645653"
       }
     },
